@@ -27,6 +27,13 @@ Bộ nhớ nghề cho automation test của user (QA Apero). Mỗi feature là 1
 
 Feature mới chưa có thư mục: chọn feature cùng nền tảng gần nhất làm khuôn (Android → android-subscription-paywall; iOS UI → ios-genius-ui-library-ai-chat), sau đợt chạy tạo thư mục mới cùng cấu trúc.
 
+## Plan áp dụng cho app khác (playbook từng bước)
+| Tính năng | Plan |
+|---|---|
+| AI Chat (chat tạo/sửa ảnh-video) | `plans/plan-autotest-ai-chat-ap-dung-moi-app.md` |
+| Library / thư viện kết quả | `plans/plan-autotest-library-ap-dung-moi-app.md` |
+App mới có tính năng tương tự → đọc plan tương ứng trước, rồi mới tới feature tham chiếu.
+
 ## Cấu trúc mỗi feature
 - `README.md` — phạm vi, app/bundle/package, file TC, kết quả gần nhất, đường dẫn source, bảng "đọc file nào khi nào"
 - `setup-environment.md` — công cụ, máy, tài khoản (không lưu mật khẩu), lệnh build/chuẩn bị
