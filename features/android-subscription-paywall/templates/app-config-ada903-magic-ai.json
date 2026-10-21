@@ -1,0 +1,482 @@
+{
+  "pkg": "com.aiprofile.aiheadshot.aiimagegenerator.aiphotogenerator",
+  "main_activity": "com.aiprofile.aiheadshot.aiimagegenerator.aiphotogenerator/.ui.feature.splash.SplashActivity",
+  "play_row": "Magic AI Photo Video Generator",
+  "skus": {
+    "WEEKLY": "",
+    "MONTHLY": "",
+    "YEARLY": ""
+  },
+  "fallback_text": {
+    "pw.screen": "Continue with ads",
+    "pw.btn_continue_ads": "Continue with ads",
+    "pw.txt_cancel_anytime": "Cancel anytime",
+    "pw.link_privacy": "Privacy policy",
+    "pw.link_tos": "Terms of service",
+    "pw.cta_continue": "Continue",
+    "pw.benefit_list": "Unlimited and faster generation",
+    "pw.benefit_item": "Unlimited and faster generation",
+    "home.screen": "MagicAI",
+    "play.btn_subscribe": "Subscribe",
+    "play.dialog_product_name": "Magic AI Photo Video Generator",
+    "play.purchases": "Google may share subscription data"
+  },
+  "fallback_desc": {
+    "pw.btn_close": "Close Billing Screen",
+    "play.dialog": "Google Play"
+  },
+  "selected_desc": "Selected",
+  "structural_selectors": {
+    "pw.price_selected": {
+      "row": "selected",
+      "part": "price"
+    },
+    "pw.duration_selected": {
+      "row": "selected",
+      "part": "duration"
+    },
+    "pw.duration_weekly": {
+      "row": "label",
+      "label": "Weekly",
+      "part": "duration"
+    },
+    "pw.duration_monthly": {
+      "row": "label",
+      "label": "Monthly",
+      "part": "duration"
+    },
+    "pw.duration_yearly": {
+      "row": "label",
+      "label": "Yearly",
+      "part": "duration"
+    },
+    "pw.item_plan_weekly": {
+      "row": "label",
+      "label": "Weekly",
+      "part": "marker"
+    },
+    "pw.item_plan_monthly": {
+      "row": "label",
+      "label": "Monthly",
+      "part": "marker"
+    },
+    "pw.item_plan_yearly": {
+      "row": "label",
+      "label": "Yearly",
+      "part": "marker"
+    },
+    "play.dialog_price": {
+      "shape": "price"
+    }
+  },
+  "purchase_confirm_ids": [
+    "play.subscribe",
+    "play.btn_subscribe"
+  ],
+  "onboarding": {
+    "paywall_markers": [
+      "Continue with ads",
+      "Auto-renews weekly"
+    ],
+    "main_markers": [
+      "MagicAI"
+    ],
+    "ad_dismiss_id": "dismiss-button",
+    "ad_close_text": "Close",
+    "ad_close_delay_s": 5,
+    "language_next_id": [
+      "imageButtonLanguageNext",
+      "buttonLanguageNext"
+    ],
+    "language_group_text": "English",
+    "language_variant_text": "English (US)",
+    "carousel_next_id": "btnNextOnboarding",
+    "question_list_id": "rvQuestion",
+    "question_tile_id": "ivQuestionImage",
+    "question_next_id": "btnNextQuestion",
+    "carousel_ad_skip_id": "btnSkip"
+  },
+  "ads": {
+    "ad_activity_namespaces": [
+      "com.google.android.gms.ads.",
+      "com.applovin.adview.",
+      "com.bytedance.sdk.openadsdk.",
+      "com.facebook.ads.",
+      "com.mbridge.msdk.",
+      "com.vungle.ads.",
+      "sg.bigo.ads.",
+      "com.visionlab.ads."
+    ],
+    "close_rids": [
+      "dismiss-button"
+    ],
+    "close_descs": [
+      "close",
+      "dismiss",
+      "đóng",
+      "interstitial close button"
+    ],
+    "max_rounds": 3,
+    "poll_timeout_s": 12,
+    "poll_interval_s": 1.0
+  },
+  "screens": {
+    "paywall": {
+      "any_text": [
+        "Continue with ads",
+        "Auto-renews"
+      ],
+      "activity_pkg": "com.aiprofile.aiheadshot.aiimagegenerator.aiphotogenerator"
+    },
+    "home": {
+      "any_text": [
+        "MagicAI"
+      ],
+      "activity_pkg": "com.aiprofile.aiheadshot.aiimagegenerator.aiphotogenerator"
+    },
+    "manage_sub": {
+      "any_text": [
+        "Manage Subscription"
+      ],
+      "activity_pkg": "com.aiprofile.aiheadshot.aiimagegenerator.aiphotogenerator"
+    },
+    "play_sheet": {
+      "any_text": [
+        "Test card",
+        "Change payment method"
+      ],
+      "activity_pkg": "com.android.vending"
+    },
+    "settings": {
+      "any_text": [
+        "Version"
+      ],
+      "activity_pkg": "com.aiprofile.aiheadshot.aiimagegenerator.aiphotogenerator"
+    },
+    "play_subs_list": {
+      "any_text": [
+        "Subscriptions"
+      ],
+      "none_of_text": [
+        "Test card"
+      ],
+      "activity_pkg": "com.android.vending"
+    },
+    "select_photo": {
+      "any_text": [
+        "Select Photo",
+        "Tap to add a photo"
+      ],
+      "activity_pkg": "com.aiprofile.aiheadshot.aiimagegenerator.aiphotogenerator"
+    }
+  },
+  "intents": {
+    "paywall.close": {
+      "desc": [
+        "Close Billing Screen"
+      ]
+    },
+    "paywall.cta": {
+      "text": [
+        "Continue",
+        "Tiếp tục"
+      ]
+    },
+    "paywall.continue_with_ads": {
+      "text": [
+        "Continue with ads"
+      ]
+    },
+    "paywall.cancel_anytime": {
+      "text": [
+        "Cancel anytime",
+        "Huỷ bất kỳ lúc nào"
+      ]
+    },
+    "paywall.privacy": {
+      "text": [
+        "Privacy policy",
+        "Chính sách bảo mật"
+      ]
+    },
+    "paywall.tos": {
+      "text": [
+        "Terms of service",
+        "Điều khoản dịch vụ"
+      ]
+    },
+    "plan_option": {
+      "structural": {
+        "row": "label",
+        "part": "marker"
+      },
+      "multi": true
+    },
+    "plan_price": {
+      "structural": {
+        "row": "selected",
+        "part": "price"
+      }
+    },
+    "plan_duration": {
+      "structural": {
+        "row": "selected",
+        "part": "duration"
+      }
+    },
+    "home.trigger_paywall": {
+      "desc": [
+        "Premium"
+      ]
+    },
+    "home.settings": {
+      "desc": [
+        "Settings"
+      ]
+    },
+    "play.subscribe": {
+      "text": [
+        "Subscribe"
+      ]
+    },
+    "ad.close": {
+      "desc": [
+        "Close"
+      ],
+      "geometry": {
+        "band": "bottom",
+        "max_area_ratio": 0.06
+      }
+    },
+    "settings.screen": {
+      "text": [
+        "Settings"
+      ]
+    },
+    "settings.cancel_subscription": {
+      "text": [
+        "Cancel Subscription",
+        "Huỷ đăng ký"
+      ]
+    },
+    "settings.for_support": {
+      "text": [
+        "For Support"
+      ]
+    },
+    "settings.version": {
+      "text": [
+        "Version 3.0.0"
+      ]
+    },
+    "home.close_modal": {
+      "desc": [
+        "Close"
+      ]
+    },
+    "play.dialog_header": {
+      "text": [
+        "Google Play"
+      ]
+    },
+    "play.product_name": {
+      "text": [
+        "Magic AI Photo Video Generator"
+      ]
+    },
+    "play.price": {
+      "structural": {
+        "shape": "price"
+      }
+    },
+    "play.payment_method": {
+      "text": [
+        "Test card, always approves"
+      ]
+    },
+    "play.legal_autorenew": {
+      "text": [
+        "Cancel at any time in Subscriptions on Google Play"
+      ]
+    },
+    "paywall.benefit_any": {
+      "text": [
+        "Unlimited and faster generation"
+      ]
+    },
+    "paywall.benefit_unlimited": {
+      "text": [
+        "Unlimited and faster generation"
+      ]
+    },
+    "paywall.benefit_quality": {
+      "text": [
+        "Best quality Photos"
+      ]
+    },
+    "paywall.benefit_styles": {
+      "text": [
+        "Amazing Premium styles"
+      ]
+    },
+    "paywall.benefit_no_ads": {
+      "text": [
+        "Remove all Ads"
+      ]
+    },
+    "paywall.auto_renew_note": {
+      "text": [
+        "All plans auto-renew until cancelled"
+      ]
+    },
+    "paywall.cancel_where": {
+      "text": [
+        "You can cancel anytime in Google Play"
+      ]
+    },
+    "gen.generate": {
+      "text": [
+        "Generate"
+      ]
+    },
+    "gen.generate_with_ads": {
+      "text": [
+        "Generate with Ads"
+      ]
+    },
+    "gen.go_pro": {
+      "text": [
+        "Go Pro"
+      ]
+    },
+    "gen.watch_ads": {
+      "text": [
+        "Watch Ads"
+      ]
+    },
+    "select.anh_da_chon": {
+      "desc": [
+        "Selected photo"
+      ]
+    },
+    "man.home": {
+      "text": [
+        "MagicAI"
+      ]
+    },
+    "man.select_photo": {
+      "text": [
+        "Select Photo"
+      ]
+    }
+  },
+  "apk_path": "~/Downloads/903magic-ai-v3.0.0.apk",
+  "urls": {
+    "privacy": "https://sites.google.com/view/profpix-privacy-policy/home",
+    "tos": "https://sites.google.com/view/profpix-terms-of-service/home"
+  },
+  "bang_gia_checklist": {
+    "Weekly": 6.99,
+    "Monthly": 13.99,
+    "Yearly": 89.99
+  },
+  "bang_gia_checklist_nguon": "ADA903 - Magic AI - Checklist (anh goi-gia-package-ada903.png, 06/10/2026): vip.profile.weekly / monthly / yearly",
+  "diem_cham": {
+    "_ghi_chu": "Theo sheet Touchpoints cua TC_Subscription_Android_ADA903.xlsx. source = gia tri `source` cua su kien analytics iap_view khi paywall mo (thu vien billing doi placement -> source, do 08/10: home_badge_pro va select_photo_generate cung ra icon_top_bar). khong_trigger = duong di cua user KHONG duoc gap paywall cua diem cham nay; rong = N/A. dau_hieu_free/pro = assert tren man quay ve (man_khi_dong/man_sau_mua) cho biet user dang free hay pro.",
+    "after_onboarding": {
+      "source": "after_onboarding",
+      "man_khi_dong": "home",
+      "man_sau_mua": "home",
+      "khong_trigger": "after_inter_old",
+      "giu_input": [],
+      "dau_hieu_free": [
+        {
+          "visible": {
+            "intent": "home.trigger_paywall"
+          }
+        }
+      ],
+      "dau_hieu_pro": [
+        {
+          "not_visible": {
+            "intent": "home.trigger_paywall"
+          }
+        }
+      ]
+    },
+    "after_inter_old": {
+      "source": "after_inter_splash_old",
+      "man_khi_dong": "home",
+      "man_sau_mua": "home",
+      "khong_trigger": "after_onboarding",
+      "giu_input": [],
+      "dau_hieu_free": [
+        {
+          "visible": {
+            "intent": "home.trigger_paywall"
+          }
+        }
+      ],
+      "dau_hieu_pro": [
+        {
+          "not_visible": {
+            "intent": "home.trigger_paywall"
+          }
+        }
+      ]
+    },
+    "home_badge_pro": {
+      "source": "icon_top_bar",
+      "man_khi_dong": "home",
+      "man_sau_mua": "home",
+      "khong_trigger": "",
+      "giu_input": [],
+      "dau_hieu_free": [
+        {
+          "visible": {
+            "intent": "home.trigger_paywall"
+          }
+        }
+      ],
+      "dau_hieu_pro": [
+        {
+          "not_visible": {
+            "intent": "home.trigger_paywall"
+          }
+        }
+      ]
+    },
+    "select_photo_generate": {
+      "source": "icon_top_bar",
+      "man_khi_dong": "select_photo",
+      "man_sau_mua": "select_photo",
+      "khong_trigger": "",
+      "giu_input": [
+        {
+          "visible": {
+            "intent": "select.anh_da_chon"
+          }
+        }
+      ],
+      "dau_hieu_free": [
+        {
+          "visible": {
+            "intent": "gen.generate_with_ads"
+          }
+        }
+      ],
+      "dau_hieu_pro": [
+        {
+          "not_visible": {
+            "intent": "gen.generate_with_ads"
+          }
+        },
+        {
+          "visible": {
+            "intent": "gen.generate"
+          }
+        }
+      ]
+    }
+  }
+}

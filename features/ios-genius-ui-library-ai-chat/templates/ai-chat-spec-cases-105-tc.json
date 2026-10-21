@@ -1,0 +1,949 @@
+{
+ "ui": {
+  "TC-CH01-001": {
+   "title": "UI trạng thái trống — Bố cục màn Chat trống",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)",
+   "data": "N/A",
+   "action": "1. Chạm tab Chat\n2. Quan sát màn",
+   "expected": "1. Đầu màn: tiêu đề 'Chat' ở giữa, nút ba chấm góc phải\n2. Giữa màn: câu chào \"What's on your mind?\"\n3. Ngay dưới: 3 chip xếp dọc, canh trái: 'Make a birthday card from my photo' · 'Turn my photo into a film' · 'Try a black-and-white look'\n4. Đáy: thanh soạn gồm nút dấu cộng, chữ mờ \"What's on your mind?\", nút gửi tròn mũi tên lên đang mờ\n5. Không có danh sách tin nhắn",
+   "priority": "high",
+   "feature": "AI Chat — Lối vào & trạng thái trống (901)"
+  },
+  "TC-CH01-002": {
+   "title": "UI trạng thái trống — Chip gợi ý là chữ, không có biểu tượng",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)",
+   "data": "N/A",
+   "action": "1. Mở màn Chat trống\n2. Quan sát 3 chip",
+   "expected": "1. Mỗi chip chỉ có chữ, không có icon\n2. Mỗi chip nằm trên một dòng riêng",
+   "priority": "low",
+   "feature": "AI Chat — Lối vào & trạng thái trống (901)"
+  },
+  "TC-CH01-003": {
+   "title": "Vào Chat — Bấm tab Chat trên thanh tab",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. Đang ở tab Home",
+   "data": "N/A",
+   "action": "1. Chạm 'Chat' trên thanh tab",
+   "expected": "1. Màn Chat (901) mở trong tab Chat\n2. Mục Chat trên thanh tab sáng (tím)\n3. Thanh tab vẫn hiện",
+   "priority": "critical",
+   "feature": "AI Chat — Lối vào & trạng thái trống (901)"
+  },
+  "TC-CH01-004": {
+   "title": "Vào Chat — Bấm tab Chat lần nữa khi đang ở Chat",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có nhiều tin nhắn, đang cuộn lên đầu",
+   "data": "N/A",
+   "action": "1. Cuộn danh sách lên đầu\n2. Chạm 'Chat' trên thanh tab lần nữa",
+   "expected": "1. Danh sách cuộn xuống tin nhắn cuối trong ~0,3 giây",
+   "priority": "low",
+   "feature": "AI Chat — Lối vào & trạng thái trống (901)"
+  },
+  "TC-CH01-005": {
+   "title": "Vào Chat — Start creating ở Library trống mở Chat",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. Library trống (chưa từng tạo gì)",
+   "data": "N/A",
+   "action": "1. Mở tab Library\n2. Bấm 'Start creating'",
+   "expected": "1. Thanh tab chuyển sang Chat (mục Chat sáng)\n2. Màn Chat (901) hiện",
+   "priority": "high",
+   "feature": "AI Chat — Lối vào & trạng thái trống (901)"
+  },
+  "TC-CH01-006": {
+   "title": "Logic chip gợi ý — Bấm chip điền vào ô nhập, chưa gửi",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)",
+   "data": "Chip: 'Turn my photo into a film'",
+   "action": "1. Bấm chip 'Turn my photo into a film'",
+   "expected": "1. Chữ của chip nằm trong ô nhập\n2. Bàn phím mở\n3. Chưa có tin nhắn nào được gửi, số lượt không đổi",
+   "priority": "high",
+   "feature": "AI Chat — Lối vào & trạng thái trống (901)"
+  },
+  "TC-CH01-007": {
+   "title": "Logic lịch sử — Mở lại app thấy cuộc trò chuyện cũ",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥1 kết quả ảnh do Genius tạo",
+   "data": "N/A",
+   "action": "1. Kill app\n2. Mở lại app\n3. Chạm tab Chat",
+   "expected": "1. Thấy lại toàn bộ tin nhắn và kết quả cũ\n2. Danh sách đứng ở tin nhắn cuối\n3. Không hiện câu chào",
+   "priority": "high",
+   "feature": "AI Chat — Lối vào & trạng thái trống (901)"
+  },
+  "TC-CH01-008": {
+   "title": "Logic cuộc trò chuyện mới — New conversation + xác nhận",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥1 kết quả ảnh do Genius tạo",
+   "data": "N/A",
+   "action": "1. Bấm nút ba chấm góc trên\n2. Chọn 'New conversation'\n3. Xác nhận ở hộp thoại",
+   "expected": "1. Hộp thoại hỏi lại: 'Start a new conversation? Your images and videos stay in Library.'\n2. Danh sách tin nhắn biến mất, màn về trạng thái trống (câu chào + chip)\n3. Ảnh/video đã tạo vẫn còn trong tab Library",
+   "priority": "high",
+   "feature": "AI Chat — Lối vào & trạng thái trống (901)"
+  },
+  "TC-CH01-009": {
+   "title": "Logic cuộc trò chuyện mới — New conversation + Huỷ",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥1 kết quả ảnh do Genius tạo",
+   "data": "N/A",
+   "action": "1. Bấm nút ba chấm\n2. Chọn 'New conversation'\n3. Bấm Huỷ ở hộp thoại",
+   "expected": "1. Hộp thoại đóng\n2. Cuộc trò chuyện giữ nguyên, đủ tin nhắn",
+   "priority": "medium",
+   "feature": "AI Chat — Lối vào & trạng thái trống (901)"
+  },
+  "TC-CH01-010": {
+   "title": "Edge mạng — Mở Chat khi mất mạng",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥1 kết quả ảnh do Genius tạo\n5. Bật Airplane Mode + tắt Wi-Fi",
+   "data": "N/A",
+   "action": "1. Mở tab Chat\n2. Gõ 'hello'",
+   "expected": "1. Màn Chat mở, thấy cuộc trò chuyện cũ đã lưu trên máy\n2. Gõ được chữ vào ô nhập",
+   "priority": "high",
+   "feature": "AI Chat — Lối vào & trạng thái trống (901)"
+  },
+  "TC-CH01-011": {
+   "title": "Edge cuộn — Kéo quá mép trên",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥6 tin",
+   "data": "N/A",
+   "action": "1. Vuốt nhanh lên đầu danh sách\n2. Kéo quá mép trên rồi thả",
+   "expected": "1. Danh sách dừng ở tin nhắn đầu tiên\n2. Thả tay thì trở về sát mép trên\n3. Không có khoảng trống sau tin nhắn cuối",
+   "priority": "low",
+   "feature": "AI Chat — Lối vào & trạng thái trống (901)"
+  },
+  "TC-CH02-001": {
+   "title": "Validate nút gửi — Ô nhập trống → nút gửi tắt",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)",
+   "data": "Ô nhập: ''",
+   "action": "1. Quan sát nút gửi\n2. Bấm nút gửi",
+   "expected": "1. Nút gửi mờ, không bấm được\n2. Không có tin nhắn nào được gửi",
+   "priority": "high",
+   "feature": "AI Chat — Thanh soạn & gửi yêu cầu (901)"
+  },
+  "TC-CH02-002": {
+   "title": "Validate nút gửi — Chỉ có dấu cách → nút gửi tắt",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)",
+   "data": "Ô nhập: '     ' (5 dấu cách)",
+   "action": "1. Gõ 5 dấu cách\n2. Quan sát nút gửi",
+   "expected": "1. Nút gửi vẫn mờ, không bấm được",
+   "priority": "medium",
+   "feature": "AI Chat — Thanh soạn & gửi yêu cầu (901)"
+  },
+  "TC-CH02-003": {
+   "title": "Validate nút gửi — 1 ký tự → nút gửi bật",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)",
+   "data": "Ô nhập: 'a'",
+   "action": "1. Gõ 'a'\n2. Quan sát nút gửi",
+   "expected": "1. Nút gửi bật",
+   "priority": "medium",
+   "feature": "AI Chat — Thanh soạn & gửi yêu cầu (901)"
+  },
+  "TC-CH02-004": {
+   "title": "Validate nút gửi — Chỉ kèm ảnh, chưa gõ chữ → nút gửi tắt",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)\n5. Đã cấp quyền Photos",
+   "data": "N/A",
+   "action": "1. Bấm dấu cộng\n2. Chọn 1 ảnh\n3. Quan sát nút gửi",
+   "expected": "1. Ô thu nhỏ ảnh hiện trên ô nhập\n2. Nút gửi vẫn mờ, không bấm được",
+   "priority": "high",
+   "feature": "AI Chat — Thanh soạn & gửi yêu cầu (901)"
+  },
+  "TC-CH02-005": {
+   "title": "Validate độ dài — Gõ đúng 1000 ký tự",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)",
+   "data": "Chuỗi 1000 ký tự 'a'",
+   "action": "1. Dán chuỗi 1000 ký tự vào ô nhập",
+   "expected": "1. Ô nhập nhận đủ 1000 ký tự\n2. Nút gửi bật",
+   "priority": "medium",
+   "feature": "AI Chat — Thanh soạn & gửi yêu cầu (901)"
+  },
+  "TC-CH02-006": {
+   "title": "Validate độ dài — Dán 1001 ký tự → chặn ở 1000 + dòng nhắc",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)",
+   "data": "Chuỗi 1001 ký tự 'a'",
+   "action": "1. Dán chuỗi 1001 ký tự vào ô nhập",
+   "expected": "1. Ô nhập chỉ giữ 1000 ký tự\n2. Dòng nhắc dưới ô nhập 'Up to 1000 characters' (spec: 'Tối đa 1000 ký tự')",
+   "priority": "high",
+   "feature": "AI Chat — Thanh soạn & gửi yêu cầu (901)"
+  },
+  "TC-CH02-007": {
+   "title": "UI ô nhập — Ô nhập cao theo số dòng tới mức giới hạn",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)",
+   "data": "8 dòng chữ (xuống dòng)",
+   "action": "1. Gõ 8 dòng chữ",
+   "expected": "1. Ô nhập cao dần theo số dòng\n2. Tới mức giới hạn thì không cao thêm, chữ cuộn bên trong ô",
+   "priority": "low",
+   "feature": "AI Chat — Thanh soạn & gửi yêu cầu (901)"
+  },
+  "TC-CH02-008": {
+   "title": "Logic dấu cộng — Bấm dấu cộng mở thư viện có ảnh + video",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)\n5. Đã cấp quyền Photos, thư viện có ảnh và video",
+   "data": "N/A",
+   "action": "1. Bấm nút dấu cộng",
+   "expected": "1. Thư viện ảnh của máy mở\n2. Hiện cả ảnh và video",
+   "priority": "high",
+   "feature": "AI Chat — Thanh soạn & gửi yêu cầu (901)"
+  },
+  "TC-CH02-009": {
+   "title": "Logic dấu cộng — Chọn ảnh → ô thu nhỏ có nút x",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)\n5. Đã cấp quyền Photos",
+   "data": "N/A",
+   "action": "1. Bấm dấu cộng\n2. Chọn 1 ảnh",
+   "expected": "1. Thư viện đóng\n2. Ô thu nhỏ ảnh hiện phía trên ô nhập, có nút x",
+   "priority": "high",
+   "feature": "AI Chat — Thanh soạn & gửi yêu cầu (901)"
+  },
+  "TC-CH02-010": {
+   "title": "Logic dấu cộng — Chọn tệp khác thì thay tệp cũ",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)\n5. Đã kèm ảnh A",
+   "data": "N/A",
+   "action": "1. Bấm dấu cộng\n2. Chọn ảnh B",
+   "expected": "1. Chỉ còn 1 ô thu nhỏ — ảnh B",
+   "priority": "medium",
+   "feature": "AI Chat — Thanh soạn & gửi yêu cầu (901)"
+  },
+  "TC-CH02-011": {
+   "title": "Logic dấu cộng — Bấm x bỏ tệp đã kèm",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)\n5. Đã kèm 1 ảnh",
+   "data": "N/A",
+   "action": "1. Bấm x trên ô thu nhỏ",
+   "expected": "1. Ô thu nhỏ biến mất\n2. Chữ trong ô nhập giữ nguyên",
+   "priority": "medium",
+   "feature": "AI Chat — Thanh soạn & gửi yêu cầu (901)"
+  },
+  "TC-CH02-012": {
+   "title": "Validate video — Video dài 40 giây không được kèm",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)\n5. Thư viện có video 40 giây",
+   "data": "Video 40s",
+   "action": "1. Gõ 'abc'\n2. Bấm dấu cộng\n3. Chọn video 40 giây",
+   "expected": "1. Không có ô thu nhỏ nào được thêm\n2. Thông báo 'Video must be 15 seconds or shorter' (spec: 'Video tối đa 15 giây')\n3. Ô nhập giữ nguyên 'abc'",
+   "priority": "high",
+   "feature": "AI Chat — Thanh soạn & gửi yêu cầu (901)"
+  },
+  "TC-CH02-013": {
+   "title": "Validate video — Video đúng 15 giây được kèm",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)\n5. Thư viện có video 15 giây",
+   "data": "Video 15s",
+   "action": "1. Bấm dấu cộng\n2. Chọn video 15 giây",
+   "expected": "1. Ô thu nhỏ video có nút phát nhỏ hiện trên ô nhập",
+   "priority": "medium",
+   "feature": "AI Chat — Thanh soạn & gửi yêu cầu (901)"
+  },
+  "TC-CH02-014": {
+   "title": "Edge quyền — Chưa cấp quyền Photos → hỏi quyền khi bấm dấu cộng",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)\n5. Quyền Photos chưa hỏi (cài mới app)",
+   "data": "N/A",
+   "action": "1. Bấm dấu cộng",
+   "expected": "1. Hộp thoại xin quyền thư viện ảnh của iOS hiện",
+   "priority": "medium",
+   "feature": "AI Chat — Thanh soạn & gửi yêu cầu (901)"
+  },
+  "TC-CH02-015": {
+   "title": "Edge quyền — Từ chối quyền Photos → thông báo + nút mở Cài đặt",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)\n5. Quyền Photos = None",
+   "data": "N/A",
+   "action": "1. Bấm dấu cộng",
+   "expected": "1. Thông báo cần quyền kèm nút mở Cài đặt\n2. Bấm nút thì mở trang Settings của app",
+   "priority": "medium",
+   "feature": "AI Chat — Thanh soạn & gửi yêu cầu (901)"
+  },
+  "TC-CH02-016": {
+   "title": "Logic gửi tạo ảnh — Gửi yêu cầu tạo ảnh từ chữ",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)",
+   "data": "Prompt: 'a cat wearing a wizard hat, watercolor style'",
+   "action": "1. Gõ prompt\n2. Bấm gửi",
+   "expected": "1. Câu chào mất ngay\n2. Tin nhắn người dùng hiện bên phải trong bong bóng xám\n3. Ô đang tạo có biểu tượng lấp lánh + thanh tiến trình\n4. Nút gửi khoá tới khi có kết quả\n5. Kết quả ảnh về trong cuộc trò chuyện",
+   "priority": "critical",
+   "feature": "AI Chat — Thanh soạn & gửi yêu cầu (901)"
+  },
+  "TC-CH02-017": {
+   "title": "Logic gửi sửa ảnh — Kèm 1 ảnh + yêu cầu sửa",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)\n5. Đã cấp quyền Photos",
+   "data": "Prompt: 'turn into an oil painting'",
+   "action": "1. Bấm dấu cộng, chọn 1 ảnh\n2. Gõ prompt\n3. Bấm gửi",
+   "expected": "1. Tin nhắn bên phải gồm ảnh thu nhỏ + câu yêu cầu\n2. Genius trả về 1 ảnh mới đã sửa\n3. Ảnh gốc trong Photos không đổi",
+   "priority": "critical",
+   "feature": "AI Chat — Thanh soạn & gửi yêu cầu (901)"
+  },
+  "TC-CH02-018": {
+   "title": "Logic gửi tạo video — Yêu cầu video từ ảnh",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)\n5. Đã cấp quyền Photos",
+   "data": "Prompt: 'make a video of this person waving'",
+   "action": "1. Kèm 1 ảnh\n2. Gõ prompt\n3. Bấm gửi",
+   "expected": "1. Ô đang tạo dạng khung dọc, dòng 'Video takes a few minutes'\n2. Vẫn cuộn xem tin cũ được\n3. Xong: ô đổi thành video có nút phát ở giữa",
+   "priority": "high",
+   "feature": "AI Chat — Thanh soạn & gửi yêu cầu (901)"
+  },
+  "TC-CH02-019": {
+   "title": "Logic gửi sửa video — Kèm video ≤15s + yêu cầu sửa",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)\n5. Thư viện có video ≤15s",
+   "data": "Prompt: 'make it look like an old film'",
+   "action": "1. Kèm video\n2. Gõ prompt\n3. Bấm gửi",
+   "expected": "1. Tin nhắn bên phải có ô thu nhỏ video có nút phát + câu yêu cầu\n2. Ô đang tạo báo video mất vài phút\n3. Xong: video mới đã sửa; video gốc trong máy không đổi",
+   "priority": "high",
+   "feature": "AI Chat — Thanh soạn & gửi yêu cầu (901)"
+  },
+  "TC-CH02-020": {
+   "title": "Edge rời màn — Đổi tab trong lúc đang tạo, quay lại thấy kết quả",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)",
+   "data": "Prompt: 'a red apple on a table'",
+   "action": "1. Gửi prompt\n2. Ngay lập tức chạm tab Home\n3. Chờ khay báo Ready\n4. Quay lại tab Chat",
+   "expected": "1. Việc tạo chạy tiếp ở nền (khay trên thanh tab)\n2. Quay lại Chat thấy kết quả trong cuộc trò chuyện",
+   "priority": "high",
+   "feature": "AI Chat — Thanh soạn & gửi yêu cầu (901)"
+  },
+  "TC-CH02-021": {
+   "title": "Logic yêu cầu không để tạo — Gửi câu chào",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)",
+   "data": "Prompt: 'hello'",
+   "action": "1. Gửi 'hello'",
+   "expected": "1. Genius trả lời 1 dòng chữ, không có bong bóng, gợi ý mô tả ảnh/video\n2. Không có hàng nút Lưu · Chia sẻ · Tạo lại\n3. Số lượt giảm 1",
+   "priority": "medium",
+   "feature": "AI Chat — Thanh soạn & gửi yêu cầu (901)"
+  },
+  "TC-CH03-001": {
+   "title": "Logic chặn người chưa mua gói — Bấm gửi → paywall 236",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User chưa mua gói (gói hết hạn), ví topup = 0",
+   "data": "Prompt: 'a cat in a garden'",
+   "action": "1. Mở Chat\n2. Gõ prompt\n3. Bấm gửi",
+   "expected": "1. Màn hình mua gói Chat (236) mở\n2. Chưa có tin nhắn nào được gửi, chưa trừ lượt",
+   "priority": "critical",
+   "feature": "AI Chat — Chuỗi chào bán & trừ lượt (236 · 238 · 237 · 481)"
+  },
+  "TC-CH03-002": {
+   "title": "Logic chặn người chưa mua gói — Đóng 236 → last chance 238",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User chưa mua gói (gói hết hạn), ví topup = 0\n4. RC: show_238_lastchance_chat_paywall = true\n5. Paywall 236 đang mở",
+   "data": "N/A",
+   "action": "1. Bấm đóng paywall 236",
+   "expected": "1. Màn last chance (238) mở thay chỗ 236",
+   "priority": "high",
+   "feature": "AI Chat — Chuỗi chào bán & trừ lượt (236 · 238 · 237 · 481)"
+  },
+  "TC-CH03-003": {
+   "title": "Logic chặn người chưa mua gói — Đóng 238 → topup 237 (ví rỗng, hôm nay chưa chào)",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User chưa mua gói (gói hết hạn), ví topup = 0\n4. RC: enable_topup = true\n5. Hôm nay chưa chào topup\n6. Màn 238 đang mở",
+   "data": "N/A",
+   "action": "1. Bấm đóng màn 238",
+   "expected": "1. Màn nạp lượt (237) mở",
+   "priority": "high",
+   "feature": "AI Chat — Chuỗi chào bán & trừ lượt (236 · 238 · 237 · 481)"
+  },
+  "TC-CH03-004": {
+   "title": "Logic chặn người chưa mua gói — Đóng hết chuỗi → về Chat, chữ còn nguyên",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User chưa mua gói (gói hết hạn), ví topup = 0\n4. Chuỗi 236 → 238 → 237 đang mở",
+   "data": "Prompt: 'a cat in a garden'",
+   "action": "1. Đóng lần lượt từng màn tới khi về Chat",
+   "expected": "1. Về màn Chat\n2. Ô nhập còn nguyên 'a cat in a garden'\n3. Không có tin nhắn nào được gửi",
+   "priority": "critical",
+   "feature": "AI Chat — Chuỗi chào bán & trừ lượt (236 · 238 · 237 · 481)"
+  },
+  "TC-CH03-005": {
+   "title": "Logic chặn người chưa mua gói — Topup chỉ chào 1 lần/ngày",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User chưa mua gói (gói hết hạn), ví topup = 0\n4. Hôm nay đã chào topup 237",
+   "data": "N/A",
+   "action": "1. Bấm gửi\n2. Đóng 236\n3. Đóng 238",
+   "expected": "1. Không mở 237 lần nữa\n2. Về màn Chat, chữ còn nguyên",
+   "priority": "medium",
+   "feature": "AI Chat — Chuỗi chào bán & trừ lượt (236 · 238 · 237 · 481)"
+  },
+  "TC-CH03-006": {
+   "title": "Logic chặn người chưa mua gói — Ví còn lượt topup → đóng chuỗi thì gửi luôn",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User chưa mua gói, ví topup ≥1",
+   "data": "Prompt: 'a cat in a garden'",
+   "action": "1. Bấm gửi\n2. Đóng 236\n3. Đóng 238",
+   "expected": "1. Không chào 237\n2. Yêu cầu tự gửi đi, có kết quả\n3. Ví topup giảm 1",
+   "priority": "high",
+   "feature": "AI Chat — Chuỗi chào bán & trừ lượt (236 · 238 · 237 · 481)"
+  },
+  "TC-CH03-007": {
+   "title": "Logic mua trong chuỗi — Mua gói ở 236 → yêu cầu tự gửi",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User chưa mua gói (gói hết hạn), ví topup = 0\n4. Paywall 236 đang mở với prompt chờ",
+   "data": "N/A",
+   "action": "1. Mua gói thành công trên 236",
+   "expected": "1. Paywall đóng\n2. Yêu cầu tự gửi đi, không phải bấm gửi lại\n3. Trừ 1 lượt",
+   "priority": "high",
+   "feature": "AI Chat — Chuỗi chào bán & trừ lượt (236 · 238 · 237 · 481)"
+  },
+  "TC-CH03-008": {
+   "title": "Logic hết lượt — Có gói nhưng hết lượt → hộp thoại 481",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, lượt hôm nay = 0, ví topup = 0",
+   "data": "Prompt: 'a cat'",
+   "action": "1. Bấm gửi",
+   "expected": "1. Hộp thoại hết lượt (481) hiện\n2. Số lượt không đổi",
+   "priority": "critical",
+   "feature": "AI Chat — Chuỗi chào bán & trừ lượt (236 · 238 · 237 · 481)"
+  },
+  "TC-CH03-009": {
+   "title": "Logic hết lượt — Đóng 481 → về Chat, chữ còn",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. Hộp thoại 481 đang mở",
+   "data": "N/A",
+   "action": "1. Đóng hộp thoại 481",
+   "expected": "1. Về màn Chat\n2. Chữ đang gõ còn nguyên\n3. Không có tin nhắn nào được gửi",
+   "priority": "high",
+   "feature": "AI Chat — Chuỗi chào bán & trừ lượt (236 · 238 · 237 · 481)"
+  },
+  "TC-CH03-010": {
+   "title": "Logic hết lượt — 481 → nút mua thêm mở màn nạp lượt",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. Hộp thoại 481 đang mở",
+   "data": "N/A",
+   "action": "1. Bấm nút mua thêm trên 481",
+   "expected": "1. Màn nạp thêm lượt mở",
+   "priority": "medium",
+   "feature": "AI Chat — Chuỗi chào bán & trừ lượt (236 · 238 · 237 · 481)"
+  },
+  "TC-CH03-011": {
+   "title": "Logic trừ lượt — Tạo thành công trừ đúng 1 lượt",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt",
+   "data": "Prompt: 'a blue car'",
+   "action": "1. Ghi số lượt ở huy hiệu Home\n2. Gửi prompt trong Chat, chờ kết quả\n3. Xem huy hiệu Home và My Balance",
+   "expected": "1. Huy hiệu Home giảm đúng 1\n2. My Balance hiện cùng số với huy hiệu",
+   "priority": "critical",
+   "feature": "AI Chat — Chuỗi chào bán & trừ lượt (236 · 238 · 237 · 481)"
+  },
+  "TC-CH03-012": {
+   "title": "Logic trừ lượt — Tạo video cũng chỉ trừ 1 lượt",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt",
+   "data": "Prompt video từ ảnh",
+   "action": "1. Ghi số lượt\n2. Gửi yêu cầu tạo video, chờ xong\n3. Xem lại số lượt",
+   "expected": "1. Số lượt giảm đúng 1",
+   "priority": "high",
+   "feature": "AI Chat — Chuỗi chào bán & trừ lượt (236 · 238 · 237 · 481)"
+  },
+  "TC-CH04-001": {
+   "title": "Logic tách việc — Xin 2 ảnh cùng loại",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)",
+   "data": "Prompt: 'create 2 images of a cat'",
+   "action": "1. Gửi prompt\n2. Chờ kết quả",
+   "expected": "1. Chỉ 1 ảnh, trừ 1 lượt\n2. Ô nhập điền sẵn 'create 1 images of a cat' (chưa gửi)\n3. Dưới kết quả: 'I do one thing at a time. The rest is ready in the box — tap send to continue.'\n4. Bong bóng người dùng giữ nguyên câu đã gõ",
+   "priority": "high",
+   "feature": "AI Chat — Một lần gửi làm một việc (901)"
+  },
+  "TC-CH04-002": {
+   "title": "Logic tách việc — Ảnh + video khác chủ thể",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)",
+   "data": "Prompt: 'create 1 image of a cat and 1 video of a dog dancing'",
+   "action": "1. Gửi prompt\n2. Chờ kết quả",
+   "expected": "1. Chỉ 1 ảnh con mèo, trừ 1 lượt\n2. Ô nhập điền sẵn phần 'video con chó', chưa gửi\n3. Không có video nào được tạo",
+   "priority": "high",
+   "feature": "AI Chat — Một lần gửi làm một việc (901)"
+  },
+  "TC-CH04-003": {
+   "title": "Logic tách việc — Ảnh rồi video của chính ảnh đó",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)",
+   "data": "Prompt: 'create an image of a cat then make a video of it running'",
+   "action": "1. Gửi prompt\n2. Chờ kết quả",
+   "expected": "1. Tạo ảnh trước, trừ 1 lượt\n2. Ô nhập điền sẵn 'make a video of it running'\n3. Thanh 'Editing this' hiện với ảnh vừa tạo",
+   "priority": "high",
+   "feature": "AI Chat — Một lần gửi làm một việc (901)"
+  },
+  "TC-CH04-004": {
+   "title": "Logic tách việc — Đang gõ chữ khi kết quả về → không ghi đè",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)",
+   "data": "Prompt gộp + chữ gõ thêm 'xyz'",
+   "action": "1. Gửi prompt gộp\n2. Trong lúc chờ gõ 'xyz'\n3. Chờ kết quả",
+   "expected": "1. Ô nhập vẫn là 'xyz'\n2. Dưới kết quả: 'I do one thing at a time. Send the rest as a new message.'",
+   "priority": "medium",
+   "feature": "AI Chat — Một lần gửi làm một việc (901)"
+  },
+  "TC-CH04-005": {
+   "title": "Logic tách việc — Câu > 160 ký tự không bị tách",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)",
+   "data": "Prompt 170 ký tự có 'and' nhắc ảnh + video",
+   "action": "1. Gửi prompt\n2. Chờ kết quả",
+   "expected": "1. Chỉ 1 kết quả, trừ 1 lượt\n2. Ô nhập để trống\n3. Dòng 'I do one thing at a time. Send the rest as a new message.'",
+   "priority": "low",
+   "feature": "AI Chat — Một lần gửi làm một việc (901)"
+  },
+  "TC-CH05-001": {
+   "title": "Edge mạng — Bấm gửi khi mất mạng",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Bật Airplane Mode + tắt Wi-Fi",
+   "data": "Prompt: 'a cat'",
+   "action": "1. Gõ prompt\n2. Bấm gửi",
+   "expected": "1. Thông báo mất mạng 'No internet connection. Please try again.' kèm nút Thử lại (spec: 'Không có kết nối mạng')\n2. Số lượt không đổi",
+   "priority": "critical",
+   "feature": "AI Chat — Lỗi, quá thời gian & mất mạng (901)"
+  },
+  "TC-CH05-002": {
+   "title": "Edge mạng — Mất mạng giữa lúc đang tạo",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt",
+   "data": "Prompt: 'a cat'",
+   "action": "1. Gửi prompt\n2. Khi ô đang tạo hiện: bật Airplane Mode 60s\n3. Tắt Airplane Mode",
+   "expected": "1. Ô đang tạo đổi thành dòng lỗi kèm nút Thử lại, hoặc lượt hoàn tất khi có mạng lại\n2. Lượt lỗi không bị trừ",
+   "priority": "high",
+   "feature": "AI Chat — Lỗi, quá thời gian & mất mạng (901)"
+  },
+  "TC-CH05-003": {
+   "title": "Edge tạo lỗi — Bấm Thử lại trên ô lỗi gửi lại đúng yêu cầu",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Có một ô lỗi kèm nút Thử lại",
+   "data": "N/A",
+   "action": "1. Có mạng\n2. Bấm Thử lại",
+   "expected": "1. Gửi lại đúng yêu cầu cũ\n2. Ra kết quả, trừ 1 lượt",
+   "priority": "high",
+   "feature": "AI Chat — Lỗi, quá thời gian & mất mạng (901)"
+  },
+  "TC-CH05-004": {
+   "title": "Edge quá thời gian — Quá 180 giây chưa có kết quả",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt",
+   "data": "N/A",
+   "action": "1. Gửi yêu cầu\n2. Chờ quá 180 giây không có kết quả",
+   "expected": "1. Ô đang tạo đổi thành 'This is taking longer than expected.' kèm Thử lại\n2. Không trừ lượt",
+   "priority": "medium",
+   "feature": "AI Chat — Lỗi, quá thời gian & mất mạng (901)"
+  },
+  "TC-CH05-005": {
+   "title": "Edge nội dung — Yêu cầu vi phạm nội dung bị từ chối",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt",
+   "data": "Prompt vi phạm chính sách (bạo lực)",
+   "action": "1. Gửi prompt",
+   "expected": "1. Genius trả lời 1 dòng chữ từ chối lịch sự\n2. Không có ảnh/video\n3. Trừ 1 lượt",
+   "priority": "medium",
+   "feature": "AI Chat — Lỗi, quá thời gian & mất mạng (901)"
+  },
+  "TC-CH06-001": {
+   "title": "UI kết quả — Bố cục câu trả lời có kết quả",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥1 kết quả ảnh do Genius tạo",
+   "data": "N/A",
+   "action": "1. Quan sát câu trả lời có kết quả gần nhất",
+   "expected": "1. Không có bong bóng\n2. Một dòng chữ ngắn, dưới là ảnh đúng tỉ lệ đã tạo\n3. Dưới cùng hàng nút Lưu · Chia sẻ · Tạo lại",
+   "priority": "high",
+   "feature": "AI Chat — Kết quả & thao tác (901 → 902)"
+  },
+  "TC-CH06-002": {
+   "title": "UI kết quả — Câu trả lời chỉ có chữ không có hàng nút",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có câu trả lời chỉ có chữ",
+   "data": "N/A",
+   "action": "1. Quan sát câu trả lời chữ",
+   "expected": "1. Không có hàng nút Lưu · Chia sẻ · Tạo lại",
+   "priority": "medium",
+   "feature": "AI Chat — Kết quả & thao tác (901 → 902)"
+  },
+  "TC-CH06-003": {
+   "title": "UI kết quả — Nút báo cáo trên mỗi kết quả",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥1 kết quả ảnh do Genius tạo",
+   "data": "N/A",
+   "action": "1. Quan sát kết quả",
+   "expected": "1. Có nút Report (cờ) trên kết quả",
+   "priority": "medium",
+   "feature": "AI Chat — Kết quả & thao tác (901 → 902)"
+  },
+  "TC-CH06-004": {
+   "title": "Logic xem kết quả — Bấm kết quả mở 902 phủ kín",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥1 kết quả ảnh do Genius tạo",
+   "data": "N/A",
+   "action": "1. Bấm vào ảnh kết quả",
+   "expected": "1. Màn Xem kết quả (902) phủ kín màn hình, ẩn thanh tab\n2. Có nút đóng, Lưu, Chia sẻ",
+   "priority": "high",
+   "feature": "AI Chat — Kết quả & thao tác (901 → 902)"
+  },
+  "TC-CH06-005": {
+   "title": "Logic xem kết quả — Vuốt xuống đóng 902 về đúng chỗ",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥1 kết quả ảnh do Genius tạo",
+   "data": "N/A",
+   "action": "1. Mở 902 từ kết quả\n2. Kéo ảnh xuống quá 1/4 chiều cao rồi thả",
+   "expected": "1. Màn xem đóng\n2. Về đúng vị trí đang xem trong Chat",
+   "priority": "medium",
+   "feature": "AI Chat — Kết quả & thao tác (901 → 902)"
+  },
+  "TC-CH06-006": {
+   "title": "Logic xem kết quả — Kéo chưa tới 1/4 thì ảnh về giữa",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥1 kết quả ảnh do Genius tạo",
+   "data": "N/A",
+   "action": "1. Mở 902\n2. Kéo ảnh xuống 1/8 chiều cao rồi thả",
+   "expected": "1. Màn xem không đóng\n2. Ảnh trở về giữa màn",
+   "priority": "low",
+   "feature": "AI Chat — Kết quả & thao tác (901 → 902)"
+  },
+  "TC-CH06-007": {
+   "title": "Logic lưu — Bấm Lưu dưới kết quả",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥1 kết quả ảnh do Genius tạo\n5. Đã cấp quyền Photos",
+   "data": "N/A",
+   "action": "1. Bấm Lưu dưới kết quả",
+   "expected": "1. Thông báo 'Saved' ở đáy ~2 giây (spec: 'Đã lưu')\n2. Thư viện Photos có thêm 1 tệp",
+   "priority": "high",
+   "feature": "AI Chat — Kết quả & thao tác (901 → 902)"
+  },
+  "TC-CH06-008": {
+   "title": "Logic chia sẻ — Bấm Chia sẻ mở bảng chia sẻ",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥1 kết quả ảnh do Genius tạo",
+   "data": "N/A",
+   "action": "1. Bấm Chia sẻ dưới kết quả",
+   "expected": "1. Bảng chia sẻ của iOS mở với đúng tệp đó",
+   "priority": "medium",
+   "feature": "AI Chat — Kết quả & thao tác (901 → 902)"
+  },
+  "TC-CH06-009": {
+   "title": "Logic tạo lại — Bấm Tạo lại trừ lượt, thêm kết quả mới",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥1 kết quả ảnh do Genius tạo",
+   "data": "N/A",
+   "action": "1. Ghi số lượt\n2. Bấm Tạo lại dưới kết quả\n3. Chờ kết quả",
+   "expected": "1. Có câu trả lời mới bên dưới, kết quả cũ vẫn còn\n2. Số lượt giảm 1",
+   "priority": "high",
+   "feature": "AI Chat — Kết quả & thao tác (901 → 902)"
+  },
+  "TC-CH06-010": {
+   "title": "Logic Library — Kết quả Chat hiện đầu tab Library",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥1 kết quả ảnh do Genius tạo",
+   "data": "N/A",
+   "action": "1. Mở tab Library",
+   "expected": "1. Kết quả mới nhất của Chat nằm đầu lưới\n2. Video có nút phát nhỏ giữa ô",
+   "priority": "high",
+   "feature": "AI Chat — Kết quả & thao tác (901 → 902)"
+  },
+  "TC-CH06-011": {
+   "title": "Logic Library — Xoá kết quả ở Library → Chat hiện 'Tệp đã bị xoá'",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥1 kết quả ảnh do Genius tạo",
+   "data": "N/A",
+   "action": "1. Xoá kết quả mới nhất trong tab Library\n2. Mở tab Chat",
+   "expected": "1. Ô kết quả đó trong Chat hiện dòng báo tệp đã bị xoá",
+   "priority": "medium",
+   "feature": "AI Chat — Kết quả & thao tác (901 → 902)"
+  },
+  "TC-CH06-012": {
+   "title": "Edge mạng 902 — Kết quả chưa tải về + mất mạng → khung xám + Thử lại",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥1 kết quả ảnh do Genius tạo\n5. Kết quả chưa từng tải về máy (cài lại app)\n6. Mất mạng",
+   "data": "N/A",
+   "action": "1. Bấm vào kết quả",
+   "expected": "1. 902 hiện khung xám 'Không tải được' kèm nút Thử lại\n2. Có mạng lại bấm Thử lại thì hiện kết quả",
+   "priority": "low",
+   "feature": "AI Chat — Kết quả & thao tác (901 → 902)"
+  },
+  "TC-CH07-001": {
+   "title": "Logic sửa tiếp — Gửi tiếp không chọn gì → sửa kết quả gần nhất",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥1 kết quả ảnh do Genius tạo",
+   "data": "Prompt: 'make the background a beach'",
+   "action": "1. Gửi prompt\n2. Chờ kết quả",
+   "expected": "1. Kết quả mới là bản sửa của kết quả ngay trước\n2. Kết quả cũ vẫn còn\n3. Trừ 1 lượt",
+   "priority": "high",
+   "feature": "AI Chat — Sửa tiếp & vuốt chọn kết quả (901)"
+  },
+  "TC-CH07-002": {
+   "title": "Logic vuốt chọn — Vuốt kết quả cũ qua ngưỡng 1/5 → thanh Editing this",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥2 kết quả ảnh do Genius tạo",
+   "data": "N/A",
+   "action": "1. Kéo kết quả thứ 2 từ dưới lên sang phải ~1/3 chiều rộng\n2. Thả tay",
+   "expected": "1. Kết quả trở về chỗ cũ\n2. Trên thanh soạn hiện thanh 'Editing this' + ảnh thu nhỏ của đúng kết quả đó + nút x\n3. Bàn phím mở",
+   "priority": "critical",
+   "feature": "AI Chat — Sửa tiếp & vuốt chọn kết quả (901)"
+  },
+  "TC-CH07-003": {
+   "title": "Logic vuốt chọn — Kéo chưa tới 1/5 → không chọn",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥2 kết quả ảnh do Genius tạo",
+   "data": "N/A",
+   "action": "1. Kéo kết quả sang phải ~1/10 chiều rộng\n2. Thả tay",
+   "expected": "1. Không có thanh 'Editing this'",
+   "priority": "high",
+   "feature": "AI Chat — Sửa tiếp & vuốt chọn kết quả (901)"
+  },
+  "TC-CH07-004": {
+   "title": "Logic vuốt chọn — Gửi yêu cầu cho kết quả đã chọn",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥2 kết quả ảnh do Genius tạo\n5. Thanh 'Editing this' đang chọn kết quả cũ",
+   "data": "Prompt: 'make it black and white'",
+   "action": "1. Gửi prompt\n2. Chờ kết quả",
+   "expected": "1. Tin nhắn người dùng có ảnh thu nhỏ của kết quả đã chọn phía trên câu chữ\n2. Kết quả mới là bản sửa của kết quả đã chọn, không phải kết quả gần nhất\n3. Thanh 'Editing this' biến mất",
+   "priority": "critical",
+   "feature": "AI Chat — Sửa tiếp & vuốt chọn kết quả (901)"
+  },
+  "TC-CH07-005": {
+   "title": "Logic vuốt chọn — Bấm x bỏ chọn, chữ còn nguyên",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥2 kết quả ảnh do Genius tạo\n5. Thanh 'Editing this' đang hiện, ô nhập có 'abc'",
+   "data": "N/A",
+   "action": "1. Bấm x trên thanh 'Editing this'",
+   "expected": "1. Thanh biến mất\n2. Ô nhập vẫn 'abc'",
+   "priority": "medium",
+   "feature": "AI Chat — Sửa tiếp & vuốt chọn kết quả (901)"
+  },
+  "TC-CH07-006": {
+   "title": "Logic vuốt chọn — Vuốt kết quả khác → đổi đối tượng",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥2 kết quả ảnh do Genius tạo\n5. Đang chọn kết quả A",
+   "data": "N/A",
+   "action": "1. Vuốt kết quả B sang phải qua ngưỡng",
+   "expected": "1. Thanh 'Editing this' đổi sang ảnh thu nhỏ của B\n2. Chỉ 1 kết quả được chọn",
+   "priority": "medium",
+   "feature": "AI Chat — Sửa tiếp & vuốt chọn kết quả (901)"
+  },
+  "TC-CH07-007": {
+   "title": "Logic vuốt chọn — Đang chọn kết quả mà kèm ảnh → thanh chọn mất",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥2 kết quả ảnh do Genius tạo\n5. Đang chọn 1 kết quả",
+   "data": "N/A",
+   "action": "1. Bấm dấu cộng\n2. Chọn 1 ảnh",
+   "expected": "1. Thanh 'Editing this' biến mất\n2. Chỉ còn ô thu nhỏ ảnh vừa chọn",
+   "priority": "medium",
+   "feature": "AI Chat — Sửa tiếp & vuốt chọn kết quả (901)"
+  },
+  "TC-CH07-008": {
+   "title": "Edge vuốt — Vuốt tin nhắn người dùng / câu trả lời chữ → không chọn",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Có tin nhắn người dùng và câu trả lời chữ",
+   "data": "N/A",
+   "action": "1. Vuốt tin nhắn người dùng sang phải\n2. Vuốt câu trả lời chữ sang phải",
+   "expected": "1. Tin nhắn không di chuyển, không hiện mũi tên\n2. Không có thanh 'Editing this'",
+   "priority": "medium",
+   "feature": "AI Chat — Sửa tiếp & vuốt chọn kết quả (901)"
+  },
+  "TC-CH07-009": {
+   "title": "Edge chưa có kết quả — Chưa có kết quả → tạo mới hoàn toàn",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)",
+   "data": "Prompt: 'a lighthouse at night'",
+   "action": "1. Gửi prompt",
+   "expected": "1. Có kết quả mới, không có thanh 'Editing this'",
+   "priority": "low",
+   "feature": "AI Chat — Sửa tiếp & vuốt chọn kết quả (901)"
+  },
+  "TC-CH07-010": {
+   "title": "Edge tệp đã xoá — Kết quả đã chọn bị xoá ở Library → 'Can't find the image to edit'",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥2 kết quả ảnh do Genius tạo\n5. Chọn kết quả X, rồi xoá X ở Library",
+   "data": "Prompt: 'add a hat'",
+   "action": "1. Quay lại Chat\n2. Gõ prompt, bấm gửi",
+   "expected": "1. Thông báo 'Can't find the image to edit' (spec: 'Không tìm thấy ảnh cần sửa')\n2. Thanh 'Editing this' biến mất, chữ còn\n3. Số lượt không đổi",
+   "priority": "medium",
+   "feature": "AI Chat — Sửa tiếp & vuốt chọn kết quả (901)"
+  },
+  "TC-CH08-001": {
+   "title": "UI ô nhập kính — Ô nhập là lớp kính, chữ vẫn rõ",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥1 kết quả ảnh do Genius tạo",
+   "data": "N/A",
+   "action": "1. Cuộn để kết quả nằm ngay sau ô nhập\n2. Quan sát ô nhập",
+   "expected": "1. Thấy lờ mờ nội dung phía sau ô nhập\n2. Chữ, nút dấu cộng, nút gửi vẫn rõ",
+   "priority": "low",
+   "feature": "AI Chat — Ô nhập kính & sửa trên màn xem (901 · 902)"
+  },
+  "TC-CH08-002": {
+   "title": "UI ô nhập kính — Giảm độ trong suốt → nền đặc",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥1 kết quả ảnh do Genius tạo\n5. Bật Reduce Transparency trong Trợ năng",
+   "data": "N/A",
+   "action": "1. Mở Chat\n2. Quan sát ô nhập",
+   "expected": "1. Ô nhập nền đặc, không nhìn xuyên được",
+   "priority": "low",
+   "feature": "AI Chat — Ô nhập kính & sửa trên màn xem (901 · 902)"
+  },
+  "TC-CH08-003": {
+   "title": "UI 902 từ Chat — 902 mở từ Chat có ô nhập ở đáy",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥1 kết quả ảnh do Genius tạo",
+   "data": "N/A",
+   "action": "1. Bấm kết quả trong Chat",
+   "expected": "1. Ô nhập kính ở đáy\n2. Không có nút dấu cộng, không có thanh 'Editing this'\n3. Ảnh và nút Report nằm trọn phía trên ô nhập",
+   "priority": "high",
+   "feature": "AI Chat — Ô nhập kính & sửa trên màn xem (901 · 902)"
+  },
+  "TC-CH08-004": {
+   "title": "UI 902 từ Library — 902 mở từ Library không có ô nhập",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥1 kết quả ảnh do Genius tạo",
+   "data": "N/A",
+   "action": "1. Mở tab Library\n2. Bấm kết quả",
+   "expected": "1. Màn xem không có ô nhập",
+   "priority": "high",
+   "feature": "AI Chat — Ô nhập kính & sửa trên màn xem (901 · 902)"
+  },
+  "TC-CH08-005": {
+   "title": "Logic sửa trên 902 — Gõ + gửi trên 902 sửa đúng kết quả đang xem",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥2 kết quả ảnh do Genius tạo",
+   "data": "Prompt: 'add sunglasses'",
+   "action": "1. Mở kết quả cũ (không phải mới nhất)\n2. Gõ prompt, bấm gửi",
+   "expected": "1. Màn xem đóng\n2. Khung chat hiện lượt đang tạo\n3. Kết quả mới là bản sửa của đúng kết quả vừa xem\n4. Trừ 1 lượt",
+   "priority": "critical",
+   "feature": "AI Chat — Ô nhập kính & sửa trên màn xem (901 · 902)"
+  },
+  "TC-CH08-006": {
+   "title": "Validate 902 — Ô nhập rỗng trên 902 → nút gửi tắt",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥1 kết quả ảnh do Genius tạo",
+   "data": "N/A",
+   "action": "1. Mở 902 từ Chat\n2. Quan sát nút gửi",
+   "expected": "1. Nút gửi tắt\n2. Không có lượt tạo mới",
+   "priority": "medium",
+   "feature": "AI Chat — Ô nhập kính & sửa trên màn xem (901 · 902)"
+  },
+  "TC-CH08-007": {
+   "title": "Logic chặn trên 902 — Chưa mua gói gửi từ 902 → paywall",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User chưa mua gói (gói hết hạn), ví topup = 0\n4. Cuộc trò chuyện có kết quả cũ",
+   "data": "Prompt: 'add a hat'",
+   "action": "1. Mở kết quả\n2. Gõ prompt, bấm gửi",
+   "expected": "1. Paywall 236 mở\n2. Không trừ lượt",
+   "priority": "high",
+   "feature": "AI Chat — Ô nhập kính & sửa trên màn xem (901 · 902)"
+  },
+  "TC-CH08-008": {
+   "title": "Edge mạng 902 — Mất mạng khi gửi từ 902",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥1 kết quả ảnh do Genius tạo\n5. Mất mạng",
+   "data": "Prompt: 'add a hat'",
+   "action": "1. Mở kết quả\n2. Gõ prompt, bấm gửi",
+   "expected": "1. Màn xem đóng, hiện thông báo mất mạng\n2. Ô soạn ở khung chat còn 'add a hat' và kết quả đó vẫn là đối tượng sửa\n3. Không trừ lượt",
+   "priority": "high",
+   "feature": "AI Chat — Ô nhập kính & sửa trên màn xem (901 · 902)"
+  },
+  "TC-CH08-009": {
+   "title": "Logic giữ phần soạn — Đóng 902 không gửi → ô soạn như cũ",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥2 kết quả ảnh do Genius tạo\n5. Ô soạn có ảnh kèm + đang chọn kết quả A",
+   "data": "N/A",
+   "action": "1. Mở kết quả B\n2. Đóng màn xem không gửi",
+   "expected": "1. Ô soạn vẫn có ảnh kèm\n2. Kết quả A vẫn được chọn",
+   "priority": "medium",
+   "feature": "AI Chat — Ô nhập kính & sửa trên màn xem (901 · 902)"
+  },
+  "TC-CH08-010": {
+   "title": "Logic giữ phần soạn — Gửi từ 902 → ảnh kèm trở lại, kết quả chọn trước bị bỏ",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥2 kết quả ảnh do Genius tạo\n5. Ô soạn có ảnh kèm",
+   "data": "Prompt: 'add a hat'",
+   "action": "1. Mở kết quả B\n2. Gõ prompt, gửi từ 902",
+   "expected": "1. Lượt gửi dùng kết quả B\n2. Ảnh kèm trở lại ô soạn khung chat\n3. Không có kết quả nào được chọn lại",
+   "priority": "medium",
+   "feature": "AI Chat — Ô nhập kính & sửa trên màn xem (901 · 902)"
+  },
+  "TC-CH08-011": {
+   "title": "Logic giữ phần soạn — Kéo xuống đóng 902 khi đã gõ chữ",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥1 kết quả ảnh do Genius tạo",
+   "data": "Chữ: 'draft text'",
+   "action": "1. Mở 902\n2. Gõ 'draft text'\n3. Kéo ảnh xuống quá 1/4 rồi thả",
+   "expected": "1. Màn xem đóng\n2. 'draft text' còn trong ô soạn khung chat",
+   "priority": "medium",
+   "feature": "AI Chat — Ô nhập kính & sửa trên màn xem (901 · 902)"
+  },
+  "TC-CH08-012": {
+   "title": "UI 902 bàn phím — Ô nhập nằm trên bàn phím",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥1 kết quả ảnh do Genius tạo",
+   "data": "N/A",
+   "action": "1. Mở 902\n2. Chạm ô nhập",
+   "expected": "1. Ô nhập nằm ngay trên bàn phím, không bị che",
+   "priority": "low",
+   "feature": "AI Chat — Ô nhập kính & sửa trên màn xem (901 · 902)"
+  },
+  "TC-VB01-001": {
+   "title": "UI dải vibes — Dải đứng đầu tab For You",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. RC: enable_home_vibes_feature = true\n4. Đã cấp quyền Photos (Full Access)",
+   "data": "N/A",
+   "action": "1. Mở Home, tab For You\n2. Quan sát dải ngay dưới thanh chọn",
+   "expected": "1. Dải đầu tiên là 'Try the newest vibes' (hoặc tên category vibes)\n2. Các ô nằm ngang, mỗi ô 1 tên phong cách trên ảnh bìa riêng",
+   "priority": "high",
+   "feature": "AI Chat — Dải 'Try the newest vibes' ở Home (301)"
+  },
+  "TC-VB01-002": {
+   "title": "UI dải vibes — Chưa có category vibes → 7 phong cách mặc định",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. RC: enable_home_vibes_feature = true\n4. Đã cấp quyền Photos (Full Access)\n5. CMS chưa dựng category 'vibes'",
+   "data": "N/A",
+   "action": "1. Mở Home, cuộn ngang dải vibes",
+   "expected": "1. Đủ 7 ô: Cinematic · Polaroid · Black and White · Retro · Golden Hour · Neon Night · Oil Painting",
+   "priority": "high",
+   "feature": "AI Chat — Dải 'Try the newest vibes' ở Home (301)"
+  },
+  "TC-VB01-003": {
+   "title": "Logic dải vibes — Phong cách vibes không hiện trùng ở chỗ khác",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. RC: enable_home_vibes_feature = true\n4. Đã cấp quyền Photos (Full Access)",
+   "data": "N/A",
+   "action": "1. Lướt tab For You\n2. Mở tab Trending, New\n3. Mở See All",
+   "expected": "1. Không thấy các phong cách vibes ngoài dải 'Try the newest vibes'",
+   "priority": "medium",
+   "feature": "AI Chat — Dải 'Try the newest vibes' ở Home (301)"
+  },
+  "TC-VB01-004": {
+   "title": "Logic dải vibes — Chạm ô phong cách mở thư viện ảnh, chưa sang Chat",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. RC: enable_home_vibes_feature = true\n4. Đã cấp quyền Photos (Full Access)",
+   "data": "N/A",
+   "action": "1. Chạm ô 'Polaroid'",
+   "expected": "1. Thư viện ảnh của máy mở ngay\n2. Không thấy khung trò chuyện",
+   "priority": "critical",
+   "feature": "AI Chat — Dải 'Try the newest vibes' ở Home (301)"
+  },
+  "TC-VB01-005": {
+   "title": "Edge mạng vibes — Mất mạng khi mở Home → dải vẫn hiện",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. RC: enable_home_vibes_feature = true\n4. Đã cấp quyền Photos (Full Access)\n5. Mất mạng",
+   "data": "N/A",
+   "action": "1. Mở lại app tới Home",
+   "expected": "1. Dải vibes hiện theo dữ liệu đã lưu, chưa từng tải thì bộ mặc định",
+   "priority": "medium",
+   "feature": "AI Chat — Dải 'Try the newest vibes' ở Home (301)"
+  },
+  "TC-VB02-001": {
+   "title": "Logic chọn ảnh — Chọn 1 ảnh → màn xem lại đúng ảnh",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. RC: enable_home_vibes_feature = true\n4. Đã cấp quyền Photos (Full Access)",
+   "data": "N/A",
+   "action": "1. Chạm ô 'Retro'\n2. Chọn 1 ảnh",
+   "expected": "1. Thư viện đóng\n2. Màn xem lại hiện đúng ảnh vừa chọn",
+   "priority": "critical",
+   "feature": "AI Chat — Chọn ảnh & xem lại của dải vibes"
+  },
+  "TC-VB02-002": {
+   "title": "UI xem lại — Màn xem lại có ảnh, tên phong cách, nút đi tiếp bật",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. RC: enable_home_vibes_feature = true\n4. Đã cấp quyền Photos (Full Access)\n5. Đang ở màn xem lại",
+   "data": "N/A",
+   "action": "1. Quan sát màn",
+   "expected": "1. Ảnh vừa chọn\n2. Tên phong cách đã chạm\n3. Nút đi tiếp đang bật\n4. Nút 'Change photo'",
+   "priority": "high",
+   "feature": "AI Chat — Chọn ảnh & xem lại của dải vibes"
+  },
+  "TC-VB02-003": {
+   "title": "Logic chọn ảnh — Huỷ thư viện → về Home",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. RC: enable_home_vibes_feature = true\n4. Đã cấp quyền Photos (Full Access)",
+   "data": "N/A",
+   "action": "1. Chạm ô phong cách\n2. Bấm Huỷ trong thư viện",
+   "expected": "1. Về Home, dải vibes vẫn ở chỗ cũ\n2. Không mở màn xem lại, không mở Chat",
+   "priority": "high",
+   "feature": "AI Chat — Chọn ảnh & xem lại của dải vibes"
+  },
+  "TC-VB02-004": {
+   "title": "Logic xem lại — Change photo → thay ảnh",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. RC: enable_home_vibes_feature = true\n4. Đã cấp quyền Photos (Full Access)\n5. Đang ở màn xem lại với ảnh A",
+   "data": "N/A",
+   "action": "1. Bấm 'Change photo'\n2. Chọn ảnh B",
+   "expected": "1. Màn xem lại đổi sang ảnh B",
+   "priority": "medium",
+   "feature": "AI Chat — Chọn ảnh & xem lại của dải vibes"
+  },
+  "TC-VB02-005": {
+   "title": "Edge quyền — Từ chối quyền Photos khi chạm ô vibes",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. RC: enable_home_vibes_feature = true\n4. Quyền Photos = None",
+   "data": "N/A",
+   "action": "1. Chạm ô phong cách",
+   "expected": "1. Lời nhắc kèm nút mở Cài đặt\n2. Người dùng ở lại Home\n3. Bấm nút thì mở trang Settings của app",
+   "priority": "medium",
+   "feature": "AI Chat — Chọn ảnh & xem lại của dải vibes"
+  },
+  "TC-VB02-006": {
+   "title": "Edge xem lại — Mất mạng khi bấm đi tiếp → lỗi + thử lại",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. RC: enable_home_vibes_feature = true\n4. Đã cấp quyền Photos (Full Access)\n5. Đang ở màn xem lại\n6. Mất mạng",
+   "data": "N/A",
+   "action": "1. Bấm đi tiếp\n2. Bật lại mạng\n3. Bấm thử lại",
+   "expected": "1. Thông báo lỗi kèm nút thử lại, ảnh giữ nguyên\n2. Sau khi có mạng, thử lại thì sang Chat",
+   "priority": "medium",
+   "feature": "AI Chat — Chọn ảnh & xem lại của dải vibes"
+  },
+  "TC-VB03-001": {
+   "title": "Logic điền sẵn — Đi tiếp → Chat có ảnh + chữ mô tả, nút gửi bật, chưa gửi",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. RC: enable_home_vibes_feature = true\n4. Đã cấp quyền Photos (Full Access)\n5. Đang ở màn xem lại",
+   "data": "N/A",
+   "action": "1. Bấm đi tiếp",
+   "expected": "1. Mở Chat\n2. Ô soạn có ảnh vừa chọn + phần chữ mô tả của phong cách\n3. Nút gửi bật\n4. Chưa có tin nhắn nào được gửi",
+   "priority": "critical",
+   "feature": "AI Chat — Chat điền sẵn từ dải vibes (901)"
+  },
+  "TC-VB03-002": {
+   "title": "Logic điền sẵn — Gỡ ảnh → vẫn gửi được như tạo từ chữ",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. RC: enable_home_vibes_feature = true\n4. Đã cấp quyền Photos (Full Access)\n5. Chat đang điền sẵn ảnh + chữ",
+   "data": "N/A",
+   "action": "1. Bấm x gỡ ảnh\n2. Quan sát nút gửi",
+   "expected": "1. Ảnh biến mất, chữ mô tả giữ nguyên\n2. Nút gửi vẫn bật\n3. Không mở lại thư viện ảnh",
+   "priority": "high",
+   "feature": "AI Chat — Chat điền sẵn từ dải vibes (901)"
+  },
+  "TC-VB03-003": {
+   "title": "Logic chặn — Chưa mua gói bấm gửi điền sẵn → paywall, đóng thì còn nguyên",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User chưa mua gói (gói hết hạn), ví topup = 0\n4. Chat đang điền sẵn ảnh + chữ từ dải vibes",
+   "data": "N/A",
+   "action": "1. Bấm gửi\n2. Đóng hết chuỗi paywall",
+   "expected": "1. Màn hình mua gói mở\n2. Về Chat: ảnh và chữ còn nguyên\n3. Bấm gửi lại thì lại hiện màn mua gói",
+   "priority": "high",
+   "feature": "AI Chat — Chat điền sẵn từ dải vibes (901)"
+  },
+  "TC-VB03-004": {
+   "title": "Logic điền sẵn — Gửi điền sẵn khi có gói → tạo ảnh",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. RC: enable_home_vibes_feature = true\n4. Đã cấp quyền Photos (Full Access)\n5. User đã mua gói, còn ≥10 lượt\n6. Chat đang điền sẵn",
+   "data": "N/A",
+   "action": "1. Bấm gửi\n2. Chờ kết quả",
+   "expected": "1. Tin nhắn bên phải có ảnh + chữ mô tả\n2. Ra kết quả ảnh theo phong cách\n3. Trừ 1 lượt",
+   "priority": "critical",
+   "feature": "AI Chat — Chat điền sẵn từ dải vibes (901)"
+  },
+  "TC-REG02-001": {
+   "title": "E2E — Chat → tạo → sửa tiếp → xem 902 → Lưu → Library",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện đang trống (đã bấm New conversation)",
+   "data": "Prompt 1: 'a cat in a garden' · Prompt 2: 'make it night'",
+   "action": "1. Gửi prompt 1, chờ kết quả\n2. Gửi prompt 2, chờ kết quả\n3. Mở kết quả mới, bấm Lưu\n4. Mở Library",
+   "expected": "1. Hai kết quả trong Chat, kết quả 2 là bản sửa của kết quả 1\n2. Lưu có thông báo 'Saved'\n3. Library có 2 kết quả mới ở đầu",
+   "priority": "critical",
+   "feature": "Regression / E2E AI Chat"
+  },
+  "TC-REG02-002": {
+   "title": "Regression — Kết quả Chat không làm hỏng luồng style Home",
+   "pre": "1. App Genius 2.9.0 đã cài, mở app tới Home (301)\n2. RC: enable_ai_chat_feature = true\n3. User đã mua gói, còn ≥10 lượt\n4. Cuộc trò chuyện có ≥1 kết quả ảnh do Genius tạo",
+   "data": "N/A",
+   "action": "1. Mở Home\n2. Chạy luồng i2i 1 ảnh tới Result",
+   "expected": "1. Luồng i2i ra Result như trước\n2. Kết quả i2i vào Library",
+   "priority": "high",
+   "feature": "Regression / E2E AI Chat"
+  }
+ }
+}

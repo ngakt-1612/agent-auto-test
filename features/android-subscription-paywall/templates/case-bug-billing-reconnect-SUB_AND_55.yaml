@@ -1,0 +1,23 @@
+tc_id: SUB_AND_55
+title: "[Edge] Google Play Store khởi động lại khi đang ở Paywall — Continue vẫn mở thanh toán"
+priority: P1
+source_row: "3. Purchase Subscription"
+screen: paywall
+requires_state: FREE
+blocked_by: ""
+steps:
+  - tap: {intent: plan_option, index: 0}
+  # Play Store dừng/khởi động lại trong lúc app mở (Play tự cập nhật, Android
+  # thu hồi bộ nhớ). App phải tự kết nối lại Billing.
+  - dung_play_store: {ms: 3000}
+  # Bấm Continue 3 lần, mỗi lần chờ 6s - đối chứng không dừng Play thì dialog
+  # Google Play mở ngay lần đầu.
+  - tap: {intent: paywall.cta}
+  - wait: {ms: 6000}
+  - tap: {intent: paywall.cta}
+  - wait: {ms: 6000}
+  - screenshot: {tag: sau_khi_bam_continue}
+asserts:
+  - log_billing: {khong_co: "code: -1"}
+  - foreground_matches: {pattern: "vending"}
+  - no_crash: {}

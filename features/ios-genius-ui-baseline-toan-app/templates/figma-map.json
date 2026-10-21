@@ -1,0 +1,2897 @@
+{
+ "_ghi_chu": "Bản trích 1 lần từ Figma để dùng offline. Trước mỗi round chỉ cần gọi get_metadata 1 lượt để so số màn/node_id; lệch thì tải lại phần lệch.",
+ "file_key": "DVnwame4JHVgijSAdZKEjM",
+ "file_ten": "IIP055 Genius (Copy)",
+ "page": {
+  "id": "8:4",
+  "ten": "❇️ Design Process"
+ },
+ "node_goc": {
+  "id": "19986:836",
+  "ten": "↳ UI Design all app"
+ },
+ "ngay_trich": "2026-09-07",
+ "app_build_doi_chieu": {
+  "version": "2.6.0",
+  "build": "3",
+  "commit": "d3fead5e1a61c704ea54f4b89997909785211d46"
+ },
+ "canh_bao": [
+  "Phần lớn màn là ẢNH dán vào (image fill) → máy KHÔNG trích được text/màu/spacing.",
+  "Connector KHÔNG có startNode/endNode, chỉ có bounding box → luồng điều hướng phải đọc bằng mắt, không phải dữ liệu chắc.",
+  "File tên có '(Copy)' và là board mô tả luồng — nên hỏi designer file UI gốc."
+ ],
+ "tong": {
+  "man": 156,
+  "design": 8,
+  "anh": 148,
+  "connector": 135,
+  "section": 15
+ },
+ "theo_section": {
+  "World Cup Edition": {
+   "design": 0,
+   "anh": 3
+  },
+  "Gen fitting": {
+   "design": 0,
+   "anh": 6
+  },
+  "Gen ảnh": {
+   "design": 0,
+   "anh": 5
+  },
+  "Gen video": {
+   "design": 0,
+   "anh": 5
+  },
+  "World Cup Looks": {
+   "design": 0,
+   "anh": 15
+  },
+  "Thumb": {
+   "design": 0,
+   "anh": 1
+  },
+  "I2V": {
+   "design": 0,
+   "anh": 14
+  },
+  "Enhance": {
+   "design": 0,
+   "anh": 13
+  },
+  "I2I": {
+   "design": 0,
+   "anh": 14
+  },
+  "(ngoài section)": {
+   "design": 2,
+   "anh": 11
+  },
+  "Motion Control": {
+   "design": 0,
+   "anh": 16
+  },
+  "Rating us": {
+   "design": 1,
+   "anh": 11
+  },
+  "Restore + Remove Object": {
+   "design": 0,
+   "anh": 24
+  },
+  "New subcription": {
+   "design": 3,
+   "anh": 3
+  },
+  "Log out": {
+   "design": 2,
+   "anh": 0
+  },
+  "Màn Home mới": {
+   "design": 0,
+   "anh": 7
+  }
+ },
+ "man": [
+  {
+   "section": "World Cup Edition",
+   "section_id": "19986:5497",
+   "node_id": "19986:5498",
+   "name": "simulator_screenshot_A182A5D2-E364-4218-9FC0-58A95A1C5631 1",
+   "tag": "rounded-rectangle",
+   "w": 438,
+   "h": 952,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "World Cup Edition",
+   "section_id": "19986:5497",
+   "node_id": "19986:5499",
+   "name": "simulator_screenshot_3C893D82-8738-4BD3-BEC5-1FB43B31A2F3 1",
+   "tag": "rounded-rectangle",
+   "w": 438,
+   "h": 952,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Gen fitting",
+   "section_id": "19986:5500",
+   "node_id": "19986:5501",
+   "name": "simulator_screenshot_4AA8DFA6-882F-4227-9569-AAB0A565D43E 1",
+   "tag": "rounded-rectangle",
+   "w": 438,
+   "h": 952,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Gen fitting",
+   "section_id": "19986:5500",
+   "node_id": "19986:5503",
+   "name": "simulator_screenshot_C9C2EA5A-216F-498A-9FEE-B278D0BCF6F0 1",
+   "tag": "rounded-rectangle",
+   "w": 438,
+   "h": 952,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Gen fitting",
+   "section_id": "19986:5500",
+   "node_id": "19986:5505",
+   "name": "simulator_screenshot_C010417E-AB81-4CD9-A43A-4BC53FEEDE51 1",
+   "tag": "rounded-rectangle",
+   "w": 438,
+   "h": 952,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Gen fitting",
+   "section_id": "19986:5500",
+   "node_id": "19986:5507",
+   "name": "image 4",
+   "tag": "rounded-rectangle",
+   "w": 438,
+   "h": 948,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Gen fitting",
+   "section_id": "19986:5500",
+   "node_id": "19986:5508",
+   "name": "image 5",
+   "tag": "rounded-rectangle",
+   "w": 438,
+   "h": 948,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Gen fitting",
+   "section_id": "19986:5500",
+   "node_id": "19986:5509",
+   "name": "image 12",
+   "tag": "rounded-rectangle",
+   "w": 438,
+   "h": 948,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Gen ảnh",
+   "section_id": "19986:5514",
+   "node_id": "19986:5515",
+   "name": "image 14",
+   "tag": "rounded-rectangle",
+   "w": 438,
+   "h": 948,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Gen ảnh",
+   "section_id": "19986:5514",
+   "node_id": "19986:5516",
+   "name": "image 9",
+   "tag": "rounded-rectangle",
+   "w": 438,
+   "h": 948,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Gen ảnh",
+   "section_id": "19986:5514",
+   "node_id": "19986:5517",
+   "name": "image 15",
+   "tag": "rounded-rectangle",
+   "w": 438,
+   "h": 948,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Gen ảnh",
+   "section_id": "19986:5514",
+   "node_id": "19986:5518",
+   "name": "image 12",
+   "tag": "rounded-rectangle",
+   "w": 438,
+   "h": 948,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Gen ảnh",
+   "section_id": "19986:5514",
+   "node_id": "19986:5519",
+   "name": "image 8",
+   "tag": "rounded-rectangle",
+   "w": 438,
+   "h": 948,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Gen video",
+   "section_id": "19986:5520",
+   "node_id": "19986:5521",
+   "name": "image 6",
+   "tag": "rounded-rectangle",
+   "w": 438,
+   "h": 948,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Gen video",
+   "section_id": "19986:5520",
+   "node_id": "19986:5522",
+   "name": "image 7",
+   "tag": "rounded-rectangle",
+   "w": 438,
+   "h": 948,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Gen video",
+   "section_id": "19986:5520",
+   "node_id": "19986:5523",
+   "name": "image 10",
+   "tag": "rounded-rectangle",
+   "w": 438,
+   "h": 948,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Gen video",
+   "section_id": "19986:5520",
+   "node_id": "19986:5525",
+   "name": "image 13",
+   "tag": "rounded-rectangle",
+   "w": 438,
+   "h": 948,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Gen video",
+   "section_id": "19986:5520",
+   "node_id": "19986:5527",
+   "name": "image 11",
+   "tag": "rounded-rectangle",
+   "w": 438,
+   "h": 948,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "World Cup Edition",
+   "section_id": "19986:5497",
+   "node_id": "19986:5530",
+   "name": "simulator_screenshot_54A77B32-B5CA-4DBA-8673-29E738F1EE0D 1",
+   "tag": "rounded-rectangle",
+   "w": 438,
+   "h": 952,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "World Cup Looks",
+   "section_id": "19986:5536",
+   "node_id": "19986:5547",
+   "name": "simulator_screenshot_CE555D07-8038-4B9D-9AC1-4837BD125C20 1",
+   "tag": "rounded-rectangle",
+   "w": 438,
+   "h": 952,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "World Cup Looks",
+   "section_id": "19986:5536",
+   "node_id": "19989:8432",
+   "name": "image 13747",
+   "tag": "rounded-rectangle",
+   "w": 435,
+   "h": 938,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "World Cup Looks",
+   "section_id": "19986:5536",
+   "node_id": "19989:8435",
+   "name": "image 13748",
+   "tag": "rounded-rectangle",
+   "w": 437,
+   "h": 945,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "World Cup Looks",
+   "section_id": "19986:5536",
+   "node_id": "19989:8444",
+   "name": "image 13751",
+   "tag": "rounded-rectangle",
+   "w": 440,
+   "h": 942,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "World Cup Looks",
+   "section_id": "19986:5536",
+   "node_id": "19989:8447",
+   "name": "image 13752",
+   "tag": "rounded-rectangle",
+   "w": 438,
+   "h": 947,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "World Cup Looks",
+   "section_id": "19986:5536",
+   "node_id": "19989:8484",
+   "name": "image 13753",
+   "tag": "rounded-rectangle",
+   "w": 437,
+   "h": 945,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "World Cup Looks",
+   "section_id": "19986:5536",
+   "node_id": "19989:8486",
+   "name": "image 13758",
+   "tag": "rounded-rectangle",
+   "w": 414,
+   "h": 896,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "World Cup Looks",
+   "section_id": "19986:5536",
+   "node_id": "19989:8482",
+   "name": "image 13757",
+   "tag": "rounded-rectangle",
+   "w": 428,
+   "h": 935,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "World Cup Looks",
+   "section_id": "19986:5536",
+   "node_id": "19989:8438",
+   "name": "image 13749",
+   "tag": "rounded-rectangle",
+   "w": 441,
+   "h": 938,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "World Cup Looks",
+   "section_id": "19986:5536",
+   "node_id": "19989:8441",
+   "name": "image 13750",
+   "tag": "rounded-rectangle",
+   "w": 421,
+   "h": 896,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "World Cup Looks",
+   "section_id": "19986:5536",
+   "node_id": "19989:8450",
+   "name": "image 13753",
+   "tag": "rounded-rectangle",
+   "w": 435,
+   "h": 938,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "World Cup Looks",
+   "section_id": "19986:5536",
+   "node_id": "19989:8453",
+   "name": "image 13754",
+   "tag": "rounded-rectangle",
+   "w": 430,
+   "h": 925,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "World Cup Looks",
+   "section_id": "19986:5536",
+   "node_id": "19989:8456",
+   "name": "image 13755",
+   "tag": "rounded-rectangle",
+   "w": 412,
+   "h": 894,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "World Cup Looks",
+   "section_id": "19986:5536",
+   "node_id": "19989:8459",
+   "name": "image 13756",
+   "tag": "rounded-rectangle",
+   "w": 412,
+   "h": 894,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "World Cup Looks",
+   "section_id": "19986:5536",
+   "node_id": "19989:8489",
+   "name": "image 13759",
+   "tag": "rounded-rectangle",
+   "w": 412,
+   "h": 894,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Thumb",
+   "section_id": "19986:5550",
+   "node_id": "19986:5552",
+   "name": "Animation 1",
+   "tag": "rounded-rectangle",
+   "w": 628,
+   "h": 1357,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "I2V",
+   "section_id": "19990:899",
+   "node_id": "19989:7002",
+   "name": "image 23",
+   "tag": "rounded-rectangle",
+   "w": 303,
+   "h": 655,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "I2V",
+   "section_id": "19990:899",
+   "node_id": "19989:8318",
+   "name": "image 13740",
+   "tag": "rounded-rectangle",
+   "w": 306,
+   "h": 654,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "I2V",
+   "section_id": "19990:899",
+   "node_id": "19989:7035",
+   "name": "image 34",
+   "tag": "rounded-rectangle",
+   "w": 303,
+   "h": 653,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "I2V",
+   "section_id": "19990:899",
+   "node_id": "19989:7038",
+   "name": "image 35",
+   "tag": "rounded-rectangle",
+   "w": 303,
+   "h": 653,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "I2V",
+   "section_id": "19990:899",
+   "node_id": "19989:7041",
+   "name": "image 36",
+   "tag": "rounded-rectangle",
+   "w": 303,
+   "h": 651,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "I2V",
+   "section_id": "19990:899",
+   "node_id": "19989:7044",
+   "name": "image 37",
+   "tag": "rounded-rectangle",
+   "w": 305,
+   "h": 653,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "I2V",
+   "section_id": "19990:899",
+   "node_id": "19989:8336",
+   "name": "image 13741",
+   "tag": "rounded-rectangle",
+   "w": 304,
+   "h": 653,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "I2V",
+   "section_id": "19990:899",
+   "node_id": "20927:452",
+   "name": "image 13767",
+   "tag": "rounded-rectangle",
+   "w": 306,
+   "h": 648,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "I2V",
+   "section_id": "19990:899",
+   "node_id": "20927:454",
+   "name": "image 13768",
+   "tag": "rounded-rectangle",
+   "w": 303,
+   "h": 642,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "I2V",
+   "section_id": "19990:899",
+   "node_id": "20927:486",
+   "name": "image 13769",
+   "tag": "rounded-rectangle",
+   "w": 306,
+   "h": 648,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "I2V",
+   "section_id": "19990:899",
+   "node_id": "20927:487",
+   "name": "image 13770",
+   "tag": "rounded-rectangle",
+   "w": 303,
+   "h": 642,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "I2V",
+   "section_id": "19990:899",
+   "node_id": "20927:450",
+   "name": "image 13766",
+   "tag": "rounded-rectangle",
+   "w": 307,
+   "h": 652,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "I2V",
+   "section_id": "19990:899",
+   "node_id": "19989:8339",
+   "name": "image 13742",
+   "tag": "rounded-rectangle",
+   "w": 304,
+   "h": 651,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "I2V",
+   "section_id": "19990:899",
+   "node_id": "19989:8345",
+   "name": "image 13744",
+   "tag": "rounded-rectangle",
+   "w": 304,
+   "h": 649,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Enhance",
+   "section_id": "20053:8692",
+   "node_id": "20053:8741",
+   "name": "42161C54-F2CC-4139-93AD-CAE013423D6D 1",
+   "tag": "rounded-rectangle",
+   "w": 303,
+   "h": 655,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Enhance",
+   "section_id": "20053:8692",
+   "node_id": "20053:8742",
+   "name": "A8B1B613-08D4-4698-9CA5-CA5F6315667C 1",
+   "tag": "rounded-rectangle",
+   "w": 302,
+   "h": 653,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Enhance",
+   "section_id": "20053:8692",
+   "node_id": "20053:8743",
+   "name": "482C8EB2-0258-48A4-A7C2-EFBD1B229701 1",
+   "tag": "rounded-rectangle",
+   "w": 303,
+   "h": 655,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Enhance",
+   "section_id": "20053:8692",
+   "node_id": "20053:8744",
+   "name": "F28E51D1-E2AE-4710-8DC0-0C4A3FACDD1A 1",
+   "tag": "rounded-rectangle",
+   "w": 302,
+   "h": 654,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Enhance",
+   "section_id": "20053:8692",
+   "node_id": "20053:8745",
+   "name": "153DCE42-455A-4A28-B435-D0193213A352 1",
+   "tag": "rounded-rectangle",
+   "w": 302,
+   "h": 654,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Enhance",
+   "section_id": "20053:8692",
+   "node_id": "20053:8746",
+   "name": "1529F81A-9CE8-4C48-860D-C1770118913E 1",
+   "tag": "rounded-rectangle",
+   "w": 305,
+   "h": 660,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Enhance",
+   "section_id": "20053:8692",
+   "node_id": "20053:8756",
+   "name": "F4337A0D-0CEF-4705-904A-1549C802B5DC 1",
+   "tag": "rounded-rectangle",
+   "w": 301,
+   "h": 651,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Enhance",
+   "section_id": "20053:8692",
+   "node_id": "20053:8757",
+   "name": "A05665E1-88EC-40EE-B728-FEEBD1BB7FF1 2",
+   "tag": "rounded-rectangle",
+   "w": 302,
+   "h": 654,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Enhance",
+   "section_id": "20053:8692",
+   "node_id": "20927:484",
+   "name": "image 13766",
+   "tag": "rounded-rectangle",
+   "w": 307,
+   "h": 652,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Enhance",
+   "section_id": "20053:8692",
+   "node_id": "20927:489",
+   "name": "image 13767",
+   "tag": "rounded-rectangle",
+   "w": 306,
+   "h": 648,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Enhance",
+   "section_id": "20053:8692",
+   "node_id": "20927:490",
+   "name": "image 13768",
+   "tag": "rounded-rectangle",
+   "w": 303,
+   "h": 642,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Enhance",
+   "section_id": "20053:8692",
+   "node_id": "20927:491",
+   "name": "image 13769",
+   "tag": "rounded-rectangle",
+   "w": 306,
+   "h": 648,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Enhance",
+   "section_id": "20053:8692",
+   "node_id": "20927:492",
+   "name": "image 13770",
+   "tag": "rounded-rectangle",
+   "w": 303,
+   "h": 642,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "I2I",
+   "section_id": "20011:8534",
+   "node_id": "20011:8535",
+   "name": "image 23",
+   "tag": "rounded-rectangle",
+   "w": 303,
+   "h": 655,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "I2I",
+   "section_id": "20011:8534",
+   "node_id": "20011:8536",
+   "name": "image 24",
+   "tag": "rounded-rectangle",
+   "w": 304,
+   "h": 653,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "I2I",
+   "section_id": "20011:8534",
+   "node_id": "20011:8537",
+   "name": "image 25",
+   "tag": "rounded-rectangle",
+   "w": 301,
+   "h": 655,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "I2I",
+   "section_id": "20011:8534",
+   "node_id": "20011:8538",
+   "name": "image 26",
+   "tag": "rounded-rectangle",
+   "w": 300,
+   "h": 651,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "I2I",
+   "section_id": "20011:8534",
+   "node_id": "20011:8539",
+   "name": "image 27",
+   "tag": "rounded-rectangle",
+   "w": 304,
+   "h": 652,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "I2I",
+   "section_id": "20011:8534",
+   "node_id": "20011:8540",
+   "name": "image 28",
+   "tag": "rounded-rectangle",
+   "w": 306,
+   "h": 654,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "I2I",
+   "section_id": "20011:8534",
+   "node_id": "20011:8542",
+   "name": "image 29",
+   "tag": "rounded-rectangle",
+   "w": 305,
+   "h": 651,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "I2I",
+   "section_id": "20011:8534",
+   "node_id": "20011:8544",
+   "name": "image 31",
+   "tag": "rounded-rectangle",
+   "w": 302,
+   "h": 652,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "I2I",
+   "section_id": "20011:8534",
+   "node_id": "20011:8573",
+   "name": "image 13736",
+   "tag": "rounded-rectangle",
+   "w": 306,
+   "h": 655,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "I2I",
+   "section_id": "20011:8534",
+   "node_id": "20011:8575",
+   "name": "image 13738",
+   "tag": "rounded-rectangle",
+   "w": 303,
+   "h": 652,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "I2I",
+   "section_id": "20011:8534",
+   "node_id": "20011:8577",
+   "name": "image 13739",
+   "tag": "rounded-rectangle",
+   "w": 307,
+   "h": 654,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "I2I",
+   "section_id": "20011:8534",
+   "node_id": "20923:635",
+   "name": "image 13766",
+   "tag": "rounded-rectangle",
+   "w": 307,
+   "h": 652,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "I2I",
+   "section_id": "20011:8534",
+   "node_id": "20923:636",
+   "name": "image 13767",
+   "tag": "rounded-rectangle",
+   "w": 306,
+   "h": 648,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "I2I",
+   "section_id": "20011:8534",
+   "node_id": "20923:654",
+   "name": "image 13768",
+   "tag": "rounded-rectangle",
+   "w": 303,
+   "h": 642,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "(ngoài section)",
+   "section_id": null,
+   "node_id": "20011:8665",
+   "name": "image 13744",
+   "tag": "rounded-rectangle",
+   "w": 365,
+   "h": 793,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "(ngoài section)",
+   "section_id": null,
+   "node_id": "20011:8666",
+   "name": "image 13745",
+   "tag": "rounded-rectangle",
+   "w": 368,
+   "h": 793,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "(ngoài section)",
+   "section_id": null,
+   "node_id": "20011:8667",
+   "name": "image 13746",
+   "tag": "rounded-rectangle",
+   "w": 368,
+   "h": 749,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "(ngoài section)",
+   "section_id": null,
+   "node_id": "20011:8663",
+   "name": "image 13744",
+   "tag": "rounded-rectangle",
+   "w": 371,
+   "h": 802,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "(ngoài section)",
+   "section_id": null,
+   "node_id": "19989:6978",
+   "name": "image 17",
+   "tag": "rounded-rectangle",
+   "w": 303,
+   "h": 653,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "(ngoài section)",
+   "section_id": null,
+   "node_id": "19989:6975",
+   "name": "image 16",
+   "tag": "rounded-rectangle",
+   "w": 302,
+   "h": 652,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "(ngoài section)",
+   "section_id": null,
+   "node_id": "19989:6981",
+   "name": "image 18",
+   "tag": "rounded-rectangle",
+   "w": 303,
+   "h": 655,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "(ngoài section)",
+   "section_id": null,
+   "node_id": "19989:6984",
+   "name": "image 19",
+   "tag": "rounded-rectangle",
+   "w": 302,
+   "h": 653,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "(ngoài section)",
+   "section_id": null,
+   "node_id": "19989:6990",
+   "name": "image 20",
+   "tag": "rounded-rectangle",
+   "w": 303,
+   "h": 656,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "(ngoài section)",
+   "section_id": null,
+   "node_id": "19989:6993",
+   "name": "image 21",
+   "tag": "rounded-rectangle",
+   "w": 305,
+   "h": 655,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "(ngoài section)",
+   "section_id": null,
+   "node_id": "19989:6999",
+   "name": "image 22",
+   "tag": "rounded-rectangle",
+   "w": 302,
+   "h": 655,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "(ngoài section)",
+   "section_id": null,
+   "node_id": "19989:8182",
+   "name": "101 Splash",
+   "tag": "frame",
+   "w": 342,
+   "h": 777,
+   "loai": "design",
+   "hidden": false
+  },
+  {
+   "section": "Motion Control",
+   "section_id": "20441:1663",
+   "node_id": "20441:1664",
+   "name": "simulator_screenshot_946351F7-9EC6-4420-BD89-0286B3BEA14B 1",
+   "tag": "rounded-rectangle",
+   "w": 1206,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Motion Control",
+   "section_id": "20441:1663",
+   "node_id": "20441:1665",
+   "name": "simulator_screenshot_8B70108A-7CD3-4346-86E5-DFC85F365CE7 1",
+   "tag": "rounded-rectangle",
+   "w": 1206,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Motion Control",
+   "section_id": "20441:1663",
+   "node_id": "20441:1667",
+   "name": "simulator_screenshot_BE54EA7E-7D22-44C6-B9CF-FC4C97E7740C 1",
+   "tag": "rounded-rectangle",
+   "w": 1206,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Motion Control",
+   "section_id": "20441:1663",
+   "node_id": "20441:1669",
+   "name": "image 26",
+   "tag": "rounded-rectangle",
+   "w": 1210,
+   "h": 2626,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Motion Control",
+   "section_id": "20441:1663",
+   "node_id": "20441:1711",
+   "name": "image 13760",
+   "tag": "rounded-rectangle",
+   "w": 1180,
+   "h": 2543,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Motion Control",
+   "section_id": "20441:1663",
+   "node_id": "20441:1712",
+   "name": "simulator_screenshot_C3D8ECB2-3215-4ED0-BD81-353C9000F28D 1",
+   "tag": "rounded-rectangle",
+   "w": 1206,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Motion Control",
+   "section_id": "20441:1663",
+   "node_id": "20441:1714",
+   "name": "simulator_screenshot_2B8F80FA-28E0-470D-B254-2F8564DC5D14 1",
+   "tag": "rounded-rectangle",
+   "w": 1206,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Motion Control",
+   "section_id": "20441:1663",
+   "node_id": "20441:1716",
+   "name": "simulator_screenshot_8D8A71B5-7A6A-4189-AD68-CCCC75D3B10C 1",
+   "tag": "rounded-rectangle",
+   "w": 1206,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Motion Control",
+   "section_id": "20441:1663",
+   "node_id": "20441:1722",
+   "name": "simulator_screenshot_CFF249E3-7DE4-4CE8-9858-A84062FD2CF1 1",
+   "tag": "rounded-rectangle",
+   "w": 1206,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Motion Control",
+   "section_id": "20441:1663",
+   "node_id": "20441:1724",
+   "name": "simulator_screenshot_53B0A9FB-67C8-4988-BC47-D0FA04F5E43A 1",
+   "tag": "rounded-rectangle",
+   "w": 1206,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Motion Control",
+   "section_id": "20441:1663",
+   "node_id": "20441:1726",
+   "name": "simulator_screenshot_1B025786-6DE6-4A9B-B332-5D7FCACD9109 1",
+   "tag": "rounded-rectangle",
+   "w": 1206,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Motion Control",
+   "section_id": "20441:1663",
+   "node_id": "20441:1728",
+   "name": "simulator_screenshot_CE725523-AE15-4F81-82AA-9AA837CD2067 1",
+   "tag": "rounded-rectangle",
+   "w": 1206,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Motion Control",
+   "section_id": "20441:1663",
+   "node_id": "20441:1730",
+   "name": "simulator_screenshot_5DCD98D6-0B3F-4E7D-A79A-133010FD67FF 1",
+   "tag": "rounded-rectangle",
+   "w": 1206,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Motion Control",
+   "section_id": "20441:1663",
+   "node_id": "20927:515",
+   "name": "image 13766",
+   "tag": "rounded-rectangle",
+   "w": 1234,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Motion Control",
+   "section_id": "20441:1663",
+   "node_id": "20927:518",
+   "name": "image 13769",
+   "tag": "rounded-rectangle",
+   "w": 1236,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Motion Control",
+   "section_id": "20441:1663",
+   "node_id": "20927:522",
+   "name": "image 13770",
+   "tag": "rounded-rectangle",
+   "w": 1238,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Rating us",
+   "section_id": "20622:481",
+   "node_id": "20622:483",
+   "name": "420-rating-ask 1",
+   "tag": "rounded-rectangle",
+   "w": 641,
+   "h": 1393,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Rating us",
+   "section_id": "20622:481",
+   "node_id": "20622:484",
+   "name": "421-feedback-onboarding 1",
+   "tag": "rounded-rectangle",
+   "w": 642,
+   "h": 1393,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Rating us",
+   "section_id": "20622:481",
+   "node_id": "20622:485",
+   "name": "native-review-dialog 1",
+   "tag": "rounded-rectangle",
+   "w": 642,
+   "h": 1393,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Rating us",
+   "section_id": "20622:481",
+   "node_id": "20622:486",
+   "name": "toast-thanks-rating 1",
+   "tag": "rounded-rectangle",
+   "w": 641,
+   "h": 1393,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Rating us",
+   "section_id": "20622:481",
+   "node_id": "20622:515",
+   "name": "IMG_1422 1",
+   "tag": "rounded-rectangle",
+   "w": 652,
+   "h": 1411,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Rating us",
+   "section_id": "20622:481",
+   "node_id": "20622:516",
+   "name": "IMG_1421 1",
+   "tag": "rounded-rectangle",
+   "w": 652,
+   "h": 1411,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Rating us",
+   "section_id": "20622:481",
+   "node_id": "20622:517",
+   "name": "IMG_1435 1",
+   "tag": "rounded-rectangle",
+   "w": 668,
+   "h": 1445,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Rating us",
+   "section_id": "20622:481",
+   "node_id": "20622:518",
+   "name": "IMG_1430 1",
+   "tag": "rounded-rectangle",
+   "w": 668,
+   "h": 1445,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Rating us",
+   "section_id": "20622:481",
+   "node_id": "20622:519",
+   "name": "IMG_1420 1",
+   "tag": "rounded-rectangle",
+   "w": 652,
+   "h": 1411,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Rating us",
+   "section_id": "20622:481",
+   "node_id": "20622:524",
+   "name": "simulator_screenshot_4CC7E964-830B-43CC-97DA-410B72802442 1",
+   "tag": "rounded-rectangle",
+   "w": 641,
+   "h": 1393,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Rating us",
+   "section_id": "20622:481",
+   "node_id": "20622:525",
+   "name": "simulator_screenshot_946351F7-9EC6-4420-BD89-0286B3BEA14B 1",
+   "tag": "rounded-rectangle",
+   "w": 641,
+   "h": 1393,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Rating us",
+   "section_id": "20622:481",
+   "node_id": "20622:527",
+   "name": "Result",
+   "tag": "frame",
+   "w": 393,
+   "h": 852,
+   "loai": "design",
+   "hidden": false
+  },
+  {
+   "section": "Restore + Remove Object",
+   "section_id": "20670:387",
+   "node_id": "20670:567",
+   "name": "01-tools-tab 1",
+   "tag": "rounded-rectangle",
+   "w": 1206,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Restore + Remove Object",
+   "section_id": "20670:387",
+   "node_id": "20670:568",
+   "name": "02-upload-empty 1",
+   "tag": "rounded-rectangle",
+   "w": 1206,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Restore + Remove Object",
+   "section_id": "20670:387",
+   "node_id": "20670:569",
+   "name": "03-photo-picker 1",
+   "tag": "rounded-rectangle",
+   "w": 1206,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Restore + Remove Object",
+   "section_id": "20670:387",
+   "node_id": "20670:570",
+   "name": "04-upload-selected 1",
+   "tag": "rounded-rectangle",
+   "w": 1206,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Restore + Remove Object",
+   "section_id": "20670:387",
+   "node_id": "20670:571",
+   "name": "05-editor-initial 1",
+   "tag": "rounded-rectangle",
+   "w": 1206,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Restore + Remove Object",
+   "section_id": "20670:387",
+   "node_id": "20670:582",
+   "name": "simulator_screenshot_44835C42-FDCB-4783-B526-23C3CCA4B6CE 1",
+   "tag": "rounded-rectangle",
+   "w": 1206,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Restore + Remove Object",
+   "section_id": "20670:387",
+   "node_id": "20670:572",
+   "name": "simulator_screenshot_0D4DC6EE-2CA3-4A02-B6FD-5D92E5D4A77A 1",
+   "tag": "rounded-rectangle",
+   "w": 1206,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Restore + Remove Object",
+   "section_id": "20670:387",
+   "node_id": "20670:577",
+   "name": "04-photo-picker 1",
+   "tag": "rounded-rectangle",
+   "w": 1206,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Restore + Remove Object",
+   "section_id": "20670:387",
+   "node_id": "20670:578",
+   "name": "05-upload-selected 1",
+   "tag": "rounded-rectangle",
+   "w": 1206,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Restore + Remove Object",
+   "section_id": "20670:387",
+   "node_id": "20670:579",
+   "name": "06-generating 1",
+   "tag": "rounded-rectangle",
+   "w": 1206,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Restore + Remove Object",
+   "section_id": "20670:387",
+   "node_id": "20670:576",
+   "name": "03-upload-empty 1",
+   "tag": "rounded-rectangle",
+   "w": 1206,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Restore + Remove Object",
+   "section_id": "20670:387",
+   "node_id": "20670:581",
+   "name": "bad-01-generation-failed 1",
+   "tag": "rounded-rectangle",
+   "w": 1206,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Restore + Remove Object",
+   "section_id": "20670:387",
+   "node_id": "20670:586",
+   "name": "simulator_screenshot_38A8FC1B-18E7-4771-A2A4-5BE6E3F53F94 1",
+   "tag": "rounded-rectangle",
+   "w": 1206,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Restore + Remove Object",
+   "section_id": "20670:387",
+   "node_id": "20670:587",
+   "name": "simulator_screenshot_A6CF3314-7E55-4FC5-9C58-B4538A686E1B 1",
+   "tag": "rounded-rectangle",
+   "w": 1206,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Restore + Remove Object",
+   "section_id": "20670:387",
+   "node_id": "20670:604",
+   "name": "image 27",
+   "tag": "rounded-rectangle",
+   "w": 1223,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Restore + Remove Object",
+   "section_id": "20670:387",
+   "node_id": "20670:683",
+   "name": "image 28",
+   "tag": "rounded-rectangle",
+   "w": 1223,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Restore + Remove Object",
+   "section_id": "20670:387",
+   "node_id": "20670:621",
+   "name": "simulator_screenshot_BE5CC513-CC19-44EC-B758-A1E3382407F3 1",
+   "tag": "rounded-rectangle",
+   "w": 1206,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Restore + Remove Object",
+   "section_id": "20670:387",
+   "node_id": "20670:690",
+   "name": "simulator_screenshot_69FE7C0B-786F-48B6-8ACF-D84C0C16E85F 1",
+   "tag": "rounded-rectangle",
+   "w": 1206,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Restore + Remove Object",
+   "section_id": "20670:387",
+   "node_id": "20927:559",
+   "name": "image 13766",
+   "tag": "rounded-rectangle",
+   "w": 1234,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Restore + Remove Object",
+   "section_id": "20670:387",
+   "node_id": "20927:560",
+   "name": "image 13769",
+   "tag": "rounded-rectangle",
+   "w": 1236,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Restore + Remove Object",
+   "section_id": "20670:387",
+   "node_id": "20927:561",
+   "name": "image 13770",
+   "tag": "rounded-rectangle",
+   "w": 1238,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Restore + Remove Object",
+   "section_id": "20670:387",
+   "node_id": "20927:597",
+   "name": "image 13771",
+   "tag": "rounded-rectangle",
+   "w": 1234,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Restore + Remove Object",
+   "section_id": "20670:387",
+   "node_id": "20927:609",
+   "name": "image 13772",
+   "tag": "rounded-rectangle",
+   "w": 1236,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Restore + Remove Object",
+   "section_id": "20670:387",
+   "node_id": "20927:610",
+   "name": "image 13773",
+   "tag": "rounded-rectangle",
+   "w": 1238,
+   "h": 2622,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "(ngoài section)",
+   "section_id": null,
+   "node_id": "20927:2887",
+   "name": "410 Setting",
+   "tag": "frame",
+   "w": 375,
+   "h": 812,
+   "loai": "design",
+   "hidden": false
+  },
+  {
+   "section": "New subcription",
+   "section_id": "20927:5419",
+   "node_id": "20927:5420",
+   "name": "image 13745",
+   "tag": "rounded-rectangle",
+   "w": 368,
+   "h": 793,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "New subcription",
+   "section_id": "20927:5419",
+   "node_id": "20927:5421",
+   "name": "image 13746",
+   "tag": "rounded-rectangle",
+   "w": 368,
+   "h": 749,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "New subcription",
+   "section_id": "20927:5419",
+   "node_id": "20927:5423",
+   "name": "My balance",
+   "tag": "frame",
+   "w": 375,
+   "h": 812,
+   "loai": "design",
+   "hidden": false
+  },
+  {
+   "section": "New subcription",
+   "section_id": "20927:5419",
+   "node_id": "20927:5469",
+   "name": "Get-more",
+   "tag": "frame",
+   "w": 375,
+   "h": 812,
+   "loai": "design",
+   "hidden": false
+  },
+  {
+   "section": "New subcription",
+   "section_id": "20927:5419",
+   "node_id": "20927:5522",
+   "name": "410 Setting",
+   "tag": "frame",
+   "w": 375,
+   "h": 812,
+   "loai": "design",
+   "hidden": false
+  },
+  {
+   "section": "New subcription",
+   "section_id": "20927:5419",
+   "node_id": "20927:5666",
+   "name": "Screenshot 2026-08-10 at 15.02.32 1",
+   "tag": "rounded-rectangle",
+   "w": 375,
+   "h": 812,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Log out",
+   "section_id": "21241:5792",
+   "node_id": "21241:5732",
+   "name": "Log out",
+   "tag": "frame",
+   "w": 375,
+   "h": 812,
+   "loai": "design",
+   "hidden": false
+  },
+  {
+   "section": "Log out",
+   "section_id": "21241:5792",
+   "node_id": "21241:6223",
+   "name": "410 Setting",
+   "tag": "frame",
+   "w": 375,
+   "h": 812,
+   "loai": "design",
+   "hidden": false
+  },
+  {
+   "section": "Màn Home mới",
+   "section_id": "21722:6677",
+   "node_id": "21732:7016",
+   "name": "simulator_screenshot_0150A75F-312C-4486-AF56-6C9E234D7CF0 1",
+   "tag": "rounded-rectangle",
+   "w": 270,
+   "h": 587,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Màn Home mới",
+   "section_id": "21722:6677",
+   "node_id": "21732:7017",
+   "name": "simulator_screenshot_4AB774EC-3C5F-45D5-A160-96FFE158AF0C 1",
+   "tag": "rounded-rectangle",
+   "w": 270,
+   "h": 587,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Màn Home mới",
+   "section_id": "21722:6677",
+   "node_id": "21732:7018",
+   "name": "simulator_screenshot_1E6490A5-9BDB-4350-A206-BB49D58A7373 1",
+   "tag": "rounded-rectangle",
+   "w": 270,
+   "h": 587,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Màn Home mới",
+   "section_id": "21722:6677",
+   "node_id": "21732:7019",
+   "name": "simulator_screenshot_DC567A20-CF8C-4E0E-947C-BCBFBCE30045 1",
+   "tag": "rounded-rectangle",
+   "w": 270,
+   "h": 587,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Màn Home mới",
+   "section_id": "21722:6677",
+   "node_id": "21732:7020",
+   "name": "simulator_screenshot_BD666BB6-21C4-431D-AEBC-B83AED2EB10A 1",
+   "tag": "rounded-rectangle",
+   "w": 270,
+   "h": 587,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Màn Home mới",
+   "section_id": "21722:6677",
+   "node_id": "21732:7021",
+   "name": "simulator_screenshot_A06D6AB9-1ABF-4F10-B982-988D01CEB665 1",
+   "tag": "rounded-rectangle",
+   "w": 281,
+   "h": 611,
+   "loai": "anh",
+   "hidden": false
+  },
+  {
+   "section": "Màn Home mới",
+   "section_id": "21722:6677",
+   "node_id": "21732:7022",
+   "name": "simulator_screenshot_808AC152-1F84-4EE2-8AE7-1DFA23849C2A 1",
+   "tag": "rounded-rectangle",
+   "w": 270,
+   "h": 587,
+   "loai": "anh",
+   "hidden": false
+  }
+ ],
+ "connector_bbox": [
+  {
+   "section": "Gen fitting",
+   "node_id": "19986:5502",
+   "x": -115.0,
+   "y": 658.0,
+   "w": 393.0,
+   "h": 560.0
+  },
+  {
+   "section": "Gen fitting",
+   "node_id": "19986:5504",
+   "x": 278.0,
+   "y": -98.0,
+   "w": 488.0,
+   "h": 471.0
+  },
+  {
+   "section": "Gen fitting",
+   "node_id": "19986:5510",
+   "x": 800.0,
+   "y": 0.0,
+   "w": 454.0,
+   "h": 230.0
+  },
+  {
+   "section": "Gen fitting",
+   "node_id": "19986:5511",
+   "x": 1176.0,
+   "y": 806.0,
+   "w": 591.0,
+   "h": 416.0
+  },
+  {
+   "section": "Gen fitting",
+   "node_id": "19986:5512",
+   "x": 1990.0,
+   "y": 910.0,
+   "w": 291.0,
+   "h": 144.0
+  },
+  {
+   "section": "Gen fitting",
+   "node_id": "19986:5513",
+   "x": 2340.0,
+   "y": -39.0,
+   "w": 481.0,
+   "h": 93.0
+  },
+  {
+   "section": "Gen video",
+   "node_id": "19986:5524",
+   "x": 342.0,
+   "y": -86.0,
+   "w": 488.0,
+   "h": 112.0
+  },
+  {
+   "section": "Gen video",
+   "node_id": "19986:5526",
+   "x": 1053.0,
+   "y": -18.0,
+   "w": 265.0,
+   "h": 658.0
+  },
+  {
+   "section": "Gen video",
+   "node_id": "19986:5528",
+   "x": 1972.0,
+   "y": -18.0,
+   "w": 322.0,
+   "h": 44.0
+  },
+  {
+   "section": "Gen video",
+   "node_id": "19986:5529",
+   "x": 1541.0,
+   "y": -18.0,
+   "w": 291.0,
+   "h": 898.0
+  },
+  {
+   "section": "World Cup Edition",
+   "node_id": "19986:5531",
+   "x": 1285.0,
+   "y": 819.0,
+   "w": 338.0,
+   "h": 749.0
+  },
+  {
+   "section": "World Cup Edition",
+   "node_id": "19986:5532",
+   "x": 1846.0,
+   "y": 1435.0,
+   "w": 529.0,
+   "h": 448.0
+  },
+  {
+   "section": "World Cup Edition",
+   "node_id": "19986:5533",
+   "x": 1846.0,
+   "y": 2179.0,
+   "w": 323.0,
+   "h": 1030.0
+  },
+  {
+   "section": "World Cup Edition",
+   "node_id": "19986:5534",
+   "x": 673.0,
+   "y": 20.0,
+   "w": 389.0,
+   "h": 564.0
+  },
+  {
+   "section": "World Cup Edition",
+   "node_id": "19986:5535",
+   "x": 669.0,
+   "y": 20.0,
+   "w": 393.0,
+   "h": 564.0
+  },
+  {
+   "section": "World Cup Looks",
+   "node_id": "19989:8421",
+   "x": 360.0,
+   "y": 52.0,
+   "w": 529.0,
+   "h": 48.0
+  },
+  {
+   "section": "World Cup Looks",
+   "node_id": "19989:8461",
+   "x": 1013.0,
+   "y": 52.0,
+   "w": 320.5,
+   "h": 239.0
+  },
+  {
+   "section": "World Cup Looks",
+   "node_id": "19989:8466",
+   "x": 1273.0,
+   "y": 945.0,
+   "w": 542.0,
+   "h": 145.0
+  },
+  {
+   "section": "World Cup Looks",
+   "node_id": "19989:8476",
+   "x": 1273.0,
+   "y": 945.0,
+   "w": 542.0,
+   "h": 145.0
+  },
+  {
+   "section": "World Cup Looks",
+   "node_id": "19989:8471",
+   "x": 1815.0,
+   "y": 52.0,
+   "w": 481.0,
+   "h": 44.0
+  },
+  {
+   "section": "World Cup Looks",
+   "node_id": "19989:8492",
+   "x": 352.0,
+   "y": 1167.0,
+   "w": 482.5,
+   "h": 384.0
+  },
+  {
+   "section": "World Cup Looks",
+   "node_id": "19989:8497",
+   "x": 999.0,
+   "y": 1164.0,
+   "w": 334.5,
+   "h": 257.0
+  },
+  {
+   "section": "World Cup Looks",
+   "node_id": "19989:8502",
+   "x": 1267.0,
+   "y": 2057.0,
+   "w": 554.5,
+   "h": 135.0
+  },
+  {
+   "section": "World Cup Looks",
+   "node_id": "19989:8507",
+   "x": 2043.0,
+   "y": 1675.0,
+   "w": 261.0,
+   "h": 523.0
+  },
+  {
+   "section": "World Cup Looks",
+   "node_id": "19989:8512",
+   "x": 344.0,
+   "y": 2287.0,
+   "w": 479.0,
+   "h": 400.0
+  },
+  {
+   "section": "World Cup Looks",
+   "node_id": "19989:8517",
+   "x": 1034.0,
+   "y": 2287.0,
+   "w": 289.5,
+   "h": 496.0
+  },
+  {
+   "section": "World Cup Looks",
+   "node_id": "19989:8522",
+   "x": 1263.0,
+   "y": 3147.0,
+   "w": 527.0,
+   "h": 130.0
+  },
+  {
+   "section": "World Cup Looks",
+   "node_id": "19989:8527",
+   "x": 2000.0,
+   "y": 2287.0,
+   "w": 252.0,
+   "h": 495.0
+  },
+  {
+   "section": "World Cup Edition",
+   "node_id": "20011:8686",
+   "x": 685.0,
+   "y": 712.0,
+   "w": 211.0,
+   "h": 3372.0
+  },
+  {
+   "section": "I2V",
+   "node_id": "19989:8298",
+   "x": 1415.0,
+   "y": 505.5,
+   "w": 180.0,
+   "h": 10.5
+  },
+  {
+   "section": "I2V",
+   "node_id": "19989:8308",
+   "x": 2223.0,
+   "y": 428.0,
+   "w": 78.0,
+   "h": 306.0
+  },
+  {
+   "section": "I2V",
+   "node_id": "19989:8313",
+   "x": 2223.0,
+   "y": 428.0,
+   "w": 82.0,
+   "h": 306.0
+  },
+  {
+   "section": "I2V",
+   "node_id": "19989:8325",
+   "x": 2978.0,
+   "y": 503.0,
+   "w": 198.5,
+   "h": 399.0
+  },
+  {
+   "section": "I2V",
+   "node_id": "19989:8320",
+   "x": 2612.0,
+   "y": 790.0,
+   "w": 209.0,
+   "h": 240.0
+  },
+  {
+   "section": "I2V",
+   "node_id": "20927:453",
+   "x": 4027.0,
+   "y": 125.0,
+   "w": 269.0,
+   "h": 379.5
+  },
+  {
+   "section": "I2V",
+   "node_id": "20927:479",
+   "x": 4023.0,
+   "y": 125.0,
+   "w": 273.0,
+   "h": 379.5
+  },
+  {
+   "section": "I2V",
+   "node_id": "20927:455",
+   "x": 4416.0,
+   "y": 119.0,
+   "w": 305.5,
+   "h": 157.0
+  },
+  {
+   "section": "I2V",
+   "node_id": "20927:469",
+   "x": 3632.0,
+   "y": 130.0,
+   "w": 239.0,
+   "h": 141.0
+  },
+  {
+   "section": "I2V",
+   "node_id": "20927:474",
+   "x": 4830.0,
+   "y": 119.0,
+   "w": 344.0,
+   "h": 582.0
+  },
+  {
+   "section": "I2V",
+   "node_id": "19989:8363",
+   "x": 5290.0,
+   "y": 247.0,
+   "w": 133.0,
+   "h": 258.5
+  },
+  {
+   "section": "Enhance",
+   "node_id": "20053:8750",
+   "x": 1304.0,
+   "y": 121.0,
+   "w": 254.5,
+   "h": 392.0
+  },
+  {
+   "section": "Enhance",
+   "node_id": "20053:8758",
+   "x": 1664.0,
+   "y": 119.0,
+   "w": 241.0,
+   "h": 246.0
+  },
+  {
+   "section": "Enhance",
+   "node_id": "20053:8763",
+   "x": 1905.0,
+   "y": 113.0,
+   "w": 397.5,
+   "h": 300.0
+  },
+  {
+   "section": "Enhance",
+   "node_id": "20053:8768",
+   "x": 2380.0,
+   "y": 113.0,
+   "w": 320.0,
+   "h": 51.0
+  },
+  {
+   "section": "Enhance",
+   "node_id": "20053:8788",
+   "x": 4900.0,
+   "y": 114.0,
+   "w": 285.5,
+   "h": 112.0
+  },
+  {
+   "section": "Enhance",
+   "node_id": "20053:8783",
+   "x": 3668.0,
+   "y": 114.0,
+   "w": 266.0,
+   "h": 381.0
+  },
+  {
+   "section": "Enhance",
+   "node_id": "20927:504",
+   "x": 2794.0,
+   "y": 114.0,
+   "w": 312.5,
+   "h": 489.0
+  },
+  {
+   "section": "Enhance",
+   "node_id": "20927:509",
+   "x": 3222.0,
+   "y": 114.0,
+   "w": 291.0,
+   "h": 161.0
+  },
+  {
+   "section": "Enhance",
+   "node_id": "20927:494",
+   "x": 4046.0,
+   "y": 114.0,
+   "w": 313.5,
+   "h": 153.0
+  },
+  {
+   "section": "Enhance",
+   "node_id": "20927:499",
+   "x": 4460.0,
+   "y": 114.0,
+   "w": 327.5,
+   "h": 581.0
+  },
+  {
+   "section": "I2I",
+   "node_id": "20011:8554",
+   "x": 1364.0,
+   "y": 840.0,
+   "w": 198.0,
+   "h": 388.0
+  },
+  {
+   "section": "I2I",
+   "node_id": "20011:8564",
+   "x": 1493.0,
+   "y": 876.0,
+   "w": 421.5,
+   "h": 656.0
+  },
+  {
+   "section": "I2I",
+   "node_id": "20011:8565",
+   "x": 1635.0,
+   "y": 525.0,
+   "w": 116.0,
+   "h": 935.0
+  },
+  {
+   "section": "I2I",
+   "node_id": "20011:8566",
+   "x": 2063.0,
+   "y": 150.0,
+   "w": 199.0,
+   "h": 566.0
+  },
+  {
+   "section": "I2I",
+   "node_id": "20011:8567",
+   "x": 2419.0,
+   "y": 354.0,
+   "w": 223.5,
+   "h": 560.0
+  },
+  {
+   "section": "I2I",
+   "node_id": "20011:8569",
+   "x": 2642.5,
+   "y": 869.0,
+   "w": 354.5,
+   "h": 583.0
+  },
+  {
+   "section": "I2I",
+   "node_id": "20011:8572",
+   "x": 2011.0,
+   "y": 878.0,
+   "w": 254.0,
+   "h": 472.0
+  },
+  {
+   "section": "I2I",
+   "node_id": "20011:8574",
+   "x": 1562.0,
+   "y": 1444.0,
+   "w": 2880.0,
+   "h": 236.0
+  },
+  {
+   "section": "I2I",
+   "node_id": "20011:8576",
+   "x": 4612.0,
+   "y": 516.0,
+   "w": 117.0,
+   "h": 464.0
+  },
+  {
+   "section": "I2I",
+   "node_id": "20011:8578",
+   "x": 4614.0,
+   "y": 1418.0,
+   "w": 114.84342956542969,
+   "h": 6.009217739105225
+  },
+  {
+   "section": "I2I",
+   "node_id": "20923:638",
+   "x": 3124.0,
+   "y": 869.0,
+   "w": 226.0,
+   "h": 151.0
+  },
+  {
+   "section": "I2I",
+   "node_id": "20923:648",
+   "x": 3505.0,
+   "y": 869.0,
+   "w": 199.0,
+   "h": 374.0
+  },
+  {
+   "section": "I2I",
+   "node_id": "20923:643",
+   "x": 3824.0,
+   "y": 862.0,
+   "w": 276.5,
+   "h": 152.0
+  },
+  {
+   "section": "I2I",
+   "node_id": "20923:656",
+   "x": 4184.0,
+   "y": 862.0,
+   "w": 310.0,
+   "h": 598.0
+  },
+  {
+   "section": "(ngoài section)",
+   "node_id": "20011:8669",
+   "x": -3500.0,
+   "y": -6359.0,
+   "w": 295.0,
+   "h": 227.87823486328125
+  },
+  {
+   "section": "(ngoài section)",
+   "node_id": "20011:8670",
+   "x": -3500.0,
+   "y": -6049.0458984375,
+   "w": 107.0,
+   "h": 940.7393188476562
+  },
+  {
+   "section": "(ngoài section)",
+   "node_id": "20011:8681",
+   "x": -3990.0,
+   "y": -6228.0,
+   "w": 117.0,
+   "h": 0.0
+  },
+  {
+   "section": "Motion Control",
+   "node_id": "20441:1670",
+   "x": 7522.0,
+   "y": 220.0,
+   "w": 1395.0,
+   "h": 1952.0
+  },
+  {
+   "section": "Motion Control",
+   "node_id": "20441:1713",
+   "x": 794.0,
+   "y": 4996.0,
+   "w": 1015.0,
+   "h": 1172.0
+  },
+  {
+   "section": "Motion Control",
+   "node_id": "20441:1715",
+   "x": 1335.0,
+   "y": 5144.0,
+   "w": 1103.0,
+   "h": 2121.0
+  },
+  {
+   "section": "Motion Control",
+   "node_id": "20441:1717",
+   "x": 2727.0,
+   "y": 6311.0,
+   "w": 1227.0,
+   "h": 1833.0
+  },
+  {
+   "section": "Motion Control",
+   "node_id": "20441:1718",
+   "x": 3663.0,
+   "y": 1772.0,
+   "w": 2964.0,
+   "h": 3972.0
+  },
+  {
+   "section": "Motion Control",
+   "node_id": "20441:1719",
+   "x": 4351.0,
+   "y": 3576.0,
+   "w": 4272.0,
+   "h": 1776.0
+  },
+  {
+   "section": "Motion Control",
+   "node_id": "20441:1720",
+   "x": 4271.0,
+   "y": 3368.0,
+   "w": 4644.0,
+   "h": 1192.0
+  },
+  {
+   "section": "Motion Control",
+   "node_id": "20441:1721",
+   "x": 2735.0,
+   "y": 3637.0,
+   "w": 1219.0,
+   "h": 2435.0
+  },
+  {
+   "section": "Motion Control",
+   "node_id": "20441:1723",
+   "x": 9319.0,
+   "y": 3368.0,
+   "w": 1378.0,
+   "h": 968.0
+  },
+  {
+   "section": "Motion Control",
+   "node_id": "20441:1729",
+   "x": 14719.0,
+   "y": 1772.0,
+   "w": 5080.0,
+   "h": 3868.0
+  },
+  {
+   "section": "Motion Control",
+   "node_id": "20441:1731",
+   "x": 12583.0,
+   "y": 6311.0,
+   "w": 1472.0,
+   "h": 6305.0
+  },
+  {
+   "section": "Motion Control",
+   "node_id": "20441:1732",
+   "x": 12334.0,
+   "y": 3976.0,
+   "w": 1250.0,
+   "h": 3095.0
+  },
+  {
+   "section": "Motion Control",
+   "node_id": "20441:1733",
+   "x": 12928.0,
+   "y": 5472.0,
+   "w": 2095.0,
+   "h": 6107.5
+  },
+  {
+   "section": "Motion Control",
+   "node_id": "20441:1734",
+   "x": 4231.0,
+   "y": 6311.0,
+   "w": 7664.0,
+   "h": 4249.0
+  },
+  {
+   "section": "Motion Control",
+   "node_id": "20441:1735",
+   "x": 10527.0,
+   "y": 6311.0,
+   "w": 1807.0,
+   "h": 2489.0
+  },
+  {
+   "section": "Motion Control",
+   "node_id": "20441:1727",
+   "x": 18171.0,
+   "y": 3176.0,
+   "w": 1285.0,
+   "h": 1785.0
+  },
+  {
+   "section": "Motion Control",
+   "node_id": "20441:1725",
+   "x": 10951.0,
+   "y": 3176.0,
+   "w": 1456.0,
+   "h": 2864.0
+  },
+  {
+   "section": "Motion Control",
+   "node_id": "20927:537",
+   "x": 12847.0,
+   "y": 3406.5,
+   "w": 1208.0,
+   "h": 674.5
+  },
+  {
+   "section": "Motion Control",
+   "node_id": "20927:542",
+   "x": 16458.0,
+   "y": 3410.0,
+   "w": 1090.0,
+   "h": 698.5
+  },
+  {
+   "section": "Motion Control",
+   "node_id": "20927:552",
+   "x": 14662.0,
+   "y": 3410.0,
+   "w": 1308.0,
+   "h": 1559.0
+  },
+  {
+   "section": "Rating us",
+   "node_id": "20622:487",
+   "x": 5651.0,
+   "y": 2230.0,
+   "w": 570.0,
+   "h": 744.5
+  },
+  {
+   "section": "Rating us",
+   "node_id": "20622:488",
+   "x": 5325.5,
+   "y": 3676.0,
+   "w": 570.5,
+   "h": 881.5
+  },
+  {
+   "section": "Rating us",
+   "node_id": "20622:489",
+   "x": 5492.01611328125,
+   "y": 2230.0,
+   "w": 728.9837646484375,
+   "h": 867.853515625
+  },
+  {
+   "section": "Rating us",
+   "node_id": "20622:491",
+   "x": 6546.0,
+   "y": 2230.0,
+   "w": 675.5,
+   "h": 744.5
+  },
+  {
+   "section": "Rating us",
+   "node_id": "20622:492",
+   "x": 7453.0,
+   "y": 2230.0,
+   "w": 876.5,
+   "h": 792.0
+  },
+  {
+   "section": "Rating us",
+   "node_id": "20622:494",
+   "x": 6546.0,
+   "y": 4448.0,
+   "w": 611.0,
+   "h": 109.5
+  },
+  {
+   "section": "Rating us",
+   "node_id": "20622:520",
+   "x": 5629.0,
+   "y": 5474.0,
+   "w": 592.0,
+   "h": 794.5
+  },
+  {
+   "section": "Rating us",
+   "node_id": "20622:521",
+   "x": 6551.0,
+   "y": 5474.0,
+   "w": 592.0,
+   "h": 794.5
+  },
+  {
+   "section": "Rating us",
+   "node_id": "20622:522",
+   "x": 7473.0,
+   "y": 5474.0,
+   "w": 600.0,
+   "h": 794.5
+  },
+  {
+   "section": "Rating us",
+   "node_id": "20622:523",
+   "x": 8411.0,
+   "y": 5474.0,
+   "w": 573.0,
+   "h": 811.5
+  },
+  {
+   "section": "Rating us",
+   "node_id": "20622:526",
+   "x": 5662.0,
+   "y": 589.0,
+   "w": 544.5,
+   "h": 188.85426330566406
+  },
+  {
+   "section": "Restore + Remove Object",
+   "node_id": "20670:589",
+   "x": 983.0,
+   "y": 5928.0,
+   "w": 1746.0,
+   "h": 336.0
+  },
+  {
+   "section": "Restore + Remove Object",
+   "node_id": "20670:658",
+   "x": 7606.0,
+   "y": 9449.0,
+   "w": 2066.0,
+   "h": 743.0
+  },
+  {
+   "section": "Restore + Remove Object",
+   "node_id": "20670:678",
+   "x": 9672.0,
+   "y": 11824.0,
+   "w": 5982.0,
+   "h": 536.0
+  },
+  {
+   "section": "Restore + Remove Object",
+   "node_id": "20670:594",
+   "x": 3103.0,
+   "y": 3328.0,
+   "w": 1385.0,
+   "h": 992.0
+  },
+  {
+   "section": "Restore + Remove Object",
+   "node_id": "20670:647",
+   "x": 3127.0,
+   "y": 4896.0,
+   "w": 1361.0,
+   "h": 4597.0
+  },
+  {
+   "section": "Restore + Remove Object",
+   "node_id": "20670:652",
+   "x": 4488.0,
+   "y": 9449.0,
+   "w": 1721.5,
+   "h": 823.0
+  },
+  {
+   "section": "Restore + Remove Object",
+   "node_id": "20670:685",
+   "x": 6825.0,
+   "y": 9449.0,
+   "w": 1209.0,
+   "h": 1359.0
+  },
+  {
+   "section": "Restore + Remove Object",
+   "node_id": "20670:599",
+   "x": 4719.0,
+   "y": 3344.0,
+   "w": 1490.5,
+   "h": 832.0
+  },
+  {
+   "section": "Restore + Remove Object",
+   "node_id": "20670:606",
+   "x": 6825.0,
+   "y": 3344.0,
+   "w": 990.0,
+   "h": 1424.0
+  },
+  {
+   "section": "Restore + Remove Object",
+   "node_id": "20670:611",
+   "x": 7543.0,
+   "y": 3344.0,
+   "w": 2015.0,
+   "h": 704.0
+  },
+  {
+   "section": "Restore + Remove Object",
+   "node_id": "20670:622",
+   "x": 11810.0,
+   "y": 3344.0,
+   "w": 898.0,
+   "h": 1424.0
+  },
+  {
+   "section": "Restore + Remove Object",
+   "node_id": "20670:616",
+   "x": 9558.0,
+   "y": 4768.0,
+   "w": 1038.0,
+   "h": 1056.0
+  },
+  {
+   "section": "Restore + Remove Object",
+   "node_id": "20670:691",
+   "x": 16311.0,
+   "y": 3360.0,
+   "w": 1248.0,
+   "h": 368.0
+  },
+  {
+   "section": "Restore + Remove Object",
+   "node_id": "20670:696",
+   "x": 15858.0,
+   "y": 5784.0,
+   "w": 1429.0,
+   "h": 712.0
+  },
+  {
+   "section": "Restore + Remove Object",
+   "node_id": "20927:582",
+   "x": 12708.0,
+   "y": 3020.0,
+   "w": 819.0,
+   "h": 2780.0
+  },
+  {
+   "section": "Restore + Remove Object",
+   "node_id": "20927:587",
+   "x": 13183.0,
+   "y": 784.0,
+   "w": 1170.0,
+   "h": 2669.0
+  },
+  {
+   "section": "Restore + Remove Object",
+   "node_id": "20670:637",
+   "x": 14960.0,
+   "y": 1704.5,
+   "w": 311.0,
+   "h": 3063.5
+  },
+  {
+   "section": "Restore + Remove Object",
+   "node_id": "20927:564",
+   "x": 16377.0,
+   "y": 115.0,
+   "w": 1090.0,
+   "h": 698.5
+  },
+  {
+   "section": "Restore + Remove Object",
+   "node_id": "20927:592",
+   "x": 15858.0,
+   "y": 1704.5,
+   "w": 2276.0,
+   "h": 1748.5
+  },
+  {
+   "section": "Restore + Remove Object",
+   "node_id": "20927:599",
+   "x": 10031.0,
+   "y": 7772.0,
+   "w": 604.0,
+   "h": 4068.0
+  },
+  {
+   "section": "Restore + Remove Object",
+   "node_id": "20927:604",
+   "x": 11270.0,
+   "y": 6856.0,
+   "w": 785.0,
+   "h": 2605.0
+  },
+  {
+   "section": "Restore + Remove Object",
+   "node_id": "20670:673",
+   "x": 11877.0,
+   "y": 9433.0,
+   "w": 922.0,
+   "h": 2327.0
+  },
+  {
+   "section": "Restore + Remove Object",
+   "node_id": "20927:612",
+   "x": 13303.0,
+   "y": 9360.0,
+   "w": 1101.0,
+   "h": 480.0
+  },
+  {
+   "section": "Restore + Remove Object",
+   "node_id": "20927:617",
+   "x": 15027.0,
+   "y": 9360.0,
+   "w": 934.0,
+   "h": 1416.0
+  },
+  {
+   "section": "New subcription",
+   "node_id": "20927:5521",
+   "x": 2351.0,
+   "y": 46.0,
+   "w": 248.5,
+   "h": 827.0
+  },
+  {
+   "section": "New subcription",
+   "node_id": "20927:5662",
+   "x": 1115.0,
+   "y": 376.0,
+   "w": 470.0,
+   "h": 1049.693603515625
+  },
+  {
+   "section": "New subcription",
+   "node_id": "20927:5664",
+   "x": 1898.0,
+   "y": 46.0,
+   "w": 276.5,
+   "h": 534.0
+  },
+  {
+   "section": "New subcription",
+   "node_id": "20927:5665",
+   "x": 2347.0,
+   "y": 46.0,
+   "w": 252.5,
+   "h": 827.0
+  },
+  {
+   "section": "New subcription",
+   "node_id": "20927:5699",
+   "x": 1021.0,
+   "y": 89.0,
+   "w": 717.5,
+   "h": 105.0
+  },
+  {
+   "section": "New subcription",
+   "node_id": "21241:6077",
+   "x": 1021.0,
+   "y": 89.0,
+   "w": 717.5,
+   "h": 105.0
+  },
+  {
+   "section": "Log out",
+   "node_id": "21241:6506",
+   "x": 530.0,
+   "y": 322.0,
+   "w": 414.5,
+   "h": 371.0
+  },
+  {
+   "section": "Màn Home mới",
+   "node_id": "21732:7023",
+   "x": 252.0,
+   "y": 26.0,
+   "w": 433.0,
+   "h": 315.0
+  },
+  {
+   "section": "Màn Home mới",
+   "node_id": "21732:7043",
+   "x": 59.0,
+   "y": 621.0,
+   "w": 217.0,
+   "h": 1158.5
+  },
+  {
+   "section": "Màn Home mới",
+   "node_id": "21732:7048",
+   "x": 337.0,
+   "y": 622.0,
+   "w": 195.0,
+   "h": 1869.5
+  },
+  {
+   "section": "Màn Home mới",
+   "node_id": "21732:7028",
+   "x": 722.0,
+   "y": 26.0,
+   "w": 349.0,
+   "h": 155.0
+  },
+  {
+   "section": "Màn Home mới",
+   "node_id": "21732:7033",
+   "x": 1162.0,
+   "y": 26.0,
+   "w": 295.0,
+   "h": 155.0
+  },
+  {
+   "section": "Màn Home mới",
+   "node_id": "21732:7038",
+   "x": 438.0,
+   "y": 176.0,
+   "w": 926.0,
+   "h": 891.5
+  }
+ ]
+}

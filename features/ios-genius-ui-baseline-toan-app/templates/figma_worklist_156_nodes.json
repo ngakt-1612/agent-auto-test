@@ -1,0 +1,1562 @@
+[
+ {
+  "node_id": "19986:5498",
+  "section": "World Cup Edition",
+  "dir": "World-Cup-Edition",
+  "file": "01_19986-5498_simulator-screenshot-A182A5D2-E364-4218-9FC0.png",
+  "loai": "anh",
+  "w": 438,
+  "h": 952,
+  "name": "simulator_screenshot_A182A5D2-E364-4218-9FC0-58A95A1C5631 1"
+ },
+ {
+  "node_id": "19986:5499",
+  "section": "World Cup Edition",
+  "dir": "World-Cup-Edition",
+  "file": "02_19986-5499_simulator-screenshot-3C893D82-8738-4BD3-BEC5.png",
+  "loai": "anh",
+  "w": 438,
+  "h": 952,
+  "name": "simulator_screenshot_3C893D82-8738-4BD3-BEC5-1FB43B31A2F3 1"
+ },
+ {
+  "node_id": "19986:5501",
+  "section": "Gen fitting",
+  "dir": "Gen-fitting",
+  "file": "01_19986-5501_simulator-screenshot-4AA8DFA6-882F-4227-9569.png",
+  "loai": "anh",
+  "w": 438,
+  "h": 952,
+  "name": "simulator_screenshot_4AA8DFA6-882F-4227-9569-AAB0A565D43E 1"
+ },
+ {
+  "node_id": "19986:5503",
+  "section": "Gen fitting",
+  "dir": "Gen-fitting",
+  "file": "02_19986-5503_simulator-screenshot-C9C2EA5A-216F-498A-9FEE.png",
+  "loai": "anh",
+  "w": 438,
+  "h": 952,
+  "name": "simulator_screenshot_C9C2EA5A-216F-498A-9FEE-B278D0BCF6F0 1"
+ },
+ {
+  "node_id": "19986:5505",
+  "section": "Gen fitting",
+  "dir": "Gen-fitting",
+  "file": "03_19986-5505_simulator-screenshot-C010417E-AB81-4CD9-A43A.png",
+  "loai": "anh",
+  "w": 438,
+  "h": 952,
+  "name": "simulator_screenshot_C010417E-AB81-4CD9-A43A-4BC53FEEDE51 1"
+ },
+ {
+  "node_id": "19986:5507",
+  "section": "Gen fitting",
+  "dir": "Gen-fitting",
+  "file": "04_19986-5507_image-4.png",
+  "loai": "anh",
+  "w": 438,
+  "h": 948,
+  "name": "image 4"
+ },
+ {
+  "node_id": "19986:5508",
+  "section": "Gen fitting",
+  "dir": "Gen-fitting",
+  "file": "05_19986-5508_image-5.png",
+  "loai": "anh",
+  "w": 438,
+  "h": 948,
+  "name": "image 5"
+ },
+ {
+  "node_id": "19986:5509",
+  "section": "Gen fitting",
+  "dir": "Gen-fitting",
+  "file": "06_19986-5509_image-12.png",
+  "loai": "anh",
+  "w": 438,
+  "h": 948,
+  "name": "image 12"
+ },
+ {
+  "node_id": "19986:5515",
+  "section": "Gen ảnh",
+  "dir": "Gen-anh",
+  "file": "01_19986-5515_image-14.png",
+  "loai": "anh",
+  "w": 438,
+  "h": 948,
+  "name": "image 14"
+ },
+ {
+  "node_id": "19986:5516",
+  "section": "Gen ảnh",
+  "dir": "Gen-anh",
+  "file": "02_19986-5516_image-9.png",
+  "loai": "anh",
+  "w": 438,
+  "h": 948,
+  "name": "image 9"
+ },
+ {
+  "node_id": "19986:5517",
+  "section": "Gen ảnh",
+  "dir": "Gen-anh",
+  "file": "03_19986-5517_image-15.png",
+  "loai": "anh",
+  "w": 438,
+  "h": 948,
+  "name": "image 15"
+ },
+ {
+  "node_id": "19986:5518",
+  "section": "Gen ảnh",
+  "dir": "Gen-anh",
+  "file": "04_19986-5518_image-12.png",
+  "loai": "anh",
+  "w": 438,
+  "h": 948,
+  "name": "image 12"
+ },
+ {
+  "node_id": "19986:5519",
+  "section": "Gen ảnh",
+  "dir": "Gen-anh",
+  "file": "05_19986-5519_image-8.png",
+  "loai": "anh",
+  "w": 438,
+  "h": 948,
+  "name": "image 8"
+ },
+ {
+  "node_id": "19986:5521",
+  "section": "Gen video",
+  "dir": "Gen-video",
+  "file": "01_19986-5521_image-6.png",
+  "loai": "anh",
+  "w": 438,
+  "h": 948,
+  "name": "image 6"
+ },
+ {
+  "node_id": "19986:5522",
+  "section": "Gen video",
+  "dir": "Gen-video",
+  "file": "02_19986-5522_image-7.png",
+  "loai": "anh",
+  "w": 438,
+  "h": 948,
+  "name": "image 7"
+ },
+ {
+  "node_id": "19986:5523",
+  "section": "Gen video",
+  "dir": "Gen-video",
+  "file": "03_19986-5523_image-10.png",
+  "loai": "anh",
+  "w": 438,
+  "h": 948,
+  "name": "image 10"
+ },
+ {
+  "node_id": "19986:5525",
+  "section": "Gen video",
+  "dir": "Gen-video",
+  "file": "04_19986-5525_image-13.png",
+  "loai": "anh",
+  "w": 438,
+  "h": 948,
+  "name": "image 13"
+ },
+ {
+  "node_id": "19986:5527",
+  "section": "Gen video",
+  "dir": "Gen-video",
+  "file": "05_19986-5527_image-11.png",
+  "loai": "anh",
+  "w": 438,
+  "h": 948,
+  "name": "image 11"
+ },
+ {
+  "node_id": "19986:5530",
+  "section": "World Cup Edition",
+  "dir": "World-Cup-Edition",
+  "file": "03_19986-5530_simulator-screenshot-54A77B32-B5CA-4DBA-8673.png",
+  "loai": "anh",
+  "w": 438,
+  "h": 952,
+  "name": "simulator_screenshot_54A77B32-B5CA-4DBA-8673-29E738F1EE0D 1"
+ },
+ {
+  "node_id": "19986:5547",
+  "section": "World Cup Looks",
+  "dir": "World-Cup-Looks",
+  "file": "01_19986-5547_simulator-screenshot-CE555D07-8038-4B9D-9AC1.png",
+  "loai": "anh",
+  "w": 438,
+  "h": 952,
+  "name": "simulator_screenshot_CE555D07-8038-4B9D-9AC1-4837BD125C20 1"
+ },
+ {
+  "node_id": "19989:8432",
+  "section": "World Cup Looks",
+  "dir": "World-Cup-Looks",
+  "file": "02_19989-8432_image-13747.png",
+  "loai": "anh",
+  "w": 435,
+  "h": 938,
+  "name": "image 13747"
+ },
+ {
+  "node_id": "19989:8435",
+  "section": "World Cup Looks",
+  "dir": "World-Cup-Looks",
+  "file": "03_19989-8435_image-13748.png",
+  "loai": "anh",
+  "w": 437,
+  "h": 945,
+  "name": "image 13748"
+ },
+ {
+  "node_id": "19989:8444",
+  "section": "World Cup Looks",
+  "dir": "World-Cup-Looks",
+  "file": "04_19989-8444_image-13751.png",
+  "loai": "anh",
+  "w": 440,
+  "h": 942,
+  "name": "image 13751"
+ },
+ {
+  "node_id": "19989:8447",
+  "section": "World Cup Looks",
+  "dir": "World-Cup-Looks",
+  "file": "05_19989-8447_image-13752.png",
+  "loai": "anh",
+  "w": 438,
+  "h": 947,
+  "name": "image 13752"
+ },
+ {
+  "node_id": "19989:8484",
+  "section": "World Cup Looks",
+  "dir": "World-Cup-Looks",
+  "file": "06_19989-8484_image-13753.png",
+  "loai": "anh",
+  "w": 437,
+  "h": 945,
+  "name": "image 13753"
+ },
+ {
+  "node_id": "19989:8486",
+  "section": "World Cup Looks",
+  "dir": "World-Cup-Looks",
+  "file": "07_19989-8486_image-13758.png",
+  "loai": "anh",
+  "w": 414,
+  "h": 896,
+  "name": "image 13758"
+ },
+ {
+  "node_id": "19989:8482",
+  "section": "World Cup Looks",
+  "dir": "World-Cup-Looks",
+  "file": "08_19989-8482_image-13757.png",
+  "loai": "anh",
+  "w": 428,
+  "h": 935,
+  "name": "image 13757"
+ },
+ {
+  "node_id": "19989:8438",
+  "section": "World Cup Looks",
+  "dir": "World-Cup-Looks",
+  "file": "09_19989-8438_image-13749.png",
+  "loai": "anh",
+  "w": 441,
+  "h": 938,
+  "name": "image 13749"
+ },
+ {
+  "node_id": "19989:8441",
+  "section": "World Cup Looks",
+  "dir": "World-Cup-Looks",
+  "file": "10_19989-8441_image-13750.png",
+  "loai": "anh",
+  "w": 421,
+  "h": 896,
+  "name": "image 13750"
+ },
+ {
+  "node_id": "19989:8450",
+  "section": "World Cup Looks",
+  "dir": "World-Cup-Looks",
+  "file": "11_19989-8450_image-13753.png",
+  "loai": "anh",
+  "w": 435,
+  "h": 938,
+  "name": "image 13753"
+ },
+ {
+  "node_id": "19989:8453",
+  "section": "World Cup Looks",
+  "dir": "World-Cup-Looks",
+  "file": "12_19989-8453_image-13754.png",
+  "loai": "anh",
+  "w": 430,
+  "h": 925,
+  "name": "image 13754"
+ },
+ {
+  "node_id": "19989:8456",
+  "section": "World Cup Looks",
+  "dir": "World-Cup-Looks",
+  "file": "13_19989-8456_image-13755.png",
+  "loai": "anh",
+  "w": 412,
+  "h": 894,
+  "name": "image 13755"
+ },
+ {
+  "node_id": "19989:8459",
+  "section": "World Cup Looks",
+  "dir": "World-Cup-Looks",
+  "file": "14_19989-8459_image-13756.png",
+  "loai": "anh",
+  "w": 412,
+  "h": 894,
+  "name": "image 13756"
+ },
+ {
+  "node_id": "19989:8489",
+  "section": "World Cup Looks",
+  "dir": "World-Cup-Looks",
+  "file": "15_19989-8489_image-13759.png",
+  "loai": "anh",
+  "w": 412,
+  "h": 894,
+  "name": "image 13759"
+ },
+ {
+  "node_id": "19986:5552",
+  "section": "Thumb",
+  "dir": "Thumb",
+  "file": "01_19986-5552_Animation-1.png",
+  "loai": "anh",
+  "w": 628,
+  "h": 1357,
+  "name": "Animation 1"
+ },
+ {
+  "node_id": "19989:7002",
+  "section": "I2V",
+  "dir": "I2V",
+  "file": "01_19989-7002_image-23.png",
+  "loai": "anh",
+  "w": 303,
+  "h": 655,
+  "name": "image 23"
+ },
+ {
+  "node_id": "19989:8318",
+  "section": "I2V",
+  "dir": "I2V",
+  "file": "02_19989-8318_image-13740.png",
+  "loai": "anh",
+  "w": 306,
+  "h": 654,
+  "name": "image 13740"
+ },
+ {
+  "node_id": "19989:7035",
+  "section": "I2V",
+  "dir": "I2V",
+  "file": "03_19989-7035_image-34.png",
+  "loai": "anh",
+  "w": 303,
+  "h": 653,
+  "name": "image 34"
+ },
+ {
+  "node_id": "19989:7038",
+  "section": "I2V",
+  "dir": "I2V",
+  "file": "04_19989-7038_image-35.png",
+  "loai": "anh",
+  "w": 303,
+  "h": 653,
+  "name": "image 35"
+ },
+ {
+  "node_id": "19989:7041",
+  "section": "I2V",
+  "dir": "I2V",
+  "file": "05_19989-7041_image-36.png",
+  "loai": "anh",
+  "w": 303,
+  "h": 651,
+  "name": "image 36"
+ },
+ {
+  "node_id": "19989:7044",
+  "section": "I2V",
+  "dir": "I2V",
+  "file": "06_19989-7044_image-37.png",
+  "loai": "anh",
+  "w": 305,
+  "h": 653,
+  "name": "image 37"
+ },
+ {
+  "node_id": "19989:8336",
+  "section": "I2V",
+  "dir": "I2V",
+  "file": "07_19989-8336_image-13741.png",
+  "loai": "anh",
+  "w": 304,
+  "h": 653,
+  "name": "image 13741"
+ },
+ {
+  "node_id": "20927:452",
+  "section": "I2V",
+  "dir": "I2V",
+  "file": "08_20927-452_image-13767.png",
+  "loai": "anh",
+  "w": 306,
+  "h": 648,
+  "name": "image 13767"
+ },
+ {
+  "node_id": "20927:454",
+  "section": "I2V",
+  "dir": "I2V",
+  "file": "09_20927-454_image-13768.png",
+  "loai": "anh",
+  "w": 303,
+  "h": 642,
+  "name": "image 13768"
+ },
+ {
+  "node_id": "20927:486",
+  "section": "I2V",
+  "dir": "I2V",
+  "file": "10_20927-486_image-13769.png",
+  "loai": "anh",
+  "w": 306,
+  "h": 648,
+  "name": "image 13769"
+ },
+ {
+  "node_id": "20927:487",
+  "section": "I2V",
+  "dir": "I2V",
+  "file": "11_20927-487_image-13770.png",
+  "loai": "anh",
+  "w": 303,
+  "h": 642,
+  "name": "image 13770"
+ },
+ {
+  "node_id": "20927:450",
+  "section": "I2V",
+  "dir": "I2V",
+  "file": "12_20927-450_image-13766.png",
+  "loai": "anh",
+  "w": 307,
+  "h": 652,
+  "name": "image 13766"
+ },
+ {
+  "node_id": "19989:8339",
+  "section": "I2V",
+  "dir": "I2V",
+  "file": "13_19989-8339_image-13742.png",
+  "loai": "anh",
+  "w": 304,
+  "h": 651,
+  "name": "image 13742"
+ },
+ {
+  "node_id": "19989:8345",
+  "section": "I2V",
+  "dir": "I2V",
+  "file": "14_19989-8345_image-13744.png",
+  "loai": "anh",
+  "w": 304,
+  "h": 649,
+  "name": "image 13744"
+ },
+ {
+  "node_id": "20053:8741",
+  "section": "Enhance",
+  "dir": "Enhance",
+  "file": "01_20053-8741_42161C54-F2CC-4139-93AD-CAE013423D6D-1.png",
+  "loai": "anh",
+  "w": 303,
+  "h": 655,
+  "name": "42161C54-F2CC-4139-93AD-CAE013423D6D 1"
+ },
+ {
+  "node_id": "20053:8742",
+  "section": "Enhance",
+  "dir": "Enhance",
+  "file": "02_20053-8742_A8B1B613-08D4-4698-9CA5-CA5F6315667C-1.png",
+  "loai": "anh",
+  "w": 302,
+  "h": 653,
+  "name": "A8B1B613-08D4-4698-9CA5-CA5F6315667C 1"
+ },
+ {
+  "node_id": "20053:8743",
+  "section": "Enhance",
+  "dir": "Enhance",
+  "file": "03_20053-8743_482C8EB2-0258-48A4-A7C2-EFBD1B229701-1.png",
+  "loai": "anh",
+  "w": 303,
+  "h": 655,
+  "name": "482C8EB2-0258-48A4-A7C2-EFBD1B229701 1"
+ },
+ {
+  "node_id": "20053:8744",
+  "section": "Enhance",
+  "dir": "Enhance",
+  "file": "04_20053-8744_F28E51D1-E2AE-4710-8DC0-0C4A3FACDD1A-1.png",
+  "loai": "anh",
+  "w": 302,
+  "h": 654,
+  "name": "F28E51D1-E2AE-4710-8DC0-0C4A3FACDD1A 1"
+ },
+ {
+  "node_id": "20053:8745",
+  "section": "Enhance",
+  "dir": "Enhance",
+  "file": "05_20053-8745_153DCE42-455A-4A28-B435-D0193213A352-1.png",
+  "loai": "anh",
+  "w": 302,
+  "h": 654,
+  "name": "153DCE42-455A-4A28-B435-D0193213A352 1"
+ },
+ {
+  "node_id": "20053:8746",
+  "section": "Enhance",
+  "dir": "Enhance",
+  "file": "06_20053-8746_1529F81A-9CE8-4C48-860D-C1770118913E-1.png",
+  "loai": "anh",
+  "w": 305,
+  "h": 660,
+  "name": "1529F81A-9CE8-4C48-860D-C1770118913E 1"
+ },
+ {
+  "node_id": "20053:8756",
+  "section": "Enhance",
+  "dir": "Enhance",
+  "file": "07_20053-8756_F4337A0D-0CEF-4705-904A-1549C802B5DC-1.png",
+  "loai": "anh",
+  "w": 301,
+  "h": 651,
+  "name": "F4337A0D-0CEF-4705-904A-1549C802B5DC 1"
+ },
+ {
+  "node_id": "20053:8757",
+  "section": "Enhance",
+  "dir": "Enhance",
+  "file": "08_20053-8757_A05665E1-88EC-40EE-B728-FEEBD1BB7FF1-2.png",
+  "loai": "anh",
+  "w": 302,
+  "h": 654,
+  "name": "A05665E1-88EC-40EE-B728-FEEBD1BB7FF1 2"
+ },
+ {
+  "node_id": "20927:484",
+  "section": "Enhance",
+  "dir": "Enhance",
+  "file": "09_20927-484_image-13766.png",
+  "loai": "anh",
+  "w": 307,
+  "h": 652,
+  "name": "image 13766"
+ },
+ {
+  "node_id": "20927:489",
+  "section": "Enhance",
+  "dir": "Enhance",
+  "file": "10_20927-489_image-13767.png",
+  "loai": "anh",
+  "w": 306,
+  "h": 648,
+  "name": "image 13767"
+ },
+ {
+  "node_id": "20927:490",
+  "section": "Enhance",
+  "dir": "Enhance",
+  "file": "11_20927-490_image-13768.png",
+  "loai": "anh",
+  "w": 303,
+  "h": 642,
+  "name": "image 13768"
+ },
+ {
+  "node_id": "20927:491",
+  "section": "Enhance",
+  "dir": "Enhance",
+  "file": "12_20927-491_image-13769.png",
+  "loai": "anh",
+  "w": 306,
+  "h": 648,
+  "name": "image 13769"
+ },
+ {
+  "node_id": "20927:492",
+  "section": "Enhance",
+  "dir": "Enhance",
+  "file": "13_20927-492_image-13770.png",
+  "loai": "anh",
+  "w": 303,
+  "h": 642,
+  "name": "image 13770"
+ },
+ {
+  "node_id": "20011:8535",
+  "section": "I2I",
+  "dir": "I2I",
+  "file": "01_20011-8535_image-23.png",
+  "loai": "anh",
+  "w": 303,
+  "h": 655,
+  "name": "image 23"
+ },
+ {
+  "node_id": "20011:8536",
+  "section": "I2I",
+  "dir": "I2I",
+  "file": "02_20011-8536_image-24.png",
+  "loai": "anh",
+  "w": 304,
+  "h": 653,
+  "name": "image 24"
+ },
+ {
+  "node_id": "20011:8537",
+  "section": "I2I",
+  "dir": "I2I",
+  "file": "03_20011-8537_image-25.png",
+  "loai": "anh",
+  "w": 301,
+  "h": 655,
+  "name": "image 25"
+ },
+ {
+  "node_id": "20011:8538",
+  "section": "I2I",
+  "dir": "I2I",
+  "file": "04_20011-8538_image-26.png",
+  "loai": "anh",
+  "w": 300,
+  "h": 651,
+  "name": "image 26"
+ },
+ {
+  "node_id": "20011:8539",
+  "section": "I2I",
+  "dir": "I2I",
+  "file": "05_20011-8539_image-27.png",
+  "loai": "anh",
+  "w": 304,
+  "h": 652,
+  "name": "image 27"
+ },
+ {
+  "node_id": "20011:8540",
+  "section": "I2I",
+  "dir": "I2I",
+  "file": "06_20011-8540_image-28.png",
+  "loai": "anh",
+  "w": 306,
+  "h": 654,
+  "name": "image 28"
+ },
+ {
+  "node_id": "20011:8542",
+  "section": "I2I",
+  "dir": "I2I",
+  "file": "07_20011-8542_image-29.png",
+  "loai": "anh",
+  "w": 305,
+  "h": 651,
+  "name": "image 29"
+ },
+ {
+  "node_id": "20011:8544",
+  "section": "I2I",
+  "dir": "I2I",
+  "file": "08_20011-8544_image-31.png",
+  "loai": "anh",
+  "w": 302,
+  "h": 652,
+  "name": "image 31"
+ },
+ {
+  "node_id": "20011:8573",
+  "section": "I2I",
+  "dir": "I2I",
+  "file": "09_20011-8573_image-13736.png",
+  "loai": "anh",
+  "w": 306,
+  "h": 655,
+  "name": "image 13736"
+ },
+ {
+  "node_id": "20011:8575",
+  "section": "I2I",
+  "dir": "I2I",
+  "file": "10_20011-8575_image-13738.png",
+  "loai": "anh",
+  "w": 303,
+  "h": 652,
+  "name": "image 13738"
+ },
+ {
+  "node_id": "20011:8577",
+  "section": "I2I",
+  "dir": "I2I",
+  "file": "11_20011-8577_image-13739.png",
+  "loai": "anh",
+  "w": 307,
+  "h": 654,
+  "name": "image 13739"
+ },
+ {
+  "node_id": "20923:635",
+  "section": "I2I",
+  "dir": "I2I",
+  "file": "12_20923-635_image-13766.png",
+  "loai": "anh",
+  "w": 307,
+  "h": 652,
+  "name": "image 13766"
+ },
+ {
+  "node_id": "20923:636",
+  "section": "I2I",
+  "dir": "I2I",
+  "file": "13_20923-636_image-13767.png",
+  "loai": "anh",
+  "w": 306,
+  "h": 648,
+  "name": "image 13767"
+ },
+ {
+  "node_id": "20923:654",
+  "section": "I2I",
+  "dir": "I2I",
+  "file": "14_20923-654_image-13768.png",
+  "loai": "anh",
+  "w": 303,
+  "h": 642,
+  "name": "image 13768"
+ },
+ {
+  "node_id": "20011:8665",
+  "section": "(ngoài section)",
+  "dir": "ngoai-section",
+  "file": "01_20011-8665_image-13744.png",
+  "loai": "anh",
+  "w": 365,
+  "h": 793,
+  "name": "image 13744"
+ },
+ {
+  "node_id": "20011:8666",
+  "section": "(ngoài section)",
+  "dir": "ngoai-section",
+  "file": "02_20011-8666_image-13745.png",
+  "loai": "anh",
+  "w": 368,
+  "h": 793,
+  "name": "image 13745"
+ },
+ {
+  "node_id": "20011:8667",
+  "section": "(ngoài section)",
+  "dir": "ngoai-section",
+  "file": "03_20011-8667_image-13746.png",
+  "loai": "anh",
+  "w": 368,
+  "h": 749,
+  "name": "image 13746"
+ },
+ {
+  "node_id": "20011:8663",
+  "section": "(ngoài section)",
+  "dir": "ngoai-section",
+  "file": "04_20011-8663_image-13744.png",
+  "loai": "anh",
+  "w": 371,
+  "h": 802,
+  "name": "image 13744"
+ },
+ {
+  "node_id": "19989:6978",
+  "section": "(ngoài section)",
+  "dir": "ngoai-section",
+  "file": "05_19989-6978_image-17.png",
+  "loai": "anh",
+  "w": 303,
+  "h": 653,
+  "name": "image 17"
+ },
+ {
+  "node_id": "19989:6975",
+  "section": "(ngoài section)",
+  "dir": "ngoai-section",
+  "file": "06_19989-6975_image-16.png",
+  "loai": "anh",
+  "w": 302,
+  "h": 652,
+  "name": "image 16"
+ },
+ {
+  "node_id": "19989:6981",
+  "section": "(ngoài section)",
+  "dir": "ngoai-section",
+  "file": "07_19989-6981_image-18.png",
+  "loai": "anh",
+  "w": 303,
+  "h": 655,
+  "name": "image 18"
+ },
+ {
+  "node_id": "19989:6984",
+  "section": "(ngoài section)",
+  "dir": "ngoai-section",
+  "file": "08_19989-6984_image-19.png",
+  "loai": "anh",
+  "w": 302,
+  "h": 653,
+  "name": "image 19"
+ },
+ {
+  "node_id": "19989:6990",
+  "section": "(ngoài section)",
+  "dir": "ngoai-section",
+  "file": "09_19989-6990_image-20.png",
+  "loai": "anh",
+  "w": 303,
+  "h": 656,
+  "name": "image 20"
+ },
+ {
+  "node_id": "19989:6993",
+  "section": "(ngoài section)",
+  "dir": "ngoai-section",
+  "file": "10_19989-6993_image-21.png",
+  "loai": "anh",
+  "w": 305,
+  "h": 655,
+  "name": "image 21"
+ },
+ {
+  "node_id": "19989:6999",
+  "section": "(ngoài section)",
+  "dir": "ngoai-section",
+  "file": "11_19989-6999_image-22.png",
+  "loai": "anh",
+  "w": 302,
+  "h": 655,
+  "name": "image 22"
+ },
+ {
+  "node_id": "19989:8182",
+  "section": "(ngoài section)",
+  "dir": "ngoai-section",
+  "file": "12_19989-8182_101-Splash.png",
+  "loai": "design",
+  "w": 342,
+  "h": 777,
+  "name": "101 Splash"
+ },
+ {
+  "node_id": "20441:1664",
+  "section": "Motion Control",
+  "dir": "Motion-Control",
+  "file": "01_20441-1664_simulator-screenshot-946351F7-9EC6-4420-BD89.png",
+  "loai": "anh",
+  "w": 1206,
+  "h": 2622,
+  "name": "simulator_screenshot_946351F7-9EC6-4420-BD89-0286B3BEA14B 1"
+ },
+ {
+  "node_id": "20441:1665",
+  "section": "Motion Control",
+  "dir": "Motion-Control",
+  "file": "02_20441-1665_simulator-screenshot-8B70108A-7CD3-4346-86E5.png",
+  "loai": "anh",
+  "w": 1206,
+  "h": 2622,
+  "name": "simulator_screenshot_8B70108A-7CD3-4346-86E5-DFC85F365CE7 1"
+ },
+ {
+  "node_id": "20441:1667",
+  "section": "Motion Control",
+  "dir": "Motion-Control",
+  "file": "03_20441-1667_simulator-screenshot-BE54EA7E-7D22-44C6-B9CF.png",
+  "loai": "anh",
+  "w": 1206,
+  "h": 2622,
+  "name": "simulator_screenshot_BE54EA7E-7D22-44C6-B9CF-FC4C97E7740C 1"
+ },
+ {
+  "node_id": "20441:1669",
+  "section": "Motion Control",
+  "dir": "Motion-Control",
+  "file": "04_20441-1669_image-26.png",
+  "loai": "anh",
+  "w": 1210,
+  "h": 2626,
+  "name": "image 26"
+ },
+ {
+  "node_id": "20441:1711",
+  "section": "Motion Control",
+  "dir": "Motion-Control",
+  "file": "05_20441-1711_image-13760.png",
+  "loai": "anh",
+  "w": 1180,
+  "h": 2543,
+  "name": "image 13760"
+ },
+ {
+  "node_id": "20441:1712",
+  "section": "Motion Control",
+  "dir": "Motion-Control",
+  "file": "06_20441-1712_simulator-screenshot-C3D8ECB2-3215-4ED0-BD81.png",
+  "loai": "anh",
+  "w": 1206,
+  "h": 2622,
+  "name": "simulator_screenshot_C3D8ECB2-3215-4ED0-BD81-353C9000F28D 1"
+ },
+ {
+  "node_id": "20441:1714",
+  "section": "Motion Control",
+  "dir": "Motion-Control",
+  "file": "07_20441-1714_simulator-screenshot-2B8F80FA-28E0-470D-B254.png",
+  "loai": "anh",
+  "w": 1206,
+  "h": 2622,
+  "name": "simulator_screenshot_2B8F80FA-28E0-470D-B254-2F8564DC5D14 1"
+ },
+ {
+  "node_id": "20441:1716",
+  "section": "Motion Control",
+  "dir": "Motion-Control",
+  "file": "08_20441-1716_simulator-screenshot-8D8A71B5-7A6A-4189-AD68.png",
+  "loai": "anh",
+  "w": 1206,
+  "h": 2622,
+  "name": "simulator_screenshot_8D8A71B5-7A6A-4189-AD68-CCCC75D3B10C 1"
+ },
+ {
+  "node_id": "20441:1722",
+  "section": "Motion Control",
+  "dir": "Motion-Control",
+  "file": "09_20441-1722_simulator-screenshot-CFF249E3-7DE4-4CE8-9858.png",
+  "loai": "anh",
+  "w": 1206,
+  "h": 2622,
+  "name": "simulator_screenshot_CFF249E3-7DE4-4CE8-9858-A84062FD2CF1 1"
+ },
+ {
+  "node_id": "20441:1724",
+  "section": "Motion Control",
+  "dir": "Motion-Control",
+  "file": "10_20441-1724_simulator-screenshot-53B0A9FB-67C8-4988-BC47.png",
+  "loai": "anh",
+  "w": 1206,
+  "h": 2622,
+  "name": "simulator_screenshot_53B0A9FB-67C8-4988-BC47-D0FA04F5E43A 1"
+ },
+ {
+  "node_id": "20441:1726",
+  "section": "Motion Control",
+  "dir": "Motion-Control",
+  "file": "11_20441-1726_simulator-screenshot-1B025786-6DE6-4A9B-B332.png",
+  "loai": "anh",
+  "w": 1206,
+  "h": 2622,
+  "name": "simulator_screenshot_1B025786-6DE6-4A9B-B332-5D7FCACD9109 1"
+ },
+ {
+  "node_id": "20441:1728",
+  "section": "Motion Control",
+  "dir": "Motion-Control",
+  "file": "12_20441-1728_simulator-screenshot-CE725523-AE15-4F81-82AA.png",
+  "loai": "anh",
+  "w": 1206,
+  "h": 2622,
+  "name": "simulator_screenshot_CE725523-AE15-4F81-82AA-9AA837CD2067 1"
+ },
+ {
+  "node_id": "20441:1730",
+  "section": "Motion Control",
+  "dir": "Motion-Control",
+  "file": "13_20441-1730_simulator-screenshot-5DCD98D6-0B3F-4E7D-A79A.png",
+  "loai": "anh",
+  "w": 1206,
+  "h": 2622,
+  "name": "simulator_screenshot_5DCD98D6-0B3F-4E7D-A79A-133010FD67FF 1"
+ },
+ {
+  "node_id": "20927:515",
+  "section": "Motion Control",
+  "dir": "Motion-Control",
+  "file": "14_20927-515_image-13766.png",
+  "loai": "anh",
+  "w": 1234,
+  "h": 2622,
+  "name": "image 13766"
+ },
+ {
+  "node_id": "20927:518",
+  "section": "Motion Control",
+  "dir": "Motion-Control",
+  "file": "15_20927-518_image-13769.png",
+  "loai": "anh",
+  "w": 1236,
+  "h": 2622,
+  "name": "image 13769"
+ },
+ {
+  "node_id": "20927:522",
+  "section": "Motion Control",
+  "dir": "Motion-Control",
+  "file": "16_20927-522_image-13770.png",
+  "loai": "anh",
+  "w": 1238,
+  "h": 2622,
+  "name": "image 13770"
+ },
+ {
+  "node_id": "20622:483",
+  "section": "Rating us",
+  "dir": "Rating-us",
+  "file": "01_20622-483_420-rating-ask-1.png",
+  "loai": "anh",
+  "w": 641,
+  "h": 1393,
+  "name": "420-rating-ask 1"
+ },
+ {
+  "node_id": "20622:484",
+  "section": "Rating us",
+  "dir": "Rating-us",
+  "file": "02_20622-484_421-feedback-onboarding-1.png",
+  "loai": "anh",
+  "w": 642,
+  "h": 1393,
+  "name": "421-feedback-onboarding 1"
+ },
+ {
+  "node_id": "20622:485",
+  "section": "Rating us",
+  "dir": "Rating-us",
+  "file": "03_20622-485_native-review-dialog-1.png",
+  "loai": "anh",
+  "w": 642,
+  "h": 1393,
+  "name": "native-review-dialog 1"
+ },
+ {
+  "node_id": "20622:486",
+  "section": "Rating us",
+  "dir": "Rating-us",
+  "file": "04_20622-486_toast-thanks-rating-1.png",
+  "loai": "anh",
+  "w": 641,
+  "h": 1393,
+  "name": "toast-thanks-rating 1"
+ },
+ {
+  "node_id": "20622:515",
+  "section": "Rating us",
+  "dir": "Rating-us",
+  "file": "05_20622-515_IMG-1422-1.png",
+  "loai": "anh",
+  "w": 652,
+  "h": 1411,
+  "name": "IMG_1422 1"
+ },
+ {
+  "node_id": "20622:516",
+  "section": "Rating us",
+  "dir": "Rating-us",
+  "file": "06_20622-516_IMG-1421-1.png",
+  "loai": "anh",
+  "w": 652,
+  "h": 1411,
+  "name": "IMG_1421 1"
+ },
+ {
+  "node_id": "20622:517",
+  "section": "Rating us",
+  "dir": "Rating-us",
+  "file": "07_20622-517_IMG-1435-1.png",
+  "loai": "anh",
+  "w": 668,
+  "h": 1445,
+  "name": "IMG_1435 1"
+ },
+ {
+  "node_id": "20622:518",
+  "section": "Rating us",
+  "dir": "Rating-us",
+  "file": "08_20622-518_IMG-1430-1.png",
+  "loai": "anh",
+  "w": 668,
+  "h": 1445,
+  "name": "IMG_1430 1"
+ },
+ {
+  "node_id": "20622:519",
+  "section": "Rating us",
+  "dir": "Rating-us",
+  "file": "09_20622-519_IMG-1420-1.png",
+  "loai": "anh",
+  "w": 652,
+  "h": 1411,
+  "name": "IMG_1420 1"
+ },
+ {
+  "node_id": "20622:524",
+  "section": "Rating us",
+  "dir": "Rating-us",
+  "file": "10_20622-524_simulator-screenshot-4CC7E964-830B-43CC-97DA.png",
+  "loai": "anh",
+  "w": 641,
+  "h": 1393,
+  "name": "simulator_screenshot_4CC7E964-830B-43CC-97DA-410B72802442 1"
+ },
+ {
+  "node_id": "20622:525",
+  "section": "Rating us",
+  "dir": "Rating-us",
+  "file": "11_20622-525_simulator-screenshot-946351F7-9EC6-4420-BD89.png",
+  "loai": "anh",
+  "w": 641,
+  "h": 1393,
+  "name": "simulator_screenshot_946351F7-9EC6-4420-BD89-0286B3BEA14B 1"
+ },
+ {
+  "node_id": "20622:527",
+  "section": "Rating us",
+  "dir": "Rating-us",
+  "file": "12_20622-527_Result.png",
+  "loai": "design",
+  "w": 393,
+  "h": 852,
+  "name": "Result"
+ },
+ {
+  "node_id": "20670:567",
+  "section": "Restore + Remove Object",
+  "dir": "Restore-Remove-Object",
+  "file": "01_20670-567_01-tools-tab-1.png",
+  "loai": "anh",
+  "w": 1206,
+  "h": 2622,
+  "name": "01-tools-tab 1"
+ },
+ {
+  "node_id": "20670:568",
+  "section": "Restore + Remove Object",
+  "dir": "Restore-Remove-Object",
+  "file": "02_20670-568_02-upload-empty-1.png",
+  "loai": "anh",
+  "w": 1206,
+  "h": 2622,
+  "name": "02-upload-empty 1"
+ },
+ {
+  "node_id": "20670:569",
+  "section": "Restore + Remove Object",
+  "dir": "Restore-Remove-Object",
+  "file": "03_20670-569_03-photo-picker-1.png",
+  "loai": "anh",
+  "w": 1206,
+  "h": 2622,
+  "name": "03-photo-picker 1"
+ },
+ {
+  "node_id": "20670:570",
+  "section": "Restore + Remove Object",
+  "dir": "Restore-Remove-Object",
+  "file": "04_20670-570_04-upload-selected-1.png",
+  "loai": "anh",
+  "w": 1206,
+  "h": 2622,
+  "name": "04-upload-selected 1"
+ },
+ {
+  "node_id": "20670:571",
+  "section": "Restore + Remove Object",
+  "dir": "Restore-Remove-Object",
+  "file": "05_20670-571_05-editor-initial-1.png",
+  "loai": "anh",
+  "w": 1206,
+  "h": 2622,
+  "name": "05-editor-initial 1"
+ },
+ {
+  "node_id": "20670:582",
+  "section": "Restore + Remove Object",
+  "dir": "Restore-Remove-Object",
+  "file": "06_20670-582_simulator-screenshot-44835C42-FDCB-4783-B526.png",
+  "loai": "anh",
+  "w": 1206,
+  "h": 2622,
+  "name": "simulator_screenshot_44835C42-FDCB-4783-B526-23C3CCA4B6CE 1"
+ },
+ {
+  "node_id": "20670:572",
+  "section": "Restore + Remove Object",
+  "dir": "Restore-Remove-Object",
+  "file": "07_20670-572_simulator-screenshot-0D4DC6EE-2CA3-4A02-B6FD.png",
+  "loai": "anh",
+  "w": 1206,
+  "h": 2622,
+  "name": "simulator_screenshot_0D4DC6EE-2CA3-4A02-B6FD-5D92E5D4A77A 1"
+ },
+ {
+  "node_id": "20670:577",
+  "section": "Restore + Remove Object",
+  "dir": "Restore-Remove-Object",
+  "file": "08_20670-577_04-photo-picker-1.png",
+  "loai": "anh",
+  "w": 1206,
+  "h": 2622,
+  "name": "04-photo-picker 1"
+ },
+ {
+  "node_id": "20670:578",
+  "section": "Restore + Remove Object",
+  "dir": "Restore-Remove-Object",
+  "file": "09_20670-578_05-upload-selected-1.png",
+  "loai": "anh",
+  "w": 1206,
+  "h": 2622,
+  "name": "05-upload-selected 1"
+ },
+ {
+  "node_id": "20670:579",
+  "section": "Restore + Remove Object",
+  "dir": "Restore-Remove-Object",
+  "file": "10_20670-579_06-generating-1.png",
+  "loai": "anh",
+  "w": 1206,
+  "h": 2622,
+  "name": "06-generating 1"
+ },
+ {
+  "node_id": "20670:576",
+  "section": "Restore + Remove Object",
+  "dir": "Restore-Remove-Object",
+  "file": "11_20670-576_03-upload-empty-1.png",
+  "loai": "anh",
+  "w": 1206,
+  "h": 2622,
+  "name": "03-upload-empty 1"
+ },
+ {
+  "node_id": "20670:581",
+  "section": "Restore + Remove Object",
+  "dir": "Restore-Remove-Object",
+  "file": "12_20670-581_bad-01-generation-failed-1.png",
+  "loai": "anh",
+  "w": 1206,
+  "h": 2622,
+  "name": "bad-01-generation-failed 1"
+ },
+ {
+  "node_id": "20670:586",
+  "section": "Restore + Remove Object",
+  "dir": "Restore-Remove-Object",
+  "file": "13_20670-586_simulator-screenshot-38A8FC1B-18E7-4771-A2A4.png",
+  "loai": "anh",
+  "w": 1206,
+  "h": 2622,
+  "name": "simulator_screenshot_38A8FC1B-18E7-4771-A2A4-5BE6E3F53F94 1"
+ },
+ {
+  "node_id": "20670:587",
+  "section": "Restore + Remove Object",
+  "dir": "Restore-Remove-Object",
+  "file": "14_20670-587_simulator-screenshot-A6CF3314-7E55-4FC5-9C58.png",
+  "loai": "anh",
+  "w": 1206,
+  "h": 2622,
+  "name": "simulator_screenshot_A6CF3314-7E55-4FC5-9C58-B4538A686E1B 1"
+ },
+ {
+  "node_id": "20670:604",
+  "section": "Restore + Remove Object",
+  "dir": "Restore-Remove-Object",
+  "file": "15_20670-604_image-27.png",
+  "loai": "anh",
+  "w": 1223,
+  "h": 2622,
+  "name": "image 27"
+ },
+ {
+  "node_id": "20670:683",
+  "section": "Restore + Remove Object",
+  "dir": "Restore-Remove-Object",
+  "file": "16_20670-683_image-28.png",
+  "loai": "anh",
+  "w": 1223,
+  "h": 2622,
+  "name": "image 28"
+ },
+ {
+  "node_id": "20670:621",
+  "section": "Restore + Remove Object",
+  "dir": "Restore-Remove-Object",
+  "file": "17_20670-621_simulator-screenshot-BE5CC513-CC19-44EC-B758.png",
+  "loai": "anh",
+  "w": 1206,
+  "h": 2622,
+  "name": "simulator_screenshot_BE5CC513-CC19-44EC-B758-A1E3382407F3 1"
+ },
+ {
+  "node_id": "20670:690",
+  "section": "Restore + Remove Object",
+  "dir": "Restore-Remove-Object",
+  "file": "18_20670-690_simulator-screenshot-69FE7C0B-786F-48B6-8ACF.png",
+  "loai": "anh",
+  "w": 1206,
+  "h": 2622,
+  "name": "simulator_screenshot_69FE7C0B-786F-48B6-8ACF-D84C0C16E85F 1"
+ },
+ {
+  "node_id": "20927:559",
+  "section": "Restore + Remove Object",
+  "dir": "Restore-Remove-Object",
+  "file": "19_20927-559_image-13766.png",
+  "loai": "anh",
+  "w": 1234,
+  "h": 2622,
+  "name": "image 13766"
+ },
+ {
+  "node_id": "20927:560",
+  "section": "Restore + Remove Object",
+  "dir": "Restore-Remove-Object",
+  "file": "20_20927-560_image-13769.png",
+  "loai": "anh",
+  "w": 1236,
+  "h": 2622,
+  "name": "image 13769"
+ },
+ {
+  "node_id": "20927:561",
+  "section": "Restore + Remove Object",
+  "dir": "Restore-Remove-Object",
+  "file": "21_20927-561_image-13770.png",
+  "loai": "anh",
+  "w": 1238,
+  "h": 2622,
+  "name": "image 13770"
+ },
+ {
+  "node_id": "20927:597",
+  "section": "Restore + Remove Object",
+  "dir": "Restore-Remove-Object",
+  "file": "22_20927-597_image-13771.png",
+  "loai": "anh",
+  "w": 1234,
+  "h": 2622,
+  "name": "image 13771"
+ },
+ {
+  "node_id": "20927:609",
+  "section": "Restore + Remove Object",
+  "dir": "Restore-Remove-Object",
+  "file": "23_20927-609_image-13772.png",
+  "loai": "anh",
+  "w": 1236,
+  "h": 2622,
+  "name": "image 13772"
+ },
+ {
+  "node_id": "20927:610",
+  "section": "Restore + Remove Object",
+  "dir": "Restore-Remove-Object",
+  "file": "24_20927-610_image-13773.png",
+  "loai": "anh",
+  "w": 1238,
+  "h": 2622,
+  "name": "image 13773"
+ },
+ {
+  "node_id": "20927:2887",
+  "section": "(ngoài section)",
+  "dir": "ngoai-section",
+  "file": "13_20927-2887_410-Setting.png",
+  "loai": "design",
+  "w": 375,
+  "h": 812,
+  "name": "410 Setting"
+ },
+ {
+  "node_id": "20927:5420",
+  "section": "New subcription",
+  "dir": "New-subcription",
+  "file": "01_20927-5420_image-13745.png",
+  "loai": "anh",
+  "w": 368,
+  "h": 793,
+  "name": "image 13745"
+ },
+ {
+  "node_id": "20927:5421",
+  "section": "New subcription",
+  "dir": "New-subcription",
+  "file": "02_20927-5421_image-13746.png",
+  "loai": "anh",
+  "w": 368,
+  "h": 749,
+  "name": "image 13746"
+ },
+ {
+  "node_id": "20927:5423",
+  "section": "New subcription",
+  "dir": "New-subcription",
+  "file": "03_20927-5423_My-balance.png",
+  "loai": "design",
+  "w": 375,
+  "h": 812,
+  "name": "My balance"
+ },
+ {
+  "node_id": "20927:5469",
+  "section": "New subcription",
+  "dir": "New-subcription",
+  "file": "04_20927-5469_Get-more.png",
+  "loai": "design",
+  "w": 375,
+  "h": 812,
+  "name": "Get-more"
+ },
+ {
+  "node_id": "20927:5522",
+  "section": "New subcription",
+  "dir": "New-subcription",
+  "file": "05_20927-5522_410-Setting.png",
+  "loai": "design",
+  "w": 375,
+  "h": 812,
+  "name": "410 Setting"
+ },
+ {
+  "node_id": "20927:5666",
+  "section": "New subcription",
+  "dir": "New-subcription",
+  "file": "06_20927-5666_Screenshot-2026-08-10-at-15-02-32-1.png",
+  "loai": "anh",
+  "w": 375,
+  "h": 812,
+  "name": "Screenshot 2026-08-10 at 15.02.32 1"
+ },
+ {
+  "node_id": "21241:5732",
+  "section": "Log out",
+  "dir": "Log-out",
+  "file": "01_21241-5732_Log-out.png",
+  "loai": "design",
+  "w": 375,
+  "h": 812,
+  "name": "Log out"
+ },
+ {
+  "node_id": "21241:6223",
+  "section": "Log out",
+  "dir": "Log-out",
+  "file": "02_21241-6223_410-Setting.png",
+  "loai": "design",
+  "w": 375,
+  "h": 812,
+  "name": "410 Setting"
+ },
+ {
+  "node_id": "21732:7016",
+  "section": "Màn Home mới",
+  "dir": "Man-Home-moi",
+  "file": "01_21732-7016_simulator-screenshot-0150A75F-312C-4486-AF56.png",
+  "loai": "anh",
+  "w": 270,
+  "h": 587,
+  "name": "simulator_screenshot_0150A75F-312C-4486-AF56-6C9E234D7CF0 1"
+ },
+ {
+  "node_id": "21732:7017",
+  "section": "Màn Home mới",
+  "dir": "Man-Home-moi",
+  "file": "02_21732-7017_simulator-screenshot-4AB774EC-3C5F-45D5-A160.png",
+  "loai": "anh",
+  "w": 270,
+  "h": 587,
+  "name": "simulator_screenshot_4AB774EC-3C5F-45D5-A160-96FFE158AF0C 1"
+ },
+ {
+  "node_id": "21732:7018",
+  "section": "Màn Home mới",
+  "dir": "Man-Home-moi",
+  "file": "03_21732-7018_simulator-screenshot-1E6490A5-9BDB-4350-A206.png",
+  "loai": "anh",
+  "w": 270,
+  "h": 587,
+  "name": "simulator_screenshot_1E6490A5-9BDB-4350-A206-BB49D58A7373 1"
+ },
+ {
+  "node_id": "21732:7019",
+  "section": "Màn Home mới",
+  "dir": "Man-Home-moi",
+  "file": "04_21732-7019_simulator-screenshot-DC567A20-CF8C-4E0E-947C.png",
+  "loai": "anh",
+  "w": 270,
+  "h": 587,
+  "name": "simulator_screenshot_DC567A20-CF8C-4E0E-947C-BCBFBCE30045 1"
+ },
+ {
+  "node_id": "21732:7020",
+  "section": "Màn Home mới",
+  "dir": "Man-Home-moi",
+  "file": "05_21732-7020_simulator-screenshot-BD666BB6-21C4-431D-AEBC.png",
+  "loai": "anh",
+  "w": 270,
+  "h": 587,
+  "name": "simulator_screenshot_BD666BB6-21C4-431D-AEBC-B83AED2EB10A 1"
+ },
+ {
+  "node_id": "21732:7021",
+  "section": "Màn Home mới",
+  "dir": "Man-Home-moi",
+  "file": "06_21732-7021_simulator-screenshot-A06D6AB9-1ABF-4F10-B982.png",
+  "loai": "anh",
+  "w": 281,
+  "h": 611,
+  "name": "simulator_screenshot_A06D6AB9-1ABF-4F10-B982-988D01CEB665 1"
+ },
+ {
+  "node_id": "21732:7022",
+  "section": "Màn Home mới",
+  "dir": "Man-Home-moi",
+  "file": "07_21732-7022_simulator-screenshot-808AC152-1F84-4EE2-8AE7.png",
+  "loai": "anh",
+  "w": 270,
+  "h": 587,
+  "name": "simulator_screenshot_808AC152-1F84-4EE2-8AE7-1DFA23849C2A 1"
+ }
+]

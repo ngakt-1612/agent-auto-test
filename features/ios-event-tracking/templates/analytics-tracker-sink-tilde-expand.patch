@@ -1,0 +1,14 @@
+--- plans/261021-0944-genius-290-event-tracking-library-autotest/app-backup/AnalyticsTracker.swift	2026-10-21 09:47:50
++++ iosApp/Core/Tracking/AnalyticsTracker.swift	2026-10-21 09:47:54
+@@ -32,8 +32,10 @@
+     // MARK: - Test sink (inert unless enabled)
+ 
+     private static let sinkQueue = DispatchQueue(label: "AnalyticsTracker.sink")
++    /// `~/…` resolves inside the app sandbox — on a real device the app cannot write host `/tmp`,
++    /// so device runs pass `~/Documents/<file>.jsonl` and pull it back with `devicectl copy from`.
+     private static var sinkPath: String? =
+-        ProcessInfo.processInfo.environment["EVENT_SINK_PATH"]
++        ProcessInfo.processInfo.environment["EVENT_SINK_PATH"].map { ($0 as NSString).expandingTildeInPath }
+ 
+     /// Hosted unit tests cannot set launch environment — they call this in setUp
+     /// to route subsequent `track()` calls into a fresh JSONL file.

@@ -1,0 +1,24 @@
+# Mua that bang the test, goi Weekly (chu ky test ~5 phut).
+tc_id: SUB_AND_44
+title: Mua Sub tại điểm chạm → quay về đúng màn sau khi mua
+priority: P1
+source_row: 10. Touchpoint — chạy lặp cho TỪNG điểm chạm
+screen: diem_cham
+requires_state: FREE
+screen_after: any
+blocked_by: ''
+lap_theo_diem_cham: true
+steps:
+- diem_cham: {ten: '${DIEM_CHAM}'}
+- tap: {intent: plan_option, index: 0}
+- mo_dialog_mua: {}
+- screenshot: {tag: dialog_thanh_toan_play}
+- tap: {intent: play.subscribe}
+- wait: {ms: 12000}
+- screenshot: {tag: app_sau_khi_mua}
+asserts:
+- diem_cham_ra: {ten: '${DIEM_CHAM}', mong: paywall, lan: 1}
+- visible: {intent: 'man.${MAN_SAU_MUA}'}
+- {theo_diem_cham: dau_hieu_pro}
+- play_state: {status: Active}
+- no_crash: {}

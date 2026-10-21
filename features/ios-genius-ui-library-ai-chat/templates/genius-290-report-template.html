@@ -1,0 +1,116 @@
+<title>Genius 2.9.0 Autotest</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: QA ledger — summary first, then one wide scrollable table per test suite, spec beside device evidence. */
+:root{
+  --bg:#F3F5F8; --surface:#FFFFFF; --surface-2:#E9EDF3; --ink:#18202C; --muted:#5A6577; --line:#D7DDE6;
+  --accent:#2C4A7A; --accent-soft:#DCE5F3;
+  --pass:#1B7A4B; --pass-soft:#DDF1E6; --fail:#B42318; --fail-soft:#FBE4E1;
+  --mis:#8A5A00; --mis-soft:#FBEFD6; --chk:#5B4BB7; --chk-soft:#E8E4FA; --na:#5A6577; --na-soft:#E6E9EE;
+  --display:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#11161E; --surface:#18202B; --surface-2:#202A37; --ink:#E6EBF2; --muted:#9AA6B8; --line:#2C3746;
+  --accent:#8FB0E6; --accent-soft:#22324C;
+  --pass:#5BD08E; --pass-soft:#163626; --fail:#FF8A7D; --fail-soft:#3A1B19;
+  --mis:#F0C36B; --mis-soft:#352A12; --chk:#B6A9FF; --chk-soft:#2A2550; --na:#9AA6B8; --na-soft:#252D39;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#11161E; --surface:#18202B; --surface-2:#202A37; --ink:#E6EBF2; --muted:#9AA6B8; --line:#2C3746;
+  --accent:#8FB0E6; --accent-soft:#22324C;
+  --pass:#5BD08E; --pass-soft:#163626; --fail:#FF8A7D; --fail-soft:#3A1B19;
+  --mis:#F0C36B; --mis-soft:#352A12; --chk:#B6A9FF; --chk-soft:#2A2550; --na:#9AA6B8; --na-soft:#252D39;
+  color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:15px/1.55 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 64px}
+.page{max-width:1500px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;letter-spacing:.005em}
+h1{font-size:clamp(26px,4vw,38px);line-height:1.1}
+h2{font-size:22px}
+h3{font-size:17px}
+.eyebrow{font:500 12px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+.meta{color:var(--muted);font-size:13.5px;max-width:110ch}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.kpi b{font:600 28px/1.1 var(--display);font-variant-numeric:tabular-nums}
+.kpi span{color:var(--muted);font-size:13px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 18px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.panel ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.panel p{margin:0}
+code{font-family:var(--mono);font-size:.9em;background:var(--surface-2);padding:1px 5px;border-radius:4px}
+section{display:flex;flex-direction:column;gap:10px}
+.sum{margin:0;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.filters{display:flex;flex-wrap:wrap;gap:6px}
+.filters button{font:500 13px var(--body);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:5px 12px;cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+.filters button:focus-visible,img:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;min-width:1180px}
+th,td{border-bottom:1px solid var(--line);padding:9px 10px;vertical-align:top;text-align:left;font-size:13.5px}
+th{background:var(--surface-2);font:600 12px/1.3 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);position:sticky;top:0}
+td.id{font-family:var(--mono);font-size:12.5px;white-space:nowrap;font-variant-numeric:tabular-nums}
+td.ttl{width:210px;font-weight:600}
+td.exp{width:270px;white-space:pre-line;color:var(--muted)}
+td.tc{width:250px;font-size:12.5px}
+td.tc summary{cursor:pointer;color:var(--accent);font-weight:600}
+td.tc p{margin:4px 0;white-space:pre-line}
+td.tc .lbl{font:600 11px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-top:8px}
+.prio{display:block;margin-top:4px;font:500 11px/1 var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+td.act{min-width:260px}
+td.act .note{margin:6px 0 0;padding:6px 8px;background:var(--surface-2);border-radius:6px;font-size:12.5px}
+td.img{width:150px}
+td.st{width:110px}
+figure{margin:0;display:flex;flex-direction:column;gap:3px}
+figure img{width:136px;max-width:100%;height:auto;border:1px solid var(--line);border-radius:6px;cursor:zoom-in;background:var(--surface-2)}
+figcaption{font:400 11px/1.3 var(--mono);color:var(--muted)}
+.none{color:var(--muted)}
+.chip{display:inline-block;font:600 12px/1 var(--body);padding:5px 9px;border-radius:999px;white-space:nowrap}
+.chip.p{background:var(--pass-soft);color:var(--pass)}
+.chip.f{background:var(--fail-soft);color:var(--fail)}
+.chip.m{background:var(--mis-soft);color:var(--mis)}
+.chip.c{background:var(--chk-soft);color:var(--chk)}
+.chip.n{background:var(--na-soft);color:var(--na)}
+#lb{position:fixed;inset:0;background:color-mix(in srgb,var(--ink) 82%,transparent);display:flex;align-items:center;justify-content:center;
+  padding:max(16px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(16px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));cursor:zoom-out;z-index:20}
+#lb img{max-height:90vh;max-width:min(560px,100%);border-radius:10px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+<div class="page">
+{{SUMMARY}}
+{{SECTIONS}}
+</div>
+<div id="lb" hidden><img alt=""></div>
+<script>
+// Per-section verdict filter + click-to-zoom for evidence images.
+document.querySelectorAll('section').forEach(sec => {
+  const rows = [...sec.querySelectorAll('tbody tr')];
+  if (!rows.length) return;
+  const kinds = [['', 'Tất cả'], ['f', 'FAIL'], ['m', 'Lệch spec'], ['c', 'Cần xem'], ['p', 'PASS'], ['n', 'Chưa chạy / N/A']];
+  const bar = document.createElement('div'); bar.className = 'filters';
+  kinds.forEach(([k, label]) => {
+    const n = k ? rows.filter(r => r.dataset.st === k).length : rows.length;
+    if (!n) return;
+    const b = document.createElement('button'); b.type = 'button'; b.textContent = `${label} (${n})`;
+    b.setAttribute('aria-pressed', k === '' ? 'true' : 'false');
+    b.addEventListener('click', () => {
+      bar.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', 'false'));
+      b.setAttribute('aria-pressed', 'true');
+      rows.forEach(r => { r.hidden = k !== '' && r.dataset.st !== k; });
+    });
+    bar.appendChild(b);
+  });
+  sec.querySelector('.wrap').before(bar);
+});
+const lb = document.getElementById('lb'), lbImg = lb.querySelector('img');
+document.addEventListener('click', e => {
+  const img = e.target.closest('figure img');
+  if (img) { lbImg.src = img.src; lbImg.alt = img.alt; lb.hidden = false; return; }
+  if (e.target.closest('#lb')) lb.hidden = true;
+});
+document.addEventListener('keydown', e => { if (e.key === 'Escape') lb.hidden = true; });
+</script>

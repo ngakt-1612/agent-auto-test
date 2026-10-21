@@ -1,0 +1,514 @@
+{
+  "pkg": "com.nxl.aienglishtutor.ailearnlanguage.aichatbot",
+  "main_activity": "com.nxl.aienglishtutor.ailearnlanguage.aichatbot/.presentation.splash.SplashActivity",
+  "play_row": "Linguza: AI English Tutor",
+  "skus": {
+    "WEEKLY": "vip.linguza.weekly",
+    "MONTHLY": "vip.linguza.monthly",
+    "YEARLY": "vip.linguza.yearly"
+  },
+  "fallback_text": {
+    "pw.screen": "Continue with ads",
+    "pw.btn_continue_ads": "Continue with ads",
+    "pw.txt_cancel_anytime": "Cancel anytime",
+    "pw.link_privacy": "Privacy policy",
+    "pw.link_tos": "Terms of service",
+    "pw.cta_continue": "Continue",
+    "pw.benefit_list": "Unlimited and faster generation",
+    "pw.benefit_item": "Unlimited and faster generation",
+    "home.screen": "MagicAI",
+    "play.btn_subscribe": "Subscribe",
+    "play.dialog_product_name": "Magic AI Photo Video Generator",
+    "play.purchases": "Google may share subscription data"
+  },
+  "fallback_desc": {
+    "pw.btn_close": "Close Billing Screen",
+    "play.dialog": "Google Play"
+  },
+  "selected_desc": "Selected",
+  "structural_selectors": {
+    "pw.price_selected": {
+      "row": "selected",
+      "part": "price"
+    },
+    "pw.duration_selected": {
+      "row": "selected",
+      "part": "duration"
+    },
+    "pw.duration_weekly": {
+      "row": "label",
+      "label": "Weekly",
+      "part": "duration"
+    },
+    "pw.duration_monthly": {
+      "row": "label",
+      "label": "Monthly",
+      "part": "duration"
+    },
+    "pw.duration_yearly": {
+      "row": "label",
+      "label": "Yearly",
+      "part": "duration"
+    },
+    "pw.item_plan_weekly": {
+      "row": "label",
+      "label": "Weekly",
+      "part": "marker"
+    },
+    "pw.item_plan_monthly": {
+      "row": "label",
+      "label": "Monthly",
+      "part": "marker"
+    },
+    "pw.item_plan_yearly": {
+      "row": "label",
+      "label": "Yearly",
+      "part": "marker"
+    },
+    "play.dialog_price": {
+      "shape": "price"
+    }
+  },
+  "purchase_confirm_ids": [
+    "play.subscribe",
+    "play.btn_subscribe"
+  ],
+  "onboarding": {
+    "paywall_markers": [
+      "Continue with ads",
+      "Auto-renews weekly"
+    ],
+    "main_markers": [
+      "Linguza"
+    ],
+    "ad_dismiss_id": "dismiss-button",
+    "ad_close_text": "Close",
+    "ad_close_delay_s": 5,
+    "language_next_id": [
+      "imageButtonLanguageNext",
+      "buttonLanguageNext"
+    ],
+    "language_group_text": "English",
+    "language_variant_text": "English (US)",
+    "carousel_next_id": "btnNextOnboarding",
+    "question_list_id": "rvQuestion",
+    "question_tile_id": "ivQuestionImage",
+    "question_next_id": "btnNextOnboardingImage",
+    "carousel_ad_skip_id": "txtSkipAd",
+    "allow_permission_dialog": true,
+    "paywall_entry": [
+      {
+        "text": "Get Pro"
+      }
+    ]
+  },
+  "ads": {
+    "ad_activity_namespaces": [
+      "com.google.android.gms.ads.",
+      "com.applovin.adview.",
+      "com.bytedance.sdk.openadsdk.",
+      "com.facebook.ads.",
+      "com.mbridge.msdk.",
+      "com.vungle.ads.",
+      "sg.bigo.ads.",
+      "com.visionlab.ads."
+    ],
+    "close_rids": [
+      "dismiss-button"
+    ],
+    "close_descs": [
+      "close",
+      "dismiss",
+      "đóng",
+      "interstitial close button"
+    ],
+    "max_rounds": 3,
+    "poll_timeout_s": 12,
+    "poll_interval_s": 1.0
+  },
+  "screens": {
+    "paywall": {
+      "any_text": [
+        "Continue with ads",
+        "Auto-renews"
+      ],
+      "activity_pkg": "com.nxl.aienglishtutor.ailearnlanguage.aichatbot"
+    },
+    "home": {
+      "any_text": [
+        "Linguza"
+      ],
+      "activity_pkg": "com.nxl.aienglishtutor.ailearnlanguage.aichatbot"
+    },
+    "play_sheet": {
+      "any_text": [
+        "Test card",
+        "Change payment method"
+      ],
+      "activity_pkg": "com.android.vending"
+    },
+    "settings": {
+      "any_text": [
+        "Term of Service",
+        "For Support"
+      ],
+      "activity_pkg": "com.nxl.aienglishtutor.ailearnlanguage.aichatbot"
+    },
+    "play_subs_list": {
+      "any_text": [
+        "Subscriptions"
+      ],
+      "none_of_text": [
+        "Test card"
+      ],
+      "activity_pkg": "com.android.vending"
+    },
+    "chat": {
+      "any_text": [
+        "AI English Coach"
+      ],
+      "activity_pkg": "com.nxl.aienglishtutor.ailearnlanguage.aichatbot"
+    }
+  },
+  "intents": {
+    "paywall.close": {
+      "desc": [
+        "Close Billing Screen"
+      ]
+    },
+    "paywall.cta": {
+      "text": [
+        "Continue",
+        "Tiếp tục"
+      ]
+    },
+    "paywall.continue_with_ads": {
+      "text": [
+        "Continue with ads"
+      ]
+    },
+    "paywall.cancel_anytime": {
+      "text": [
+        "Cancel anytime",
+        "Huỷ bất kỳ lúc nào"
+      ]
+    },
+    "paywall.privacy": {
+      "text": [
+        "Privacy policy",
+        "Chính sách bảo mật"
+      ]
+    },
+    "paywall.tos": {
+      "text": [
+        "Terms of service",
+        "Điều khoản dịch vụ"
+      ]
+    },
+    "plan_option": {
+      "structural": {
+        "row": "label",
+        "part": "marker"
+      },
+      "multi": true
+    },
+    "plan_price": {
+      "structural": {
+        "row": "selected",
+        "part": "price"
+      }
+    },
+    "plan_duration": {
+      "structural": {
+        "row": "selected",
+        "part": "duration"
+      }
+    },
+    "home.trigger_paywall": {
+      "text": [
+        "Get Pro"
+      ]
+    },
+    "home.settings": {
+      "desc": [
+        "Settings"
+      ],
+      "geometry": {
+        "band": "top",
+        "side": "left",
+        "blank": true,
+        "min_area_ratio": 0.004,
+        "max_area_ratio": 0.012
+      }
+    },
+    "play.subscribe": {
+      "text": [
+        "Subscribe"
+      ]
+    },
+    "ad.close": {
+      "desc": [
+        "Close"
+      ],
+      "geometry": {
+        "band": "bottom",
+        "max_area_ratio": 0.06
+      }
+    },
+    "settings.screen": {
+      "text": [
+        "Settings"
+      ]
+    },
+    "settings.cancel_subscription": {
+      "text": [
+        "Cancel Subscription",
+        "Huỷ đăng ký"
+      ]
+    },
+    "settings.for_support": {
+      "text": [
+        "For Support"
+      ]
+    },
+    "home.close_modal": {
+      "desc": [
+        "Close"
+      ]
+    },
+    "play.dialog_header": {
+      "text": [
+        "Google Play"
+      ]
+    },
+    "play.product_name": {
+      "text": [
+        "Linguza: AI English Tutor"
+      ]
+    },
+    "play.price": {
+      "structural": {
+        "shape": "price"
+      }
+    },
+    "play.payment_method": {
+      "text": [
+        "Test card, always approves"
+      ]
+    },
+    "play.legal_autorenew": {
+      "text": [
+        "Cancel at any time in Subscriptions on Google Play"
+      ]
+    },
+    "paywall.benefit_any": {
+      "text": [
+        "Unlimited AI Conversations"
+      ]
+    },
+    "paywall.benefit_unlimited": {
+      "text": [
+        "Unlimited AI Conversations"
+      ]
+    },
+    "paywall.benefit_no_ads": {
+      "text": [
+        "No Ads Experience"
+      ]
+    },
+    "paywall.auto_renew_note": {
+      "text": [
+        "All plans auto-renew until cancelled\nYou can cancel anytime in Google Play > Subscriptions."
+      ]
+    },
+    "paywall.cancel_where": {
+      "text": [
+        "All plans auto-renew until cancelled\nYou can cancel anytime in Google Play > Subscriptions."
+      ]
+    },
+    "gen.generate": {
+      "text": [
+        "Generate"
+      ]
+    },
+    "gen.generate_with_ads": {
+      "text": [
+        "Generate with Ads"
+      ]
+    },
+    "gen.go_pro": {
+      "text": [
+        "Go Pro"
+      ]
+    },
+    "gen.watch_ads": {
+      "text": [
+        "Watch Ads"
+      ]
+    },
+    "select.anh_da_chon": {
+      "desc": [
+        "Selected photo"
+      ]
+    },
+    "man.home": {
+      "text": [
+        "Linguza"
+      ]
+    },
+    "paywall.title": {
+      "text": [
+        "Great decision earns prize. Everything in one click!"
+      ]
+    },
+    "paywall.benefit_sessions": {
+      "text": [
+        "Unlimited Learning Sessions"
+      ]
+    },
+    "settings.privacy": {
+      "text": [
+        "Privacy Policy"
+      ]
+    },
+    "settings.tos": {
+      "text": [
+        "Term of Service"
+      ]
+    },
+    "man.chat": {
+      "text": [
+        "AI English Coach"
+      ]
+    },
+    "chat.send": {
+      "desc": [
+        "Send"
+      ]
+    },
+    "chat.chat_now": {
+      "text": [
+        "Chat Now"
+      ]
+    },
+    "chat.popup_het_luot": {
+      "text": [
+        "You've used all your free chats today"
+      ]
+    },
+    "chat.go_pro": {
+      "text": [
+        "Go Pro — Unlimited Chats"
+      ]
+    },
+    "home.guided_reading": {
+      "text": [
+        "Guided Reading"
+      ]
+    }
+  },
+  "apk_path": "~/Downloads/aip918-linguza-v2.0.0.apk",
+  "urls": {
+    "privacy": "https://sites.google.com/view/linguza-privacy-policy",
+    "tos": "https://sites.google.com/view/linguza-term-of-use"
+  },
+  "bang_gia_checklist": {
+    "Weekly": 6.99,
+    "Monthly": 13.99,
+    "Yearly": 89.99
+  },
+  "bang_gia_checklist_nguon": "AIP918 - Linguza - Checklist (anh goi-gia-package-aip918.png, 10/10/2026): vip.linguza.weekly 6.99 / monthly 13.99 / yearly 89.99",
+  "diem_cham": {
+    "_ghi_chu": "Theo sheet Touchpoints cua TC_Subscription_Android_AIP918.xlsx (do 10/10 tren 2.0.0). source = iap_view{source}: after_onboarding -> after_onboarding, after_inter_old -> after_inter_splash_old, home_badge_pro va pop_up_chat_screen deu ra icon_top_bar. Placement 'setting' khong co tren 2.0.0 (Settings khong co muc subscription) nen khong khai.",
+    "after_onboarding": {
+      "source": "after_onboarding",
+      "man_khi_dong": "home",
+      "man_sau_mua": "home",
+      "khong_trigger": "after_inter_old",
+      "giu_input": [],
+      "dau_hieu_free": [
+        {
+          "visible": {
+            "intent": "home.trigger_paywall"
+          }
+        }
+      ],
+      "dau_hieu_pro": [
+        {
+          "not_visible": {
+            "intent": "home.trigger_paywall"
+          }
+        }
+      ]
+    },
+    "after_inter_old": {
+      "source": "after_inter_splash_old",
+      "man_khi_dong": "home",
+      "man_sau_mua": "home",
+      "khong_trigger": "after_onboarding",
+      "giu_input": [],
+      "dau_hieu_free": [
+        {
+          "visible": {
+            "intent": "home.trigger_paywall"
+          }
+        }
+      ],
+      "dau_hieu_pro": [
+        {
+          "not_visible": {
+            "intent": "home.trigger_paywall"
+          }
+        }
+      ]
+    },
+    "home_badge_pro": {
+      "source": "icon_top_bar",
+      "man_khi_dong": "home",
+      "man_sau_mua": "home",
+      "khong_trigger": "",
+      "giu_input": [],
+      "dau_hieu_free": [
+        {
+          "visible": {
+            "intent": "home.trigger_paywall"
+          }
+        }
+      ],
+      "dau_hieu_pro": [
+        {
+          "not_visible": {
+            "intent": "home.trigger_paywall"
+          }
+        }
+      ]
+    },
+    "pop_up_chat_screen": {
+      "source": "icon_top_bar",
+      "man_khi_dong": "chat",
+      "man_sau_mua": "chat",
+      "khong_trigger": "",
+      "giu_input": [
+        {
+          "visible": {
+            "intent": "chat.send"
+          }
+        }
+      ],
+      "dau_hieu_free": [
+        {
+          "co_text": {
+            "pattern": "^0$"
+          }
+        }
+      ],
+      "dau_hieu_pro": [
+        {
+          "not_visible": {
+            "intent": "chat.popup_het_luot"
+          }
+        }
+      ]
+    }
+  }
+}

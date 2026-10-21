@@ -1,0 +1,16 @@
+tc_id: SUB_AND_01
+title: "[UI] Màn Paywall — hiển thị đủ thông tin bắt buộc"
+priority: P1
+screen: paywall
+requires_state: FREE
+blocked_by: ""
+source_row: "1. UI/UX Paywall"
+steps:
+  - screenshot: {tag: paywall_day_du_thanh_phan}
+asserts:
+  - visible: {intent: plan_price}
+  - visible: {intent: plan_duration}
+  - visible: {intent: paywall.cta}
+  - visible: {intent: paywall.continue_with_ads}
+  - visible: {intent: paywall.close}
+  - no_crash: {}
